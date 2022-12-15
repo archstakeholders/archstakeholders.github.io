@@ -107,7 +107,7 @@
         
 
         
-        const ROLES = ['eng','arch','fab'];
+        const ROLES = ['fab','arch','eng'];
 
         const PROJECT_NL_GRAPH = 1;
         const PLAYER_NL_GRAPH = 2;
@@ -154,7 +154,7 @@
 
             
             var graphObj;
-            d3.json("data/20220209_Players-Clean.json").then(function(data){ 
+            d3.json("data/20221213_MultiStoreyTimber_Players.json").then(function(data){ 
                 graphObj = GetGraphObj(data);
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
             });
