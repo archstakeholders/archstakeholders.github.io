@@ -4,6 +4,9 @@
     "name":"1a hunkeler holzbau AG",
     "type":"fab",
     "country":"CH",
+    "city":"Ebikon",
+    "lon":8.338521,
+    "lat":47.0812067,
     "order":1,
     "projects":[49]
               }
@@ -12,14 +15,20 @@
     "name":"2B Planungsgesellschaft bR",
     "type":"eng",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":2,
     "projects":[249]
               }
 ,
 {"id": "3",
-    "name":"2M Ingénierie Civile",
+    "name":"2M Ing�nierie Civile",
     "type":"eng",
     "country":"CH",
+    "city":"Yverdon-les-Bains",
+    "lon":6.6409158,
+    "lat":46.7785711,
     "order":3,
     "projects":[94]
               }
@@ -28,6 +37,9 @@
     "name":"5th Studio",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":4,
     "projects":[20]
               }
@@ -36,6 +48,9 @@
     "name":"6a architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":5,
     "projects":[135]
               }
@@ -44,6 +59,9 @@
     "name":"A+ Architects",
     "type":"arch",
     "country":"FR",
+    "city":"Montpellier",
+    "lon":3.8767337,
+    "lat":43.6112422,
     "order":6,
     "projects":[156]
               }
@@ -52,6 +70,9 @@
     "name":"A2architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Freising",
+    "lon":11.7439565,
+    "lat":48.4008273,
     "order":7,
     "projects":[254]
               }
@@ -60,6 +81,9 @@
     "name":"aap.architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":8,
     "projects":[140]
               }
@@ -68,6 +92,9 @@
     "name":"Aba-Holz van Kempen",
     "type":"fab",
     "country":"DE",
+    "city":"Adelsried",
+    "lon":10.7193232,
+    "lat":48.4252851,
     "order":9,
     "projects":[24,273]
               }
@@ -76,6 +103,9 @@
     "name":"Abbott Construction",
     "type":"fab",
     "country":"US",
+    "city":"Seattle",
+    "lon":-122.330062,
+    "lat":47.6038321,
     "order":10,
     "projects":[179]
               }
@@ -84,6 +114,9 @@
     "name":"acau architecture sa",
     "type":"arch",
     "country":"CH",
+    "city":"Carouge",
+    "lon":6.1396839,
+    "lat":46.1846691,
     "order":11,
     "projects":[207]
               }
@@ -92,6 +125,9 @@
     "name":"Acton Ostry Architects",
     "type":"arch",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":12,
     "projects":[171]
               }
@@ -100,6 +136,9 @@
     "name":"Adjaye Associates",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":13,
     "projects":[87]
               }
@@ -108,6 +147,9 @@
     "name":"ADK Modulraum",
     "type":"eng",
     "country":"DE",
+    "city":"Neresheim",
+    "lon":10.3343747,
+    "lat":48.7539485,
     "order":14,
     "projects":[248]
               }
@@ -116,6 +158,9 @@
     "name":"Adviesbureau Geuijen",
     "type":"fab",
     "country":"NL",
+    "city":"Dinxperlo",
+    "lon":6.4879872,
+    "lat":51.863757,
     "order":15,
     "projects":[300]
               }
@@ -124,6 +169,9 @@
     "name":"AECOM",
     "type":"eng",
     "country":"US",
+    "city":"Los Angeles",
+    "lon":-118.242766,
+    "lat":34.0536909,
     "order":16,
     "projects":[99,177]
               }
@@ -132,6 +180,9 @@
     "name":"AFRY",
     "type":"eng",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":17,
     "projects":[111,197]
               }
@@ -140,6 +191,9 @@
     "name":"AIA Associes",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":18,
     "projects":[136,222,237]
               }
@@ -148,6 +202,9 @@
     "name":"Aichinger bau",
     "type":"fab",
     "country":"AT",
+    "city":"Regau",
+    "lon":13.688056,
+    "lat":47.991944,
     "order":19,
     "projects":[76]
               }
@@ -156,6 +213,9 @@
     "name":"Aimeric Audebeau",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":20,
     "projects":[143]
               }
@@ -164,6 +224,9 @@
     "name":"AINS group",
     "type":"eng",
     "country":"FI",
+    "city":"Tampere",
+    "lon":23.7603118,
+    "lat":61.4980214,
     "order":21,
     "projects":[114,191,295]
               }
@@ -172,6 +235,9 @@
     "name":"Akera Engineers",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":22,
     "projects":[53]
               }
@@ -180,6 +246,9 @@
     "name":"Alfa Natura d.o.o.",
     "type":"fab",
     "country":"SI",
+    "city":"Menge�",
+    "lon":14.5722166,
+    "lat":46.1629579,
     "order":23,
     "projects":[188]
               }
@@ -188,6 +257,9 @@
     "name":"Alferink van Schieveen",
     "type":"eng",
     "country":"NL",
+    "city":"Zwolle",
+    "lon":6.0943765,
+    "lat":52.5089759,
     "order":24,
     "projects":[300]
               }
@@ -196,6 +268,9 @@
     "name":"Allford Hall Monaghan Morris",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":25,
     "projects":[103]
               }
@@ -204,6 +279,9 @@
     "name":"ALoCo",
     "type":"arch",
     "country":"SE",
+    "city":"Karlskrona",
+    "lon":15.5866422,
+    "lat":56.1621073,
     "order":26,
     "projects":[122]
               }
@@ -212,6 +290,9 @@
     "name":"Anders Associates",
     "type":"eng",
     "country":"GB",
+    "city":"Telford",
+    "lon":-2.4514273,
+    "lat":52.6780419,
     "order":27,
     "projects":[6]
               }
@@ -220,6 +301,9 @@
     "name":"Andersen construction",
     "type":"fab",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":28,
     "projects":[263]
               }
@@ -228,6 +312,9 @@
     "name":"Andreas Heller Architects & Designers",
     "type":"arch",
     "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341,
     "order":29,
     "projects":[37]
               }
@@ -236,14 +323,20 @@
     "name":"Anne Carcelen",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":30,
     "projects":[237]
               }
 ,
 {"id": "31",
-    "name":"Anton Höss",
+    "name":"Anton H�ss",
     "type":"arch",
     "country":"AT",
+    "city":"Innsbruck",
+    "lon":11.3927685,
+    "lat":47.2654296,
     "order":31,
     "projects":[2]
               }
@@ -252,6 +345,9 @@
     "name":"Anttinen Oiva Arkkitehdit Oy",
     "type":"arch",
     "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881,
     "order":32,
     "projects":[252,280,301]
               }
@@ -260,6 +356,9 @@
     "name":"Appesbacher Zimmerei. Holzbau. GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Abersee",
+    "lon":13.4169871,
+    "lat":47.7266536,
     "order":33,
     "projects":[84]
               }
@@ -268,6 +367,9 @@
     "name":"Arbonis",
     "type":"fab",
     "country":"FR",
+    "city":"Nanterre",
+    "lon":2.2071267,
+    "lat":48.8924273,
     "order":34,
     "projects":[156,222]
               }
@@ -276,6 +378,9 @@
     "name":"Arboreal Architecture",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":35,
     "projects":[91]
               }
@@ -284,6 +389,9 @@
     "name":"Arcadis",
     "type":"eng",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":36,
     "projects":[139,177]
               }
@@ -292,6 +400,9 @@
     "name":"Architecture Studio",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":37,
     "projects":[235]
               }
@@ -300,6 +411,9 @@
     "name":"ARCHITEKTUR PITBAU",
     "type":"arch",
     "country":"LI",
+    "city":"Triesenberg",
+    "lon":9.5433663,
+    "lat":47.1186181,
     "order":38,
     "projects":[32]
               }
@@ -308,14 +422,20 @@
     "name":"architekturagentur",
     "type":"arch",
     "country":"DE",
+    "city":"Stuttgart",
+    "lon":9.1800132,
+    "lat":48.7784485,
     "order":39,
     "projects":[78,231]
               }
 ,
 {"id": "40",
-    "name":"Architekturbüro Peter Plattner",
+    "name":"Architekturb�ro Peter Plattner",
     "type":"arch",
     "country":"IT",
+    "city":"Bozen",
+    "lon":11.3547801,
+    "lat":46.4981125,
     "order":40,
     "projects":[77]
               }
@@ -324,6 +444,9 @@
     "name":"architekturWERKSTATT di Bruno Moser",
     "type":"arch",
     "country":"AT",
+    "city":"Breitenbach",
+    "lon":15.9071988,
+    "lat":47.0593869,
     "order":41,
     "projects":[105]
               }
@@ -332,6 +455,9 @@
     "name":"Archobau",
     "type":"arch",
     "country":"CH",
+    "city":"Chur",
+    "lon":9.5264904,
+    "lat":46.854747,
     "order":42,
     "projects":[126]
               }
@@ -340,6 +466,9 @@
     "name":"Arcon Houtconstructies",
     "type":"fab",
     "country":"NL",
+    "city":"Nuenen",
+    "lon":5.544006988824241,
+    "lat":51.48603,
     "order":43,
     "projects":[300]
               }
@@ -348,6 +477,9 @@
     "name":"ARGE raumwerk",
     "type":"arch",
     "country":"DE",
+    "city":"Frankfurt",
+    "lon":8.6820917,
+    "lat":50.1106444,
     "order":44,
     "projects":[223]
               }
@@ -356,6 +488,9 @@
     "name":"ARGE Scharabi | Raupach",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":45,
     "projects":[286]
               }
@@ -364,6 +499,9 @@
     "name":"ARGE SWAP Architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":46,
     "projects":[259]
               }
@@ -372,6 +510,9 @@
     "name":"Arkitektbolaget",
     "type":"arch",
     "country":"SE",
+    "city":"V�xj�",
+    "lon":14.8094385,
+    "lat":56.8787183,
     "order":47,
     "projects":[13,129]
               }
@@ -380,6 +521,9 @@
     "name":"Arkkitehtitoimisto Arcadia Oy",
     "type":"arch",
     "country":"FI",
+    "city":"Joensuu",
+    "lon":29.7622128,
+    "lat":62.6005753,
     "order":48,
     "projects":[191]
               }
@@ -388,6 +532,9 @@
     "name":"Arkkitehtitoimisto Jukka Turtiainen Oy",
     "type":"arch",
     "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881,
     "order":49,
     "projects":[295]
               }
@@ -396,6 +543,9 @@
     "name":"Arkkitehtuuritoimisto AT",
     "type":"arch",
     "country":"FI",
+    "city":"Jyv�skyl�",
+    "lon":25.7458236,
+    "lat":62.2393431,
     "order":50,
     "projects":[64]
               }
@@ -404,6 +554,9 @@
     "name":"Armitage Williams Construction",
     "type":"fab",
     "country":"NZ",
+    "city":"Christchurch",
+    "lon":172.6366455,
+    "lat":-43.530955,
     "order":51,
     "projects":[154]
               }
@@ -412,6 +565,9 @@
     "name":"Aronsohn",
     "type":"eng",
     "country":"NL",
+    "city":"Rotterdam",
+    "lon":4.47775,
+    "lat":51.9244424,
     "order":52,
     "projects":[245]
               }
@@ -420,6 +576,9 @@
     "name":"ArtBuild",
     "type":"arch",
     "country":"BE",
+    "city":"Brussels",
+    "lon":4.351697,
+    "lat":50.8465573,
     "order":53,
     "projects":[165]
               }
@@ -428,6 +587,9 @@
     "name":"ARTEC Bergen",
     "type":"arch",
     "country":"NO",
+    "city":"Bergen",
+    "lon":5.3259192,
+    "lat":60.3943055,
     "order":54,
     "projects":[128]
               }
@@ -436,6 +598,9 @@
     "name":"Arup",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":55,
     "projects":[95,120,137,294]
               }
@@ -444,6 +609,9 @@
     "name":"ASP architecture",
     "type":"arch",
     "country":"FR",
+    "city":"Saint-Di�-des-Vosges",
+    "lon":6.9477708,
+    "lat":48.2873153,
     "order":56,
     "projects":[96,186]
               }
@@ -452,6 +620,9 @@
     "name":"Asplan Viak",
     "type":"eng",
     "country":"NO",
+    "city":"Sandvika",
+    "lon":10.5249914,
+    "lat":59.8921158,
     "order":57,
     "projects":[93]
               }
@@ -460,6 +631,9 @@
     "name":"ASSMANN Beraten + Planen",
     "type":"eng",
     "country":"DE",
+    "city":"Stuttgart",
+    "lon":9.1800132,
+    "lat":48.7784485,
     "order":58,
     "projects":[37]
               }
@@ -468,6 +642,9 @@
     "name":"Atelier du Pont",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":59,
     "projects":[253]
               }
@@ -476,6 +653,9 @@
     "name":"Atelier One",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":60,
     "projects":[28]
               }
@@ -484,6 +664,9 @@
     "name":"Atelier PK Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":61,
     "projects":[40,267]
               }
@@ -492,6 +675,9 @@
     "name":"Athfield Architects",
     "type":"arch",
     "country":"NZ",
+    "city":"Wellington",
+    "lon":174.7772114,
+    "lat":-41.2887953,
     "order":62,
     "projects":[51]
               }
@@ -500,6 +686,9 @@
     "name":"Attilio Marchetti Rossi",
     "type":"eng",
     "country":"IT",
+    "city":"Pesaro",
+    "lon":12.9131228,
+    "lat":43.9098114,
     "order":63,
     "projects":[162]
               }
@@ -508,6 +697,9 @@
     "name":"aurecongroup",
     "type":"eng",
     "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176,
     "order":64,
     "projects":[175]
               }
@@ -516,6 +708,9 @@
     "name":"Avanti Architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":65,
     "projects":[60]
               }
@@ -524,6 +719,9 @@
     "name":"A-Z Holzbau Zimmerei",
     "type":"fab",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":66,
     "projects":[40]
               }
@@ -532,6 +730,9 @@
     "name":"B&K Structures",
     "type":"fab",
     "country":"GB",
+    "city":"Derby",
+    "lon":-1.4761491,
+    "lat":52.9212617,
     "order":67,
     "projects":[44,80,104,120,130,143,255]
               }
@@ -540,14 +741,20 @@
     "name":"B&S AG",
     "type":"eng",
     "country":"CH",
+    "city":"Bern",
+    "lon":7.4514512,
+    "lat":46.9482713,
     "order":68,
     "projects":[210]
               }
 ,
 {"id": "69",
-    "name":"Barthes Bureau d’Études Bois",
+    "name":"Barthes Bureau d��tudes Bois",
     "type":"eng",
     "country":"FR",
+    "city":"Maidi�res",
+    "lon":6.0408743,
+    "lat":48.9009058,
     "order":69,
     "projects":[238]
               }
@@ -556,6 +763,9 @@
     "name":"BAS Arkitekter",
     "type":"arch",
     "country":"NO",
+    "city":"Sarpsborg",
+    "lon":11.229781140849298,
+    "lat":59.254955,
     "order":70,
     "projects":[67,125]
               }
@@ -564,6 +774,9 @@
     "name":"Bates Smart",
     "type":"arch",
     "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176,
     "order":71,
     "projects":[175,205]
               }
@@ -572,6 +785,9 @@
     "name":"BAU",
     "type":"arch",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":72,
     "projects":[213]
               }
@@ -580,6 +796,9 @@
     "name":"Bauart Architekten und Planer AG",
     "type":"arch",
     "country":"CH",
+    "city":"Bern",
+    "lon":7.4514512,
+    "lat":46.9482713,
     "order":73,
     "projects":[54]
               }
@@ -588,14 +807,20 @@
     "name":"bauart Konstruktions",
     "type":"eng",
     "country":"DE",
+    "city":"Lauterbach",
+    "lon":9.3968633,
+    "lat":50.6368507,
     "order":74,
     "projects":[22,33,54,88,215,240,275,285]
               }
 ,
 {"id": "75",
-    "name":"Baubüro in situ",
+    "name":"Baub�ro in situ",
     "type":"arch",
     "country":"CH",
+    "city":"Basel",
+    "lon":7.5878261,
+    "lat":47.5581077,
     "order":75,
     "projects":[227]
               }
@@ -604,22 +829,31 @@
     "name":"Baucon Zt GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Zell am See",
+    "lon":12.7963165,
+    "lat":47.3239636,
     "order":76,
     "projects":[69]
               }
 ,
 {"id": "77",
-    "name":"Bauingenieure-Lackner-Egger ZT GmbH",
+    "name":"Bauingenieure/Lackner/Egger ZT GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Villach",
+    "lon":13.8500268,
+    "lat":46.6167284,
     "order":77,
     "projects":[84]
               }
 ,
 {"id": "78",
-    "name":"Baumeister Jürgen Haller",
+    "name":"Baumeister J�rgen Haller",
     "type":"arch",
     "country":"AT",
+    "city":"Mellau ",
+    "lon":9.8811896,
+    "lat":47.3499764,
     "order":78,
     "projects":[77]
               }
@@ -628,6 +862,9 @@
     "name":"baumschlager eberle architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Lustenau",
+    "lon":9.6599406,
+    "lat":47.4276538,
     "order":79,
     "projects":[222]
               }
@@ -636,6 +873,9 @@
     "name":"BBN Adviseurs",
     "type":"eng",
     "country":"NL",
+    "city":"Houten",
+    "lon":5.161216639426677,
+    "lat":52.03061555,
     "order":80,
     "projects":[245]
               }
@@ -644,6 +884,9 @@
     "name":"Bennetts Associates",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":81,
     "projects":[25]
               }
@@ -652,6 +895,9 @@
     "name":"BETOM",
     "type":"eng",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":82,
     "projects":[121]
               }
@@ -660,14 +906,20 @@
     "name":"BFV architects",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":83,
     "projects":[238]
               }
 ,
 {"id": "84",
-    "name":"Billström Riemer Andersson AB",
+    "name":"Billstr�m Riemer Andersson AB",
     "type":"fab",
     "country":"SE",
+    "city":"M�lndal",
+    "lon":12.0153085,
+    "lat":57.6564918,
     "order":84,
     "projects":[298]
               }
@@ -676,6 +928,9 @@
     "name":"binderholz",
     "type":"fab",
     "country":"AT",
+    "city":"F�gen",
+    "lon":11.852773301751128,
+    "lat":47.3469156,
     "order":85,
     "projects":[80,143,216,206]
               }
@@ -684,6 +939,9 @@
     "name":"Bjerking",
     "type":"eng",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":86,
     "projects":[226]
               }
@@ -692,6 +950,9 @@
     "name":"Blazquez Guanter",
     "type":"eng",
     "country":"ES",
+    "city":"Barcelona",
+    "lon":2.1774322,
+    "lat":41.3828939,
     "order":87,
     "projects":[256]
               }
@@ -700,6 +961,9 @@
     "name":"Blumer Lehmann AG",
     "type":"fab",
     "country":"CH",
+    "city":"Gossau",
+    "lon":9.249359,
+    "lat":47.4155906,
     "order":88,
     "projects":[54,73,86,111,233,227]
               }
@@ -708,6 +972,9 @@
     "name":"Bois Consult Natterer SA",
     "type":"eng",
     "country":"CH",
+    "city":"Etoy",
+    "lon":6.4193113,
+    "lat":46.4860906,
     "order":89,
     "projects":[12]
               }
@@ -716,6 +983,9 @@
     "name":"BOKAPowell",
     "type":"arch",
     "country":"US",
+    "city":"Texas",
+    "lon":-74.3693157,
+    "lat":40.3606638,
     "order":90,
     "projects":[241]
               }
@@ -724,6 +994,9 @@
     "name":"BoKlok",
     "type":"fab",
     "country":"SE",
+    "city":"Malm�",
+    "lon":13.0001566,
+    "lat":55.6052931,
     "order":91,
     "projects":[122]
               }
@@ -732,6 +1005,9 @@
     "name":"Bollinger+Grohmann",
     "type":"eng",
     "country":"DE",
+    "city":"Frankfurt",
+    "lon":8.6820917,
+    "lat":50.1106444,
     "order":92,
     "projects":[107,259]
               }
@@ -740,6 +1016,9 @@
     "name":"Borlini & Zanini SA",
     "type":"eng",
     "country":"CH",
+    "city":"Collina d'Oro",
+    "lon":8.917952,
+    "lat":45.979111,
     "order":93,
     "projects":[11,50,75]
               }
@@ -748,6 +1027,9 @@
     "name":"Bornstein Lyckefors Arkitekter",
     "type":"arch",
     "country":"SE",
+    "city":"Gothenburg",
+    "lon":11.9670171,
+    "lat":57.7072326,
     "order":94,
     "projects":[181]
               }
@@ -756,6 +1038,9 @@
     "name":"Bosch.Capdeferro",
     "type":"arch",
     "country":"ES",
+    "city":"Girona",
+    "lon":2.8199439,
+    "lat":41.9793006,
     "order":95,
     "projects":[256]
               }
@@ -764,14 +1049,20 @@
     "name":"Bouthillette Parizeau",
     "type":"eng",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":96,
     "projects":[133]
               }
 ,
 {"id": "97",
-    "name":"Bouygues Bâtiment IDF",
+    "name":"Bouygues B�timent IDF",
     "type":"fab",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":97,
     "projects":[290]
               }
@@ -780,30 +1071,42 @@
     "name":"Brendeland & Kristoffersen Arkitekter",
     "type":"arch",
     "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475,
     "order":98,
     "projects":[5]
               }
 ,
 {"id": "99",
-    "name":"Brüder Resch",
+    "name":"Br�der Resch",
     "type":"eng",
     "country":"AT",
+    "city":"Ulrichsberg",
+    "lon":13.9105182,
+    "lat":48.6751701,
     "order":99,
     "projects":[138]
               }
 ,
 {"id": "100",
-    "name":"Brüggemann Holzbau GmbH & Co.",
+    "name":"Br�ggemann Holzbau GmbH & Co.",
     "type":"fab",
     "country":"DE",
+    "city":"Neuenkirchen",
+    "lon":8.9877874,
+    "lat":54.23649,
     "order":100,
     "projects":[284]
               }
 ,
 {"id": "101",
-    "name":"Brüninghoff",
+    "name":"Br�ninghoff",
     "type":"fab",
     "country":"DE",
+    "city":"Heiden",
+    "lon":6.9340455,
+    "lat":51.8265593,
     "order":101,
     "projects":[137]
               }
@@ -812,6 +1115,9 @@
     "name":"Bruno Mader",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":102,
     "projects":[85]
               }
@@ -820,14 +1126,20 @@
     "name":"Bruno Spagolla Architekt",
     "type":"arch",
     "country":"AT",
+    "city":"Bludenz",
+    "lon":9.8219314,
+    "lat":47.153037,
     "order":103,
     "projects":[14]
               }
 ,
 {"id": "104",
-    "name":"bsv arkitekter & ingenjörer ab",
+    "name":"bsv arkitekter & ingenj�rer ab",
     "type":"arch",
     "country":"SE",
+    "city":"V�rnamo",
+    "lon":14.0410977,
+    "lat":57.184902,
     "order":104,
     "projects":[19]
               }
@@ -836,6 +1148,9 @@
     "name":"Bucher-Beholz Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Gaienhofen",
+    "lon":8.9818583,
+    "lat":47.6821346,
     "order":105,
     "projects":[36]
               }
@@ -844,6 +1159,9 @@
     "name":"Burckhardt+Partner AG",
     "type":"arch",
     "country":"CH",
+    "city":"Basel",
+    "lon":7.5878261,
+    "lat":47.5581077,
     "order":106,
     "projects":[118]
               }
@@ -852,6 +1170,9 @@
     "name":"Burkard Meyer Architects",
     "type":"arch",
     "country":"CH",
+    "city":"Baden",
+    "lon":8.3086822,
+    "lat":47.4736827,
     "order":107,
     "projects":[196]
               }
@@ -860,6 +1181,9 @@
     "name":"burkhalter sumi",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":108,
     "projects":[72,261]
               }
@@ -868,14 +1192,20 @@
     "name":"Buro Happold",
     "type":"eng",
     "country":"GB",
+    "city":"Bath",
+    "lon":-2.3596963,
+    "lat":51.3813864,
     "order":109,
     "projects":[25]
               }
 ,
 {"id": "110",
-    "name":"Büro Konstrukt",
+    "name":"B�ro Konstrukt",
     "type":"arch",
     "country":"CH",
+    "city":"Luzern",
+    "lon":8.3054682,
+    "lat":47.0505452,
     "order":110,
     "projects":[228]
               }
@@ -884,6 +1214,9 @@
     "name":"Carlos Martinez Architekten AG",
     "type":"arch",
     "country":"CH",
+    "city":"Berneck",
+    "lon":9.6102137,
+    "lat":47.4249019,
     "order":111,
     "projects":[86,163]
               }
@@ -892,6 +1225,9 @@
     "name":"Carta Architecture",
     "type":"arch",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":112,
     "projects":[131]
               }
@@ -900,6 +1236,9 @@
     "name":"Catena Consulting Engineers",
     "type":"eng",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":113,
     "projects":[239,282]
               }
@@ -908,6 +1247,9 @@
     "name":"c-b-a",
     "type":"arch",
     "country":"US",
+    "city":"Orlando",
+    "lon":-81.3790304,
+    "lat":28.5421109,
     "order":114,
     "projects":[208]
               }
@@ -916,6 +1258,9 @@
     "name":"CBD d.o.o.",
     "type":"fab",
     "country":"SI",
+    "city":"Ljubljana",
+    "lon":14.5069289,
+    "lat":46.0500268,
     "order":115,
     "projects":[188,297]
               }
@@ -924,6 +1269,9 @@
     "name":"CBS",
     "type":"eng",
     "country":"FR",
+    "city":"Choisy-le-Roi",
+    "lon":2.4093664,
+    "lat":48.7630238,
     "order":116,
     "projects":[235]
               }
@@ -932,6 +1280,9 @@
     "name":"CCG",
     "type":"fab",
     "country":"GB",
+    "city":"Glasgow",
+    "lon":-4.2488787,
+    "lat":55.8609825,
     "order":117,
     "projects":[182]
               }
@@ -940,14 +1291,20 @@
     "name":"cepezed",
     "type":"arch",
     "country":"NL",
+    "city":"Delft",
+    "lon":4.362724538543995,
+    "lat":51.999457199999995,
     "order":118,
     "projects":[211]
               }
 ,
 {"id": "119",
-    "name":"CF Møller Architects",
+    "name":"CF M�ller Architects",
     "type":"arch",
     "country":"DK",
+    "city":"Aarhus",
+    "lon":10.2134046,
+    "lat":56.1496278,
     "order":119,
     "projects":[226]
               }
@@ -956,6 +1313,9 @@
     "name":"CHA Architecture",
     "type":"arch",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":120,
     "projects":[133]
               }
@@ -964,6 +1324,9 @@
     "name":"CLT-S",
     "type":"fab",
     "country":"BE",
+    "city":"Westerlo",
+    "lon":4.9168675,
+    "lat":51.086694,
     "order":121,
     "projects":[269,270]
               }
@@ -972,6 +1335,9 @@
     "name":"Code",
     "type":"arch",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":122,
     "projects":[178]
               }
@@ -980,6 +1346,9 @@
     "name":"Concrete Architects",
     "type":"eng",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":123,
     "projects":[158]
               }
@@ -988,14 +1357,20 @@
     "name":"ConLignum ZT GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Rottenmann",
+    "lon":14.3585643,
+    "lat":47.524226,
     "order":124,
     "projects":[192]
               }
 ,
 {"id": "125",
-    "name":"Création Bois Construction",
+    "name":"Cr�ation Bois Construction",
     "type":"fab",
     "country":"FR",
+    "city":"Lille",
+    "lon":3.0635282,
+    "lat":50.6365654,
     "order":125,
     "projects":[198]
               }
@@ -1004,6 +1379,9 @@
     "name":"Creation Holz",
     "type":"eng",
     "country":"CH",
+    "city":"Herisau",
+    "lon":9.2787571,
+    "lat":47.38555,
     "order":126,
     "projects":[73,209,277]
               }
@@ -1012,6 +1390,9 @@
     "name":"Cree GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423875,
+    "lat":47.413631,
     "order":127,
     "projects":[46]
               }
@@ -1020,6 +1401,9 @@
     "name":"Cruard Charpente",
     "type":"fab",
     "country":"FR",
+    "city":"Simpl�",
+    "lon":-0.8507541,
+    "lat":47.8876818,
     "order":128,
     "projects":[136]
               }
@@ -1028,6 +1412,9 @@
     "name":"Cukrowicz NAchbaur Architekten etc.",
     "type":"arch",
     "country":"AT",
+    "city":"Bregenz",
+    "lon":9.7472924,
+    "lat":47.5025779,
     "order":129,
     "projects":[16]
               }
@@ -1036,6 +1423,9 @@
     "name":"Cushing Civil Engineers",
     "type":"eng",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":130,
     "projects":[108]
               }
@@ -1044,6 +1434,9 @@
     "name":"Dachtler Partner AG Architekten",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":131,
     "projects":[79]
               }
@@ -1052,6 +1445,9 @@
     "name":"David Miller Architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":132,
     "projects":[90]
               }
@@ -1060,6 +1456,9 @@
     "name":"de Architekten Cie. B.V.",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":133,
     "projects":[158]
               }
@@ -1068,6 +1467,9 @@
     "name":"dedato ontwerpers en architecten",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":134,
     "projects":[82]
               }
@@ -1076,6 +1478,9 @@
     "name":"Deerns",
     "type":"eng",
     "country":"NL",
+    "city":"The Hague",
+    "lon":4.3113461,
+    "lat":52.0799838,
     "order":135,
     "projects":[245]
               }
@@ -1084,14 +1489,20 @@
     "name":"Degree of Freedom",
     "type":"eng",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":136,
     "projects":[209]
               }
 ,
 {"id": "137",
-    "name":"Deimel Oelschläger Architektenpartnerschaf",
+    "name":"Deimel Oelschl�ger Architektenpartnerschaf",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":137,
     "projects":[275]
               }
@@ -1100,6 +1511,9 @@
     "name":"Demathieu Bard",
     "type":"eng",
     "country":"FR",
+    "city":"Metz",
+    "lon":6.1763552,
+    "lat":49.1196964,
     "order":138,
     "projects":[225]
               }
@@ -1108,6 +1522,9 @@
     "name":"Deppisch Architekten GmbH",
     "type":"arch",
     "country":"DE",
+    "city":"Freising",
+    "lon":11.7439565,
+    "lat":48.4008273,
     "order":139,
     "projects":[59,68]
               }
@@ -1116,6 +1533,9 @@
     "name":"DGMR",
     "type":"eng",
     "country":"NL",
+    "city":"Arnhem",
+    "lon":5.9108573,
+    "lat":51.984257,
     "order":140,
     "projects":[245]
               }
@@ -1124,14 +1544,20 @@
     "name":"Dietrich Untertrifaller Architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Bregenz",
+    "lon":9.7472924,
+    "lat":47.5025779,
     "order":141,
     "projects":[9]
               }
 ,
 {"id": "142",
-    "name":"Dipl. Ing. Jochen Schöne Architekt",
+    "name":"Dipl. Ing. Jochen Sch�ne Architekt",
     "type":"arch",
     "country":"DE",
+    "city":"Neustadt an der Weinstra�e",
+    "lon":8.1350021,
+    "lat":49.3539802,
     "order":142,
     "projects":[113]
               }
@@ -1140,14 +1566,20 @@
     "name":"Dipl.-Ing. Alfred R. Brunnsteiner",
     "type":"eng",
     "country":"AT",
+    "city":"Natters",
+    "lon":11.3737585,
+    "lat":47.2336947,
     "order":143,
     "projects":[105]
               }
 ,
 {"id": "144",
-    "name":"Dipl.-Ing. Peter Wittig – Ingenieurbüro Berlin",
+    "name":"Dipl.-Ing. Peter Wittig � Ingenieurb�ro Berlin",
     "type":"eng",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":144,
     "projects":[24]
               }
@@ -1156,6 +1588,9 @@
     "name":"DLR Group",
     "type":"arch",
     "country":"US",
+    "city":"Omaha",
+    "lon":-95.9383758,
+    "lat":41.2587459,
     "order":145,
     "projects":[145,242]
               }
@@ -1164,6 +1599,9 @@
     "name":"DOF engineers",
     "type":"eng",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":146,
     "projects":[277]
               }
@@ -1172,14 +1610,20 @@
     "name":"Dr. J. Grob & Partner AG",
     "type":"eng",
     "country":"CH",
+    "city":"Winterthur",
+    "lon":8.7291498,
+    "lat":47.4991723,
     "order":147,
     "projects":[195]
               }
 ,
 {"id": "148",
-    "name":"Dr. Lüchinger+Meyer Bauingenieure AG",
+    "name":"Dr. L�chinger+Meyer Bauingenieure AG",
     "type":"eng",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":148,
     "projects":[72,228]
               }
@@ -1188,6 +1632,9 @@
     "name":"dRMM",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":149,
     "projects":[93,120,127]
               }
@@ -1196,6 +1643,9 @@
     "name":"Dunning Thornton consultants",
     "type":"eng",
     "country":"NZ",
+    "city":"Wellington",
+    "lon":174.7772114,
+    "lat":-41.2887953,
     "order":150,
     "projects":[51]
               }
@@ -1204,6 +1654,9 @@
     "name":"EBP Schweiz AG",
     "type":"eng",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":151,
     "projects":[111]
               }
@@ -1212,6 +1665,9 @@
     "name":"Ecoedil SA",
     "type":"arch",
     "country":"CH",
+    "city":"Lugano",
+    "lon":8.9520281,
+    "lat":46.0050102,
     "order":152,
     "projects":[50]
               }
@@ -1220,6 +1676,9 @@
     "name":"Egoin",
     "type":"fab",
     "country":"ES",
+    "city":"Bilbao",
+    "lon":-2.9350039,
+    "lat":43.2630018,
     "order":153,
     "projects":[134,256]
               }
@@ -1228,6 +1687,9 @@
     "name":"einszueins architektur",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":154,
     "projects":[219,221]
               }
@@ -1236,6 +1698,9 @@
     "name":"EkoFLin",
     "type":"fab",
     "country":"NL",
+    "city":"Bavel",
+    "lon":4.8296995,
+    "lat":51.5656819,
     "order":155,
     "projects":[216]
               }
@@ -1244,6 +1709,9 @@
     "name":"Elementti Sampo Oy",
     "type":"fab",
     "country":"FI",
+    "city":"Kuhmo",
+    "lon":29.519515,
+    "lat":64.1261745,
     "order":156,
     "projects":[295]
               }
@@ -1252,6 +1720,9 @@
     "name":"Elliott Wood",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":157,
     "projects":[194]
               }
@@ -1260,6 +1731,9 @@
     "name":"Emberger & Essl GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Mondsee",
+    "lon":13.3500658,
+    "lat":47.8560014,
     "order":158,
     "projects":[83]
               }
@@ -1268,6 +1742,9 @@
     "name":"Emch+Berger",
     "type":"eng",
     "country":"CH",
+    "city":"Bern",
+    "lon":7.4514512,
+    "lat":46.9482713,
     "order":159,
     "projects":[119]
               }
@@ -1276,6 +1753,9 @@
     "name":"Engberg Anderson Architects",
     "type":"arch",
     "country":"US",
+    "city":"Milwaukee",
+    "lon":-87.922497,
+    "lat":43.0349931,
     "order":160,
     "projects":[283]
               }
@@ -1284,6 +1764,9 @@
     "name":"Engenuiti",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":161,
     "projects":[44,104,130,135]
               }
@@ -1292,6 +1775,9 @@
     "name":"engenuity",
     "type":"eng",
     "country":"GB",
+    "city":"Burgess Hill",
+    "lon":-0.1332853,
+    "lat":50.9575365,
     "order":162,
     "projects":[143]
               }
@@ -1300,6 +1786,9 @@
     "name":"Equilibrium Consulting",
     "type":"eng",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":163,
     "projects":[52,100,101,206,281]
               }
@@ -1308,6 +1797,9 @@
     "name":"ERNE AG Holzbau",
     "type":"fab",
     "country":"CH",
+    "city":"Laufenburg",
+    "lon":8.0601696,
+    "lat":47.5604617,
     "order":164,
     "projects":[18,196,223]
               }
@@ -1316,6 +1808,9 @@
     "name":"Eurban",
     "type":"fab",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":165,
     "projects":[6,20,30,60,92,103,124,127,150,155,182]
               }
@@ -1324,6 +1819,9 @@
     "name":"f2a architecture",
     "type":"arch",
     "country":"CA",
+    "city":"Penticton",
+    "lon":-119.5932499,
+    "lat":49.5003268,
     "order":166,
     "projects":[265]
               }
@@ -1332,6 +1830,9 @@
     "name":"Fast + Epp",
     "type":"eng",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":167,
     "projects":[31,110,171,265]
               }
@@ -1340,6 +1841,9 @@
     "name":"fd engineers",
     "type":"eng",
     "country":"AU",
+    "city":"Labrador",
+    "lon":153.400821698302,
+    "lat":-27.945764,
     "order":168,
     "projects":[276]
               }
@@ -1348,6 +1852,9 @@
     "name":"Feilden Clegg Bradley Studios",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":169,
     "projects":[28,99]
               }
@@ -1356,6 +1863,9 @@
     "name":"feld72 Architekten ZT GmbH",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":170,
     "projects":[230]
               }
@@ -1364,6 +1874,9 @@
     "name":"FGP Construction",
     "type":"fab",
     "country":"CA",
+    "city":"Saint-Basile-le-Grand",
+    "lon":-73.2876515,
+    "lat":45.526246,
     "order":171,
     "projects":[236]
               }
@@ -1372,6 +1885,9 @@
     "name":"Fink Thurnher",
     "type":"arch",
     "country":"AT",
+    "city":"Bregenz",
+    "lon":9.7472924,
+    "lat":47.5025779,
     "order":172,
     "projects":[29]
               }
@@ -1380,6 +1896,9 @@
     "name":"Finnforest Merk",
     "type":"fab",
     "country":"DE",
+    "city":"Aichach",
+    "lon":11.1309953,
+    "lat":48.4591478,
     "order":173,
     "projects":[40]
               }
@@ -1388,6 +1907,9 @@
     "name":"Fischer und Leisering Ingenieurgesellschaft mbH",
     "type":"eng",
     "country":"DE",
+    "city":"Konstanz",
+    "lon":9.1750718,
+    "lat":47.659216,
     "order":174,
     "projects":[159]
               }
@@ -1396,6 +1918,9 @@
     "name":"Flank",
     "type":"arch",
     "country":"US",
+    "city":"New York",
+    "lon":-74.0060152,
+    "lat":40.7127281,
     "order":175,
     "projects":[203]
               }
@@ -1404,6 +1929,9 @@
     "name":"Florian Kosche",
     "type":"eng",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":176,
     "projects":[299]
               }
@@ -1412,6 +1940,9 @@
     "name":"Florian Nagler Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079,
     "order":177,
     "projects":[88,117,148]
               }
@@ -1420,6 +1951,9 @@
     "name":"Fojab Arkitekter",
     "type":"arch",
     "country":"SE",
+    "city":"Malm�",
+    "lon":13.0001566,
+    "lat":55.6052931,
     "order":178,
     "projects":[246]
               }
@@ -1428,6 +1962,9 @@
     "name":"Fokkema & Partners",
     "type":"arch",
     "country":"NL",
+    "city":"Delft",
+    "lon":4.362724538543995,
+    "lat":51.999457199999995,
     "order":179,
     "projects":[143,158]
               }
@@ -1436,6 +1973,9 @@
     "name":"Folkhem",
     "type":"fab",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":180,
     "projects":[213]
               }
@@ -1444,6 +1984,9 @@
     "name":"FRANTZEN et al architecten",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":181,
     "projects":[142]
               }
@@ -1452,6 +1995,9 @@
     "name":"Fristad bygg",
     "type":"fab",
     "country":"SE",
+    "city":"Fristad",
+    "lon":13.0100197,
+    "lat":57.8238811,
     "order":182,
     "projects":[180,268]
               }
@@ -1460,6 +2006,9 @@
     "name":"Fritz Holzbau",
     "type":"fab",
     "country":"AT",
+    "city":"Bartholom�berg",
+    "lon":9.914799727494259,
+    "lat":47.10672425,
     "order":183,
     "projects":[14]
               }
@@ -1468,6 +2017,9 @@
     "name":"Frommelt Zimmerei und Ing. Holzbau AG",
     "type":"fab",
     "country":"LI",
+    "city":"Schaan",
+    "lon":9.510312,
+    "lat":47.1663397,
     "order":184,
     "projects":[32]
               }
@@ -1476,6 +2028,9 @@
     "name":"frundgallina sa",
     "type":"arch",
     "country":"CH",
+    "city":"Neuch�tel",
+    "lon":6.9292641,
+    "lat":46.9895828,
     "order":185,
     "projects":[63]
               }
@@ -1484,6 +2039,9 @@
     "name":"Funk + Partner AG",
     "type":"eng",
     "country":"CH",
+    "city":"Urdorf",
+    "lon":8.4259004,
+    "lat":47.384708,
     "order":186,
     "projects":[126]
               }
@@ -1492,14 +2050,20 @@
     "name":"Fussenegger Holzbau GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423875,
+    "lat":47.413631,
     "order":187,
     "projects":[4,126]
               }
 ,
 {"id": "188",
-    "name":"Futurafrosch – Architektur und Raumentwicklung GmbH",
+    "name":"Futurafrosch � Architektur und Raumentwicklung GmbH",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":188,
     "projects":[111]
               }
@@ -1508,6 +2072,9 @@
     "name":"Gaille Construction SA",
     "type":"fab",
     "country":"CH",
+    "city":"Fresens",
+    "lon":6.747402,
+    "lat":46.8883144,
     "order":189,
     "projects":[63,63]
               }
@@ -1516,6 +2083,9 @@
     "name":"Galli Rudolf Architekten AG ETH BSA",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":190,
     "projects":[57]
               }
@@ -1524,6 +2094,9 @@
     "name":"Gaujard Technologie Scop",
     "type":"eng",
     "country":"FR",
+    "city":"Avignon",
+    "lon":4.8059012,
+    "lat":43.9492493,
     "order":191,
     "projects":[58,74]
               }
@@ -1532,6 +2105,9 @@
     "name":"Geo Viviani",
     "type":"eng",
     "country":"CH",
+    "city":"Lugano",
+    "lon":8.9520281,
+    "lat":46.0050102,
     "order":192,
     "projects":[50]
               }
@@ -1540,6 +2116,9 @@
     "name":"GG-loop",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":193,
     "projects":[216]
               }
@@ -1548,6 +2127,9 @@
     "name":"GROSSMANN Bau GmbH & Co. KG",
     "type":"fab",
     "country":"DE",
+    "city":"Rosenheim",
+    "lon":12.127262,
+    "lat":47.8539273,
     "order":194,
     "projects":[59]
               }
@@ -1556,6 +2138,9 @@
     "name":"Groupe Briand",
     "type":"fab",
     "country":"FR",
+    "city":"Les Herbiers",
+    "lon":-1.0150302,
+    "lat":46.8714322,
     "order":195,
     "projects":[165]
               }
@@ -1564,6 +2149,9 @@
     "name":"Groupwork + Amin Taha",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":196,
     "projects":[134]
               }
@@ -1572,6 +2160,9 @@
     "name":"Gruner AG",
     "type":"eng",
     "country":"CH",
+    "city":"Basel",
+    "lon":7.5878261,
+    "lat":47.5581077,
     "order":197,
     "projects":[118]
               }
@@ -1580,6 +2171,9 @@
     "name":"Gschwandtl & Lindlbauer ZT GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":198,
     "projects":[221]
               }
@@ -1588,6 +2182,9 @@
     "name":"GVH-Ingenieurs Civils SA",
     "type":"eng",
     "country":"CH",
+    "city":"La Chaux-de-Fonds",
+    "lon":6.8325778,
+    "lat":47.1031321,
     "order":199,
     "projects":[63]
               }
@@ -1596,6 +2193,9 @@
     "name":"H2R Architekten und Stadtplaner BDA",
     "type":"arch",
     "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079,
     "order":200,
     "projects":[247]
               }
@@ -1604,6 +2204,9 @@
     "name":"Haag + Partner AG",
     "type":"eng",
     "country":"CH",
+    "city":"K�snacht",
+    "lon":8.5830859,
+    "lat":47.3176276,
     "order":201,
     "projects":[153]
               }
@@ -1612,22 +2215,31 @@
     "name":"Hacker Architects",
     "type":"arch",
     "country":"US",
+    "city":"Oregon",
+    "lon":-122.670649,
+    "lat":45.4206749,
     "order":202,
     "projects":[263]
               }
 ,
 {"id": "203",
-    "name":"Hagmüller Architekten ZT GmbH",
+    "name":"Hagm�ller Architekten ZT GmbH",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":203,
     "projects":[76]
               }
 ,
 {"id": "204",
-    "name":"Hämmerle – Huster",
+    "name":"H�mmerle � Huster",
     "type":"eng",
     "country":"AT",
+    "city":"Bregenz",
+    "lon":9.7472924,
+    "lat":47.5025779,
     "order":204,
     "projects":[230]
               }
@@ -1636,6 +2248,9 @@
     "name":"Handler",
     "type":"fab",
     "country":"AT",
+    "city":"Bad Sch�nau",
+    "lon":16.2340758,
+    "lat":47.4954307,
     "order":205,
     "projects":[183]
               }
@@ -1644,6 +2259,9 @@
     "name":"Hansen Architects",
     "type":"arch",
     "country":"US",
+    "city":"Georgia�",
+    "lon":-73.14704151731551,
+    "lat":44.72422295,
     "order":206,
     "projects":[203]
               }
@@ -1652,6 +2270,9 @@
     "name":"Haselmeier Holzbau",
     "type":"fab",
     "country":"DE",
+    "city":"Erligheim",
+    "lon":9.0987129,
+    "lat":49.0199816,
     "order":207,
     "projects":[87]
               }
@@ -1660,22 +2281,31 @@
     "name":"Hauenstein La Roche Schedler Architekten AG",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":208,
     "projects":[39]
               }
 ,
 {"id": "209",
-    "name":"Häussler Ingenieure",
+    "name":"H�ussler Ingenieure",
     "type":"eng",
     "country":"DE",
+    "city":"Kempten",
+    "lon":10.3168835,
+    "lat":47.7267063,
     "order":209,
     "projects":[229]
               }
 ,
 {"id": "210",
-    "name":"Hawkins Brown",
+    "name":"Hawkins/Brown",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":210,
     "projects":[44,130]
               }
@@ -1684,6 +2314,9 @@
     "name":"Hecht Holzbau AG",
     "type":"fab",
     "country":"CH",
+    "city":"Sursee",
+    "lon":8.1089654,
+    "lat":47.1740371,
     "order":211,
     "projects":[126]
               }
@@ -1692,6 +2325,9 @@
     "name":"Hector Egger Holzbau",
     "type":"fab",
     "country":"CH",
+    "city":"Langenthal",
+    "lon":7.788786,
+    "lat":47.2116019,
     "order":212,
     "projects":[39,49,72,210]
               }
@@ -1700,6 +2336,9 @@
     "name":"Helen & Hard",
     "type":"arch",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":213,
     "projects":[93,123,209,277]
               }
@@ -1708,6 +2347,9 @@
     "name":"Helmut Fischer",
     "type":"eng",
     "country":"DE",
+    "city":"Bad Endorf",
+    "lon":12.3013697,
+    "lat":47.906411,
     "order":214,
     "projects":[36]
               }
@@ -1716,6 +2358,9 @@
     "name":"Henauer Gugler AG",
     "type":"eng",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":215,
     "projects":[27,79]
               }
@@ -1724,6 +2369,9 @@
     "name":"Hennike + Dr. Kusch",
     "type":"eng",
     "country":"DE",
+    "city":"Weimar",
+    "lon":11.3296637,
+    "lat":50.9810486,
     "order":216,
     "projects":[45]
               }
@@ -1732,6 +2380,9 @@
     "name":"Hermann Kaufmann + Partner ZT GmbH",
     "type":"arch",
     "country":"DE",
+    "city":"Schwarzach",
+    "lon":12.8132695,
+    "lat":48.9152375,
     "order":217,
     "projects":[8,38,46,61,117,171]
               }
@@ -1740,6 +2391,9 @@
     "name":"Heupel GmbH",
     "type":"arch",
     "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079,
     "order":218,
     "projects":[137]
               }
@@ -1748,6 +2402,9 @@
     "name":"Heyne Tillett Steel",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":219,
     "projects":[187]
               }
@@ -1755,7 +2412,10 @@
 {"id": "220",
     "name":"HILLEN & ROOSEN",
     "type":"fab",
-    "country":"GB",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":220,
     "projects":[142]
               }
@@ -1764,6 +2424,9 @@
     "name":"Hirschmuellerschmidt Architektur GmbH",
     "type":"arch",
     "country":"DE",
+    "city":"Darmstadt",
+    "lon":8.6736295,
+    "lat":49.8851869,
     "order":221,
     "projects":[173]
               }
@@ -1772,6 +2435,9 @@
     "name":"Hochdorf Bisang Holzbau AG",
     "type":"fab",
     "country":"CH",
+    "city":"K�ssnacht",
+    "lon":8.4386308,
+    "lat":47.08385,
     "order":222,
     "projects":[126]
               }
@@ -1780,6 +2446,9 @@
     "name":"Hodder + Partners",
     "type":"arch",
     "country":"GB",
+    "city":"Manchester",
+    "lon":-2.2451148,
+    "lat":53.4794892,
     "order":223,
     "projects":[124]
               }
@@ -1788,6 +2457,9 @@
     "name":"Hoffmannfontana Architekturen gmbh",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":224,
     "projects":[197]
               }
@@ -1796,6 +2468,9 @@
     "name":"Holzbau AG",
     "type":"eng",
     "country":"CH",
+    "city":"M�rel",
+    "lon":8.0443575,
+    "lat":46.3551161,
     "order":225,
     "projects":[118]
               }
@@ -1804,6 +2479,9 @@
     "name":"Holzbau Gehrmann GmbH",
     "type":"fab",
     "country":"DE",
+    "city":"Hoisdorf",
+    "lon":10.3186485,
+    "lat":53.6530061,
     "order":226,
     "projects":[202]
               }
@@ -1812,6 +2490,9 @@
     "name":"Holzbau Moser",
     "type":"fab",
     "country":"DE",
+    "city":"Salach",
+    "lon":9.7395144,
+    "lat":48.6904085,
     "order":227,
     "projects":[293]
               }
@@ -1820,6 +2501,9 @@
     "name":"Holzbau Saurer GmbH & Co KG",
     "type":"fab",
     "country":"AT",
+    "city":"H�fen",
+    "lon":10.662970765696295,
+    "lat":47.466749300000004,
     "order":228,
     "projects":[105]
               }
@@ -1828,6 +2512,9 @@
     "name":"Holzbautechnik Burch AG",
     "type":"fab",
     "country":"CH",
+    "city":"Sarnen",
+    "lon":8.2461492,
+    "lat":46.8956729,
     "order":229,
     "projects":[250,251]
               }
@@ -1836,6 +2523,9 @@
     "name":"Holzbox Tirol",
     "type":"arch",
     "country":"AT",
+    "city":"Innsbruck",
+    "lon":11.3927685,
+    "lat":47.2654296,
     "order":230,
     "projects":[2]
               }
@@ -1844,6 +2534,9 @@
     "name":"Holzunion",
     "type":"fab",
     "country":"DE",
+    "city":"Rotenburg�",
+    "lon":9.4049292,
+    "lat":53.1108906,
     "order":231,
     "projects":[173,229]
               }
@@ -1852,6 +2545,9 @@
     "name":"Horden Cherry Lee Architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":232,
     "projects":[89]
               }
@@ -1860,6 +2556,9 @@
     "name":"HPA",
     "type":"arch",
     "country":"US",
+    "city":"Chicago",
+    "lon":-87.6244212,
+    "lat":41.8755616,
     "order":233,
     "projects":[242]
               }
@@ -1868,6 +2567,9 @@
     "name":"Huber & Sohn GmbH & Co. KG",
     "type":"fab",
     "country":"DE",
+    "city":"Eiselfing",
+    "lon":12.2417391,
+    "lat":48.0404763,
     "order":234,
     "projects":[22,33,247]
               }
@@ -1876,6 +2578,9 @@
     "name":"Hubert Riess",
     "type":"arch",
     "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678,
     "order":235,
     "projects":[3]
               }
@@ -1884,6 +2589,9 @@
     "name":"HUS arkitekter AS",
     "type":"arch",
     "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475,
     "order":236,
     "projects":[193]
               }
@@ -1892,6 +2600,9 @@
     "name":"Hyder Consulting Ltd",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":237,
     "projects":[139]
               }
@@ -1900,6 +2611,9 @@
     "name":"i+R Holzbau GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Lauterach",
+    "lon":9.7313331,
+    "lat":47.4747262,
     "order":238,
     "projects":[8]
               }
@@ -1908,14 +2622,20 @@
     "name":"i3+STUDIO di Boranga De Col Canal Ingegneri associati",
     "type":"fab",
     "country":"IT",
+    "city":"Belluno",
+    "lon":12.2181711,
+    "lat":46.1375185,
     "order":239,
     "projects":[66]
               }
 ,
 {"id": "240",
-    "name":"IFB Frohloff Staffa Kühl Ecker",
+    "name":"IFB Frohloff Staffa K�hl Ecker",
     "type":"eng",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":240,
     "projects":[40,184,214,267]
               }
@@ -1924,6 +2644,9 @@
     "name":"Ilbelings van Tilbug Architecten",
     "type":"arch",
     "country":"NL",
+    "city":"Den Haag",
+    "lon":4.3113461,
+    "lat":52.0799838,
     "order":241,
     "projects":[42]
               }
@@ -1932,14 +2655,20 @@
     "name":"Implenia Schweiz AG",
     "type":"fab",
     "country":"CH",
+    "city":"R�mlang",
+    "lon":8.5299122,
+    "lat":47.4507163,
     "order":242,
     "projects":[57,118,195]
               }
 ,
 {"id": "243",
-    "name":"Indermühle Bauingenieure GmbH",
+    "name":"Inderm�hle Bauingenieure GmbH",
     "type":"eng",
     "country":"CH",
+    "city":"Thun",
+    "lon":7.628086,
+    "lat":46.7582827,
     "order":243,
     "projects":[57,151,210]
               }
@@ -1948,54 +2677,75 @@
     "name":"ing. Iztok Smotlak",
     "type":"eng",
     "country":"IT",
+    "city":"Trieste",
+    "lon":13.7772781,
+    "lat":45.6496485,
     "order":244,
     "projects":[66]
               }
 ,
 {"id": "245",
-    "name":"Ingébois",
+    "name":"Ing�bois",
     "type":"eng",
     "country":"FR",
+    "city":"Douai",
+    "lon":3.0804641,
+    "lat":50.3675677,
     "order":245,
     "projects":[198]
               }
 ,
 {"id": "246",
-    "name":"Ingénierie Bois",
+    "name":"Ing�nierie Bois",
     "type":"eng",
     "country":"FR",
+    "city":"Bischheim",
+    "lon":7.7523716,
+    "lat":48.6148396,
     "order":246,
     "projects":[96,186]
               }
 ,
 {"id": "247",
-    "name":"Ingenieurbüro Franz Mitterer-Mang",
+    "name":"Ingenieurb�ro Franz Mitterer-Mang",
     "type":"eng",
     "country":"DE",
+    "city":"Waldkraiburg",
+    "lon":12.4044209,
+    "lat":48.2058812,
     "order":247,
     "projects":[148]
               }
 ,
 {"id": "248",
-    "name":"Ingenieurbüro Heinrichs",
+    "name":"Ingenieurb�ro Heinrichs",
     "type":"eng",
     "country":"DE",
+    "city":"Cologne",
+    "lon":6.959974,
+    "lat":50.938361,
     "order":248,
     "projects":[223]
               }
 ,
 {"id": "249",
-    "name":"Ingenieurbüro von Fragstein GmbH",
+    "name":"Ingenieurb�ro von Fragstein GmbH",
     "type":"eng",
     "country":"DE",
+    "city":"Landau",
+    "lon":8.1123441,
+    "lat":49.1982825,
     "order":249,
     "projects":[113]
               }
 ,
 {"id": "250",
-    "name":"Ingenieurbüro BE Ingenieure GmbH ",
+    "name":"Ingenieurb�ro�BE Ingenieure GmbH�",
     "type":"eng",
     "country":"DE",
+    "city":"Karlsruhe",
+    "lon":8.4034195,
+    "lat":49.0068705,
     "order":250,
     "projects":[293]
               }
@@ -2004,14 +2754,20 @@
     "name":"InnoRenew CoE",
     "type":"arch",
     "country":"SI",
+    "city":"Izola",
+    "lon":13.65939,
+    "lat":45.5398936,
     "order":251,
     "projects":[297]
               }
 ,
 {"id": "252",
-    "name":"Insinööritoimisto Pertti Ruuskanen Oy",
+    "name":"Insin��ritoimisto Pertti Ruuskanen Oy",
     "type":"eng",
     "country":"FI",
+    "city":"Jyv�skyl�",
+    "lon":25.7458236,
+    "lat":62.2393431,
     "order":252,
     "projects":[64]
               }
@@ -2020,6 +2776,9 @@
     "name":"Integra",
     "type":"eng",
     "country":"SE",
+    "city":"Trollhattan",
+    "lon":12.2908612,
+    "lat":58.2827931,
     "order":253,
     "projects":[170]
               }
@@ -2028,6 +2787,9 @@
     "name":"iTRE",
     "type":"fab",
     "country":"NO",
+    "city":"Gr�lum",
+    "lon":11.0667001,
+    "lat":59.2904945,
     "order":254,
     "projects":[123,125]
               }
@@ -2036,14 +2798,20 @@
     "name":"Jackson Clements Burrows Architects",
     "type":"arch",
     "country":"AU",
+    "city":"Richmond",
+    "lon":145.0025153,
+    "lat":-37.8203955,
     "order":255,
     "projects":[220,272]
               }
 ,
 {"id": "256",
-    "name":"Jäggi + Hafter AG Holzbau",
+    "name":"J�ggi + Hafter AG Holzbau",
     "type":"fab",
     "country":"CH",
+    "city":"Regensdorf",
+    "lon":8.4680435,
+    "lat":47.4317645,
     "order":256,
     "projects":[79]
               }
@@ -2052,6 +2820,9 @@
     "name":"Jan Wiese Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":257,
     "projects":[276]
               }
@@ -2060,6 +2831,9 @@
     "name":"Jasmax",
     "type":"arch",
     "country":"NZ",
+    "city":"Auckland",
+    "lon":174.7631803,
+    "lat":-36.852095,
     "order":258,
     "projects":[154]
               }
@@ -2068,6 +2842,9 @@
     "name":"Jean-Paul Viguier",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":259,
     "projects":[62,225,296,290]
               }
@@ -2076,6 +2853,9 @@
     "name":"Jenkins & Potter",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":260,
     "projects":[21]
               }
@@ -2084,6 +2864,9 @@
     "name":"Jestico + Whiles",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":261,
     "projects":[92]
               }
@@ -2092,6 +2875,9 @@
     "name":"Johannes Kaufmann Architektur",
     "type":"arch",
     "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423875,
+    "lat":47.413631,
     "order":262,
     "projects":[4,8,147,161]
               }
@@ -2100,6 +2886,9 @@
     "name":"Josef Kolb AG",
     "type":"eng",
     "country":"CH",
+    "city":"Romanshorn",
+    "lon":9.3776036,
+    "lat":47.5654452,
     "order":263,
     "projects":[163,279]
               }
@@ -2108,6 +2897,9 @@
     "name":"JPF-DUCRET SA",
     "type":"fab",
     "country":"CH",
+    "city":"Bulle",
+    "lon":7.0581152,
+    "lat":46.6190969,
     "order":264,
     "projects":[207]
               }
@@ -2116,6 +2908,9 @@
     "name":"JR Consult",
     "type":"eng",
     "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678,
     "order":265,
     "projects":[3]
               }
@@ -2124,6 +2919,9 @@
     "name":"JTB.Architecture",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":266,
     "projects":[121]
               }
@@ -2132,6 +2930,9 @@
     "name":"Kaden + Lager",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":267,
     "projects":[12,56,215,240,285]
               }
@@ -2140,14 +2941,20 @@
     "name":"Kai Vater Zimmerei und Holzbau GmbH & Co. KG",
     "type":"fab",
     "country":"DE",
+    "city":"Wittenberg",
+    "lon":12.646761,
+    "lat":51.8666527,
     "order":268,
     "projects":[276]
               }
 ,
 {"id": "269",
-    "name":"Kämpfen Zinke + Partner AG",
+    "name":"K�mpfen Zinke + Partner AG",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":269,
     "projects":[49]
               }
@@ -2156,6 +2963,9 @@
     "name":"Karakusevic Carson Architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":270,
     "projects":[30,155]
               }
@@ -2164,6 +2974,9 @@
     "name":"Katerra",
     "type":"arch",
     "country":"US",
+    "city":"Menlo Park",
+    "lon":-122.1779927,
+    "lat":37.4519671,
     "order":271,
     "projects":[262]
               }
@@ -2172,6 +2985,9 @@
     "name":"Kaufmann Bausysteme",
     "type":"fab",
     "country":"AT",
+    "city":"Reuthe",
+    "lon":9.865113764594176,
+    "lat":47.372217199999994,
     "order":272,
     "projects":[35,163,224]
               }
@@ -2180,6 +2996,9 @@
     "name":"Kaufmann Zimmerei und Tischlerei GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Reuthe",
+    "lon":9.865113764594176,
+    "lat":47.372217199999994,
     "order":273,
     "projects":[17,161]
               }
@@ -2188,6 +3007,9 @@
     "name":"KAZUYA SAITO ARCHITECTS",
     "type":"arch",
     "country":"JP",
+    "city":"Miyagi",
+    "lon":139.838919,
+    "lat":34.9803071,
     "order":274,
     "projects":[70]
               }
@@ -2196,6 +3018,9 @@
     "name":"KIFA AG",
     "type":"fab",
     "country":"CH",
+    "city":"Aadorf",
+    "lon":8.9029526,
+    "lat":47.4915782,
     "order":275,
     "projects":[197]
               }
@@ -2204,6 +3029,9 @@
     "name":"KL&A Engineers & Builders",
     "type":"eng",
     "country":"US",
+    "city":"Colorado�",
+    "lon":-104.8769227,
+    "lat":39.579155,
     "order":276,
     "projects":[236]
               }
@@ -2212,6 +3040,9 @@
     "name":"KLH MASSIVHOLZ GMBH",
     "type":"fab",
     "country":"AT",
+    "city":"Teufenbach",
+    "lon":14.3598712,
+    "lat":47.1309885,
     "order":277,
     "projects":[9,21,23,26,53,89,91,194]
               }
@@ -2220,6 +3051,9 @@
     "name":"Knecht AG",
     "type":"fab",
     "country":"CH",
+    "city":"Oberwil",
+    "lon":7.5527853,
+    "lat":47.5136942,
     "order":278,
     "projects":[57]
               }
@@ -2228,6 +3062,9 @@
     "name":"Kodumaja",
     "type":"eng",
     "country":"EE",
+    "city":"Tartu�",
+    "lon":26.72245,
+    "lat":58.3801207,
     "order":279,
     "projects":[167]
               }
@@ -2236,6 +3073,9 @@
     "name":"kofler architects",
     "type":"arch",
     "country":"AT",
+    "city":"Salzburg",
+    "lon":13.0464806,
+    "lat":47.7981346,
     "order":280,
     "projects":[274]
               }
@@ -2244,6 +3084,9 @@
     "name":"Konishi Structural Engineers",
     "type":"eng",
     "country":"JP",
+    "city":"Musashino�",
+    "lon":139.563534,
+    "lat":35.712898,
     "order":281,
     "projects":[70]
               }
@@ -2252,6 +3095,9 @@
     "name":"KOOIJ & DEKKER Ingenieursbureau BV",
     "type":"eng",
     "country":"NL",
+    "city":"Harderwijk",
+    "lon":5.640271521392062,
+    "lat":52.33599915,
     "order":282,
     "projects":[82]
               }
@@ -2260,6 +3106,9 @@
     "name":"Koz Architectes",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":283,
     "projects":[186]
               }
@@ -2268,6 +3117,9 @@
     "name":"KPFF Consulting Engineers",
     "type":"eng",
     "country":"US",
+    "city":"Seattle",
+    "lon":-122.330062,
+    "lat":47.6038321,
     "order":284,
     "projects":[132,258,263]
               }
@@ -2276,6 +3128,9 @@
     "name":"Kubik3 S.L",
     "type":"eng",
     "country":"ES",
+    "city":"Barcelona",
+    "lon":2.1774322,
+    "lat":41.3828939,
     "order":285,
     "projects":[81]
               }
@@ -2284,6 +3139,9 @@
     "name":"Kulmer Holz-Leimbau GesmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Pischelsdorf am Kulm",
+    "lon":15.780312855579535,
+    "lat":47.186381,
     "order":286,
     "projects":[3,9,115]
               }
@@ -2292,6 +3150,9 @@
     "name":"L2C Experts-Conseils",
     "type":"eng",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":287,
     "projects":[133]
               }
@@ -2300,14 +3161,20 @@
     "name":"Lacol",
     "type":"arch",
     "country":"ES",
+    "city":"Barcelona",
+    "lon":2.1774322,
+    "lat":41.3828939,
     "order":288,
     "projects":[190]
               }
 ,
 {"id": "289",
-    "name":"Laisné Roussel",
+    "name":"Laisn� Roussel",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":289,
     "projects":[212]
               }
@@ -2316,6 +3183,9 @@
     "name":"Laminated Timber Solutions",
     "type":"fab",
     "country":"BE",
+    "city":"Moorslede",
+    "lon":3.0732110598481244,
+    "lat":50.89008225,
     "order":290,
     "projects":[189]
               }
@@ -2324,6 +3194,9 @@
     "name":"Laube SA",
     "type":"fab",
     "country":"CH",
+    "city":"Biasca",
+    "lon":8.9714023,
+    "lat":46.3606274,
     "order":291,
     "projects":[11]
               }
@@ -2332,6 +3205,9 @@
     "name":"Leers Weinzapfel Associates",
     "type":"arch",
     "country":"US",
+    "city":"Boston",
+    "lon":-71.060511,
+    "lat":42.3554334,
     "order":292,
     "projects":[206]
               }
@@ -2340,6 +3216,9 @@
     "name":"Lemay",
     "type":"arch",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":293,
     "projects":[133,144]
               }
@@ -2348,6 +3227,9 @@
     "name":"Lendlease DesignMake",
     "type":"eng",
     "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176,
     "order":294,
     "projects":[43,102,177,139]
               }
@@ -2356,6 +3238,9 @@
     "name":"Lever Architecture",
     "type":"arch",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":295,
     "projects":[132,234,258]
               }
@@ -2364,6 +3249,9 @@
     "name":"Lieb Bau Weiz",
     "type":"fab",
     "country":"AT",
+    "city":"Weiz",
+    "lon":15.6221694,
+    "lat":47.2174206,
     "order":296,
     "projects":[259]
               }
@@ -2372,6 +3260,9 @@
     "name":"LignoAlp",
     "type":"fab",
     "country":"IT",
+    "city":"Bressanone",
+    "lon":11.657792,
+    "lat":46.716413,
     "order":297,
     "projects":[208]
               }
@@ -2380,6 +3271,9 @@
     "name":"Liljewall arkitekter",
     "type":"arch",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":298,
     "projects":[271]
               }
@@ -2388,6 +3282,9 @@
     "name":"limbrock tubbesing architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341,
     "order":299,
     "projects":[202]
               }
@@ -2396,6 +3293,9 @@
     "name":"Link arkitektur",
     "type":"arch",
     "country":"SE",
+    "city":"Falk�ping",
+    "lon":13.516667,
+    "lat":58.2,
     "order":300,
     "projects":[288]
               }
@@ -2404,6 +3304,9 @@
     "name":"LIPSKY+ROLLET Architectes",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":301,
     "projects":[74]
               }
@@ -2412,6 +3315,9 @@
     "name":"loeliger strub architektur",
     "type":"arch",
     "country":"CH",
+    "city":"Z�rich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":302,
     "projects":[250,251]
               }
@@ -2420,6 +3326,9 @@
     "name":"Lorenzo Felder Architects",
     "type":"arch",
     "country":"CH",
+    "city":"Lugano",
+    "lon":8.9520281,
+    "lat":46.0050102,
     "order":303,
     "projects":[11]
               }
@@ -2428,6 +3337,9 @@
     "name":"LP architektur ZT GmbH",
     "type":"arch",
     "country":"AT",
+    "city":"Altenmarkt",
+    "lon":15.9917879,
+    "lat":48.015706,
     "order":304,
     "projects":[83,84,291]
               }
@@ -2436,6 +3348,9 @@
     "name":"LSI architects",
     "type":"arch",
     "country":"GB",
+    "city":"Norwich",
+    "lon":1.2923954,
+    "lat":52.6285576,
     "order":305,
     "projects":[146]
               }
@@ -2444,6 +3359,9 @@
     "name":"Luciano Lazzari Architetto",
     "type":"arch",
     "country":"IT",
+    "city":"Treviso",
+    "lon":12.2455414,
+    "lat":45.6658505,
     "order":306,
     "projects":[66]
               }
@@ -2452,6 +3370,9 @@
     "name":"Luger und Maul",
     "type":"arch",
     "country":"AT",
+    "city":"Wels",
+    "lon":14.0243752,
+    "lat":48.1565472,
     "order":307,
     "projects":[160]
               }
@@ -2460,6 +3381,9 @@
     "name":"Lund+Slaatto Arkitekter",
     "type":"arch",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":308,
     "projects":[200]
               }
@@ -2468,6 +3392,9 @@
     "name":"M+G INGENIEURE",
     "type":"eng",
     "country":"AT",
+    "city":"Feldkirch",
+    "lon":9.5981724,
+    "lat":47.2375671,
     "order":309,
     "projects":[16,87]
               }
@@ -2476,6 +3403,9 @@
     "name":"Mackey Mitchell Architects",
     "type":"arch",
     "country":"US",
+    "city":"St. Louis",
+    "lon":-90.2428756,
+    "lat":38.6319657,
     "order":310,
     "projects":[206]
               }
@@ -2484,6 +3414,9 @@
     "name":"Mader + Flatz",
     "type":"eng",
     "country":"AT",
+    "city":"Bregenz",
+    "lon":9.7472924,
+    "lat":47.5025779,
     "order":311,
     "projects":[29]
               }
@@ -2492,6 +3425,9 @@
     "name":"Madergia",
     "type":"fab",
     "country":"ES",
+    "city":"Anso�in",
+    "lon":-1.6481855,
+    "lat":42.83831,
     "order":312,
     "projects":[264]
               }
@@ -2500,6 +3436,9 @@
     "name":"MAF Arkitektkontor",
     "type":"arch",
     "country":"SE",
+    "city":"Pite�",
+    "lon":21.4900252,
+    "lat":65.3134652,
     "order":313,
     "projects":[271]
               }
@@ -2508,6 +3447,9 @@
     "name":"Magnolia Bostad AB",
     "type":"fab",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":314,
     "projects":[167]
               }
@@ -2516,6 +3458,9 @@
     "name":"Magnusson Klemencic Associates",
     "type":"eng",
     "country":"US",
+    "city":"Seattle",
+    "lon":-122.330062,
+    "lat":47.6038321,
     "order":315,
     "projects":[145,242]
               }
@@ -2524,6 +3469,9 @@
     "name":"Makiol Wiederkehr",
     "type":"eng",
     "country":"CH",
+    "city":"Beinwil am See ",
+    "lon":8.2027093,
+    "lat":47.2664506,
     "order":316,
     "projects":[7,41,49,72,119]
               }
@@ -2532,6 +3480,9 @@
     "name":"Manetsch Meyer",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":317,
     "projects":[228]
               }
@@ -2540,6 +3491,9 @@
     "name":"Manfred Gruber",
     "type":"arch",
     "country":"DE",
+    "city":"Bad Saulgau",
+    "lon":9.5010309,
+    "lat":48.0158071,
     "order":318,
     "projects":[71]
               }
@@ -2548,6 +3502,9 @@
     "name":"Marco Gaudenzi & Associati",
     "type":"arch",
     "country":"IT",
+    "city":"Pesaro",
+    "lon":12.9131228,
+    "lat":43.9098114,
     "order":319,
     "projects":[162]
               }
@@ -2556,6 +3513,9 @@
     "name":"Maria Kollmann Architekten BDA Stadtplaner",
     "type":"arch",
     "country":"DE",
+    "city":"Konstanz",
+    "lon":9.1750718,
+    "lat":47.659216,
     "order":320,
     "projects":[159]
               }
@@ -2564,6 +3524,9 @@
     "name":"Marius ZT GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Salzburg",
+    "lon":13.0464806,
+    "lat":47.7981346,
     "order":321,
     "projects":[83]
               }
@@ -2572,6 +3535,9 @@
     "name":"Mars Architectes",
     "type":"arch",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":322,
     "projects":[257]
               }
@@ -2580,6 +3546,9 @@
     "name":"Martinsons",
     "type":"fab",
     "country":"SE",
+    "city":"Ume�",
+    "lon":20.2630745,
+    "lat":63.8256568,
     "order":323,
     "projects":[13,19,97,129,172]
               }
@@ -2588,6 +3557,9 @@
     "name":"Masswerk Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Bad Krozingen",
+    "lon":7.7033313,
+    "lat":47.9118288,
     "order":324,
     "projects":[126]
               }
@@ -2596,6 +3568,9 @@
     "name":"Mast Architects",
     "type":"arch",
     "country":"GB",
+    "city":"Glasgow",
+    "lon":-4.2488787,
+    "lat":55.8609825,
     "order":325,
     "projects":[182]
               }
@@ -2604,6 +3579,9 @@
     "name":"Mathis SAS",
     "type":"fab",
     "country":"FR",
+    "city":"Muttersholtz",
+    "lon":7.5358375,
+    "lat":48.2693062,
     "order":326,
     "projects":[131,222,237,238]
               }
@@ -2612,6 +3590,9 @@
     "name":"Matteo Thun",
     "type":"arch",
     "country":"IT",
+    "city":"Milan",
+    "lon":9.1896346,
+    "lat":45.4641943,
     "order":327,
     "projects":[287]
               }
@@ -2620,6 +3601,9 @@
     "name":"Matti Iiramo Architects",
     "type":"arch",
     "country":"FI",
+    "city":"Vantaa",
+    "lon":25.0411832,
+    "lat":60.2921321,
     "order":328,
     "projects":[106]
               }
@@ -2628,6 +3612,9 @@
     "name":"MDH Arkitekter",
     "type":"arch",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":329,
     "projects":[141]
               }
@@ -2636,6 +3623,9 @@
     "name":"MEISSL Architects",
     "type":"arch",
     "country":"AT",
+    "city":"Seefeld",
+    "lon":11.1867187,
+    "lat":47.3289241,
     "order":330,
     "projects":[287]
               }
@@ -2644,6 +3634,9 @@
     "name":"Merz Kley Partner",
     "type":"eng",
     "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423875,
+    "lat":47.413631,
     "order":331,
     "projects":[8,17,29,38,46,61,69,77,107,109,117,126,147,161,174,223,224]
               }
@@ -2652,6 +3645,9 @@
     "name":"Michael Green Architects",
     "type":"arch",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":332,
     "projects":[100,145,262,281]
               }
@@ -2660,14 +3656,20 @@
     "name":"Michael Hadi Associates",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":333,
     "projects":[20]
               }
 ,
 {"id": "334",
-    "name":"Miguel Rodríguez Nevado",
+    "name":"Miguel Rodr�guez Nevado",
     "type":"eng",
     "country":"ES",
+    "city":"Barcelona",
+    "lon":2.1774322,
+    "lat":41.3828939,
     "order":334,
     "projects":[81,190]
               }
@@ -2676,6 +3678,9 @@
     "name":"Miller Hull Partnership",
     "type":"arch",
     "country":"US",
+    "city":"Seattle",
+    "lon":-122.330062,
+    "lat":47.6038321,
     "order":335,
     "projects":[55]
               }
@@ -2684,6 +3689,9 @@
     "name":"MoDus Architects",
     "type":"arch",
     "country":"IT",
+    "city":"Bressanone",
+    "lon":11.657792,
+    "lat":46.716413,
     "order":336,
     "projects":[47]
               }
@@ -2692,6 +3700,9 @@
     "name":"Modus Studio",
     "type":"arch",
     "country":"US",
+    "city":"Fayetteville",
+    "lon":-94.1574328,
+    "lat":36.0625843,
     "order":337,
     "projects":[206]
               }
@@ -2700,6 +3711,9 @@
     "name":"Moelven",
     "type":"fab",
     "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341,
     "order":338,
     "projects":[128,129,170,232,213,217,298]
               }
@@ -2708,30 +3722,42 @@
     "name":"MOSAIK architekten bda",
     "type":"arch",
     "country":"DE",
+    "city":"Hannover",
+    "lon":9.7385532,
+    "lat":52.3744779,
     "order":339,
     "projects":[284]
               }
 ,
 {"id": "340",
-    "name":"Müller Sigrist Architekten",
+    "name":"M�ller Sigrist Architekten",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":340,
     "projects":[126]
               }
 ,
 {"id": "341",
-    "name":"müllerblaustein Holzbau GmbH",
+    "name":"m�llerblaustein Holzbau GmbH",
     "type":"fab",
     "country":"DE",
+    "city":"Blaustein",
+    "lon":9.9187625,
+    "lat":48.4159247,
     "order":341,
     "projects":[68,254]
               }
 ,
 {"id": "342",
-    "name":"Müllers Büro Architekturbüro",
+    "name":"M�llers B�ro Architekturb�ro",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":342,
     "projects":[24]
               }
@@ -2740,6 +3766,9 @@
     "name":"Multiconsult",
     "type":"eng",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":343,
     "projects":[123,209]
               }
@@ -2748,6 +3777,9 @@
     "name":"Munzing Structural Engineering",
     "type":"eng",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":344,
     "projects":[98,176]
               }
@@ -2756,6 +3788,9 @@
     "name":"MWV Bauingenieure AG",
     "type":"eng",
     "country":"CH",
+    "city":"Baden",
+    "lon":8.3086822,
+    "lat":47.4736827,
     "order":345,
     "projects":[41]
               }
@@ -2764,14 +3799,20 @@
     "name":"Nabholz",
     "type":"fab",
     "country":"US",
+    "city":"Conway",
+    "lon":-92.4421011,
+    "lat":35.0886963,
     "order":346,
     "projects":[206]
               }
 ,
 {"id": "347",
-    "name":"NÄNNY+PARTNER AG",
+    "name":"N�NNY+PARTNER AG",
     "type":"eng",
     "country":"CH",
+    "city":"St. Gallen",
+    "lon":9.3765878,
+    "lat":47.4250593,
     "order":347,
     "projects":[86]
               }
@@ -2780,6 +3821,9 @@
     "name":"neue Holzbau AG",
     "type":"fab",
     "country":"CH",
+    "city":"Lungern",
+    "lon":8.1607283,
+    "lat":46.7857297,
     "order":348,
     "projects":[260]
               }
@@ -2788,6 +3832,9 @@
     "name":"Neumann Monson Architects",
     "type":"arch",
     "country":"US",
+    "city":"Iowa City",
+    "lon":-91.5299106,
+    "lat":41.6612561,
     "order":349,
     "projects":[204]
               }
@@ -2796,6 +3843,9 @@
     "name":"NEUTELINGS RIEDIJK ARCHITECTS",
     "type":"arch",
     "country":"NL",
+    "city":"Rotterdam",
+    "lon":4.47775,
+    "lat":51.9244424,
     "order":350,
     "projects":[218]
               }
@@ -2804,6 +3854,9 @@
     "name":"Ney + Partners",
     "type":"eng",
     "country":"BE",
+    "city":"Brussels",
+    "lon":4.351697,
+    "lat":50.8465573,
     "order":351,
     "projects":[189,218]
               }
@@ -2812,6 +3865,9 @@
     "name":"Nick Bevanda",
     "type":"arch",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":352,
     "projects":[168]
               }
@@ -2820,6 +3876,9 @@
     "name":"Nigsch Holzbau GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Blons",
+    "lon":9.842567825511978,
+    "lat":47.2418945,
     "order":353,
     "projects":[16]
               }
@@ -2828,6 +3887,9 @@
     "name":"NKBAK and etc.",
     "type":"arch",
     "country":"DE",
+    "city":"Frankfurt",
+    "lon":8.6820917,
+    "lat":50.1106444,
     "order":354,
     "projects":[107]
               }
@@ -2836,6 +3898,9 @@
     "name":"Nordic Structures",
     "type":"fab",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":355,
     "projects":[102,133,144,166,236,289]
               }
@@ -2844,6 +3909,9 @@
     "name":"Nova Fundaziun Origen",
     "type":"arch",
     "country":"CH",
+    "city":"Riom",
+    "lon":9.5821873,
+    "lat":46.60958,
     "order":356,
     "projects":[199]
               }
@@ -2852,14 +3920,20 @@
     "name":"Nowy Zorn ZT GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":357,
     "projects":[10]
               }
 ,
 {"id": "358",
-    "name":"Nussmüller Architekten",
+    "name":"Nussm�ller Architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678,
     "order":358,
     "projects":[115,192]
               }
@@ -2868,6 +3942,9 @@
     "name":"oa.sys baut gmbh",
     "type":"fab",
     "country":"AT",
+    "city":"Alberschwende",
+    "lon":9.843567738999367,
+    "lat":47.46147515,
     "order":359,
     "projects":[38]
               }
@@ -2876,6 +3953,9 @@
     "name":"Obermayr Holzkonstruktionen GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Schwanenstadt",
+    "lon":13.7749232,
+    "lat":48.0545249,
     "order":360,
     "projects":[160]
               }
@@ -2884,6 +3964,9 @@
     "name":"Offsite Construction Centres Ltd (OCCL)",
     "type":"fab",
     "country":"GB",
+    "city":"Gosport",
+    "lon":-1.1210853,
+    "lat":50.7952074,
     "order":361,
     "projects":[152]
               }
@@ -2892,6 +3975,9 @@
     "name":"Olaf Gipser Architects",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":362,
     "projects":[300]
               }
@@ -2900,6 +3986,9 @@
     "name":"Olin Partnership",
     "type":"arch",
     "country":"US",
+    "city":"Philadelphia",
+    "lon":-75.1635262,
+    "lat":39.9527237,
     "order":363,
     "projects":[206]
               }
@@ -2908,6 +3997,9 @@
     "name":"Omniplan",
     "type":"arch",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":364,
     "projects":[164]
               }
@@ -2916,6 +4008,9 @@
     "name":"OOPEAA",
     "type":"arch",
     "country":"FI",
+    "city":"Sein�joki",
+    "lon":22.8442015,
+    "lat":62.7954104,
     "order":365,
     "projects":[114]
               }
@@ -2924,6 +4019,9 @@
     "name":"Origin Architects and Planners",
     "type":"arch",
     "country":"TW",
+    "city":"Taichung",
+    "lon":120.6478282,
+    "lat":24.163162,
     "order":366,
     "projects":[101]
               }
@@ -2932,6 +4030,9 @@
     "name":"OSAR Architects",
     "type":"arch",
     "country":"BE",
+    "city":"Antwerp",
+    "lon":4.3997081,
+    "lat":51.2211097,
     "order":367,
     "projects":[269,270]
               }
@@ -2940,6 +4041,9 @@
     "name":"Oskar Leo Kaufmann",
     "type":"arch",
     "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423875,
+    "lat":47.413631,
     "order":368,
     "projects":[17]
               }
@@ -2948,14 +4052,20 @@
     "name":"ossabois",
     "type":"fab",
     "country":"FR",
+    "city":"V�tre-sur-Anzon",
+    "lon":3.8239382,
+    "lat":45.8146348,
     "order":369,
     "projects":[149]
               }
 ,
 {"id": "370",
-    "name":"Osterwold°Schmidt Architekten",
+    "name":"Osterwold�Schmidt Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Weimar",
+    "lon":11.3296637,
+    "lat":50.9810486,
     "order":370,
     "projects":[45]
               }
@@ -2964,6 +4074,9 @@
     "name":"Oxid Architektur",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":371,
     "projects":[261]
               }
@@ -2972,6 +4085,9 @@
     "name":"OZ Architecture",
     "type":"arch",
     "country":"US",
+    "city":"Denver",
+    "lon":-104.984862,
+    "lat":39.7392364,
     "order":372,
     "projects":[236]
               }
@@ -2980,6 +4096,9 @@
     "name":"Parklex International S.L.",
     "type":"fab",
     "country":"ES",
+    "city":"Lesaka",
+    "lon":-1.7043191,
+    "lat":43.2471212,
     "order":373,
     "projects":[101]
               }
@@ -2988,6 +4107,9 @@
     "name":"Path Architecture",
     "type":"arch",
     "country":"US",
+    "city":"New York",
+    "lon":-74.0060152,
+    "lat":40.7127281,
     "order":374,
     "projects":[98,176,282]
               }
@@ -2996,6 +4118,9 @@
     "name":"Penoyre & Prasad",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":375,
     "projects":[80]
               }
@@ -3004,6 +4129,9 @@
     "name":"PERISSINOTTO & BETTINI ASSOCIATI",
     "type":"arch",
     "country":"IT",
+    "city":"Treviso",
+    "lon":12.2455414,
+    "lat":45.6658505,
     "order":376,
     "projects":[48]
               }
@@ -3012,6 +4140,9 @@
     "name":"Perkins & Will",
     "type":"arch",
     "country":"US",
+    "city":"Chicago",
+    "lon":-87.6244212,
+    "lat":41.8755616,
     "order":377,
     "projects":[31,52,289]
               }
@@ -3020,6 +4151,9 @@
     "name":"PHILIP MEADOWCROFT ARCHITECTS",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":378,
     "projects":[23]
               }
@@ -3028,6 +4162,9 @@
     "name":"Pierce Engineers",
     "type":"eng",
     "country":"US",
+    "city":"Milwaukee",
+    "lon":-87.922497,
+    "lat":43.0349931,
     "order":379,
     "projects":[283]
               }
@@ -3036,6 +4173,9 @@
     "name":"Pieters Bouwtechniek",
     "type":"eng",
     "country":"NL",
+    "city":"Haarlem ",
+    "lon":4.643559696559635,
+    "lat":52.383705750000004,
     "order":380,
     "projects":[142,216]
               }
@@ -3044,6 +4184,9 @@
     "name":"Pirmin Jung",
     "type":"eng",
     "country":"CH",
+    "city":"Rain",
+    "lon":8.25914,
+    "lat":47.1311133,
     "order":381,
     "projects":[56,118,126,173,197,208,228,250,251,300]
               }
@@ -3052,6 +4195,9 @@
     "name":"Piveteaubois",
     "type":"fab",
     "country":"FR",
+    "city":"Essarts-en-Bocage",
+    "lon":-1.2128522788918927,
+    "lat":46.7860407,
     "order":382,
     "projects":[165]
               }
@@ -3060,6 +4206,9 @@
     "name":"PJCE",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":383,
     "projects":[157,130]
               }
@@ -3068,14 +4217,20 @@
     "name":"Plan4 AG",
     "type":"eng",
     "country":"CH",
+    "city":"Bonaduz",
+    "lon":9.3984396,
+    "lat":46.81132,
     "order":384,
     "projects":[163]
               }
 ,
 {"id": "385",
-    "name":"Planungsbüro für Hoch und Tiefbau Dr. Ing. Stefano Brunetti",
+    "name":"Planungsb�ro f�r Hoch und Tiefbau Dr. Ing. Stefano Brunetti",
     "type":"eng",
     "country":"IT",
+    "city":"Bruneck",
+    "lon":11.9355121,
+    "lat":46.7963194,
     "order":385,
     "projects":[169]
               }
@@ -3084,6 +4239,9 @@
     "name":"Planungsgesellschaft Dittrich MBH",
     "type":"eng",
     "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079,
     "order":386,
     "projects":[59,68]
               }
@@ -3092,6 +4250,9 @@
     "name":"PLANUNGSWERFT Schuchard & Stolte Ing. GmbH",
     "type":"eng",
     "country":"DE",
+    "city":"Husum",
+    "lon":9.0538156,
+    "lat":54.4853638,
     "order":387,
     "projects":[202]
               }
@@ -3100,6 +4261,9 @@
     "name":"pool Architekten",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":388,
     "projects":[27,41,111]
               }
@@ -3108,6 +4272,9 @@
     "name":"Poppensieker & Derix GmbH & Co. KG",
     "type":"fab",
     "country":"DE",
+    "city":"Westerkappeln",
+    "lon":7.8772237,
+    "lat":52.3141716,
     "order":389,
     "projects":[202]
               }
@@ -3116,6 +4283,9 @@
     "name":"POST architectes",
     "type":"arch",
     "country":"FR",
+    "city":"Lille",
+    "lon":3.0635282,
+    "lat":50.6365654,
     "order":390,
     "projects":[198]
               }
@@ -3124,6 +4294,9 @@
     "name":"PPA architectures",
     "type":"arch",
     "country":"FR",
+    "city":"Toulouse",
+    "lon":1.4442469,
+    "lat":43.6044622,
     "order":391,
     "projects":[116]
               }
@@ -3132,6 +4305,9 @@
     "name":"PPAG architects ztgmbh",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":392,
     "projects":[123]
               }
@@ -3140,6 +4316,9 @@
     "name":"Praeger Richter Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":393,
     "projects":[273]
               }
@@ -3148,6 +4327,9 @@
     "name":"Price & Myers",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":394,
     "projects":[23,44,80,89,135,143,194]
               }
@@ -3156,6 +4338,9 @@
     "name":"Projekt-Bau Kluge",
     "type":"eng",
     "country":"DE",
+    "city":"Kerkwitz",
+    "lon":14.634763663265101,
+    "lat":51.9057314,
     "order":395,
     "projects":[273]
               }
@@ -3164,6 +4349,9 @@
     "name":"Projektbyggaren",
     "type":"eng",
     "country":"SE",
+    "city":"Karlskrona",
+    "lon":15.5866422,
+    "lat":56.1621073,
     "order":396,
     "projects":[246]
               }
@@ -3172,14 +4360,20 @@
     "name":"Proscnium Architecture+Interiors",
     "type":"arch",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":397,
     "projects":[110]
               }
 ,
 {"id": "398",
-    "name":"Pyrénées Charpentes",
+    "name":"Pyr�n�es Charpentes",
     "type":"fab",
     "country":"FR",
+    "city":"Agos-Vidalos",
+    "lon":-0.0720746,
+    "lat":43.0343616,
     "order":398,
     "projects":[116,212]
               }
@@ -3188,6 +4382,9 @@
     "name":"Quadriplus Group",
     "type":"eng",
     "country":"FR",
+    "city":"Vaulx-en-Velin",
+    "lon":4.9206153,
+    "lat":45.7784255,
     "order":399,
     "projects":[253]
               }
@@ -3196,6 +4393,9 @@
     "name":"Quay2c Architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":400,
     "projects":[6]
               }
@@ -3204,6 +4404,9 @@
     "name":"r2k Architecte",
     "type":"arch",
     "country":"FR",
+    "city":"Grenoble",
+    "lon":5.7357819,
+    "lat":45.1875602,
     "order":401,
     "projects":[58]
               }
@@ -3212,6 +4415,9 @@
     "name":"Raimund Baumgartner GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Reichenfels",
+    "lon":14.7399095,
+    "lat":47.0076132,
     "order":402,
     "projects":[67]
               }
@@ -3220,6 +4426,9 @@
     "name":"Raker Rhodes Engineering",
     "type":"eng",
     "country":"US",
+    "city":"Des Moines",
+    "lon":-93.6046655,
+    "lat":41.5910323,
     "order":403,
     "projects":[204]
               }
@@ -3228,6 +4437,9 @@
     "name":"Ramboll",
     "type":"eng",
     "country":"DK",
+    "city":"Copenhagen",
+    "lon":12.5700724,
+    "lat":55.6867243,
     "order":404,
     "projects":[26,67,90,99,146,157]
               }
@@ -3236,6 +4448,9 @@
     "name":"Rapin Saiz Architectes ",
     "type":"arch",
     "country":"CH",
+    "city":"Vevey",
+    "lon":6.8418655,
+    "lat":46.4602978,
     "order":405,
     "projects":[94]
               }
@@ -3244,6 +4459,9 @@
     "name":"Rapp Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Ulm",
+    "lon":9.9934336,
+    "lat":48.3974003,
     "order":406,
     "projects":[254]
               }
@@ -3252,6 +4470,9 @@
     "name":"Ratio Bois",
     "type":"eng",
     "country":"CH",
+    "city":"Cuarny",
+    "lon":6.6884422,
+    "lat":46.7700368,
     "order":407,
     "projects":[94]
               }
@@ -3260,6 +4481,9 @@
     "name":"RAU Architects",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":408,
     "projects":[245]
               }
@@ -3268,6 +4492,9 @@
     "name":"Reich und Seiler Freie Architekten BDA",
     "type":"arch",
     "country":"DE",
+    "city":"Karlsruhe",
+    "lon":8.4034195,
+    "lat":49.0068705,
     "order":409,
     "projects":[293]
               }
@@ -3276,6 +4503,9 @@
     "name":"Renggli AG",
     "type":"eng",
     "country":"CH",
+    "city":"Winterthur",
+    "lon":8.7291498,
+    "lat":47.4991723,
     "order":410,
     "projects":[119,151,261,279]
               }
@@ -3284,6 +4514,9 @@
     "name":"Richard Jackson Limited",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":411,
     "projects":[104]
               }
@@ -3292,6 +4525,9 @@
     "name":"Riepl Riepl Architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":412,
     "projects":[4]
               }
@@ -3300,6 +4536,9 @@
     "name":"RJC Engineers",
     "type":"eng",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":413,
     "projects":[168]
               }
@@ -3308,6 +4547,9 @@
     "name":"Robert Bird Group",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":414,
     "projects":[127]
               }
@@ -3316,14 +4558,20 @@
     "name":"roedig.schop architekten bda",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":415,
     "projects":[40]
               }
 ,
 {"id": "416",
-    "name":"Rolf Mühlethaler",
+    "name":"Rolf M�hlethaler",
     "type":"arch",
     "country":"CH",
+    "city":"Bern",
+    "lon":7.4514512,
+    "lat":46.9482713,
     "order":416,
     "projects":[151,210]
               }
@@ -3332,6 +4580,9 @@
     "name":"Rolton Group",
     "type":"eng",
     "country":"GB",
+    "city":"Higham Ferrers",
+    "lon":-0.5923318,
+    "lat":52.3060303,
     "order":417,
     "projects":[155]
               }
@@ -3340,6 +4591,9 @@
     "name":"Rositch Hemphill Architects",
     "type":"arch",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":418,
     "projects":[201]
               }
@@ -3348,6 +4602,9 @@
     "name":"RossiProdi Associati",
     "type":"arch",
     "country":"IT",
+    "city":"Firenze",
+    "lon":11.2555757,
+    "lat":43.7698712,
     "order":419,
     "projects":[75]
               }
@@ -3356,6 +4613,9 @@
     "name":"Royal Haskoning DHV",
     "type":"eng",
     "country":"NL",
+    "city":"Amersfoort",
+    "lon":5.3896944,
+    "lat":52.1562499,
     "order":420,
     "projects":[42]
               }
@@ -3364,14 +4624,20 @@
     "name":"Rubner Holzbau",
     "type":"fab",
     "country":"DE",
+    "city":"Augsburg",
+    "lon":10.8986971,
+    "lat":48.3668041,
     "order":421,
     "projects":[143,286]
               }
 ,
 {"id": "422",
-    "name":"Rüdiger Lainer + Partner",
+    "name":"R�diger Lainer + Partner",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":422,
     "projects":[183,266]
               }
@@ -3380,6 +4646,9 @@
     "name":"Ruggli Partner",
     "type":"eng",
     "country":"CH",
+    "city":"Z�rich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":423,
     "projects":[54]
               }
@@ -3388,6 +4657,9 @@
     "name":"rundzwei Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":424,
     "projects":[214]
               }
@@ -3396,6 +4668,9 @@
     "name":"RWT PLUS",
     "type":"eng",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":425,
     "projects":[76]
               }
@@ -3404,6 +4679,9 @@
     "name":"Ryan Companies Architecture + Engineering",
     "type":"arch",
     "country":"US",
+    "city":"Minneapolis",
+    "lon":-93.2654692,
+    "lat":44.9772995,
     "order":426,
     "projects":[204]
               }
@@ -3412,6 +4690,9 @@
     "name":"SAAHA architects",
     "type":"arch",
     "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301,
     "order":427,
     "projects":[209]
               }
@@ -3420,6 +4701,9 @@
     "name":"Santner & Spehs OEG",
     "type":"fab",
     "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678,
     "order":428,
     "projects":[5]
               }
@@ -3428,6 +4712,9 @@
     "name":"sAtt Arquitectura",
     "type":"arch",
     "country":"ES",
+    "city":"Madrid",
+    "lon":-3.7035825,
+    "lat":40.4167047,
     "order":429,
     "projects":[264]
               }
@@ -3436,22 +4723,31 @@
     "name":"Sauerbruch Hutton",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":430,
     "projects":[174]
               }
 ,
 {"id": "431",
-    "name":"Schäfer Engineering",
+    "name":"Sch�fer Engineering",
     "type":"eng",
     "country":"DE",
+    "city":"Hohenwart",
+    "lon":11.3861269,
+    "lat":48.5925228,
     "order":431,
     "projects":[102]
               }
 ,
 {"id": "432",
-    "name":"schäferwenningerprojekt GmbH",
+    "name":"sch�ferwenningerprojekt GmbH",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":432,
     "projects":[229]
               }
@@ -3460,6 +4756,9 @@
     "name":"Schankula Architects",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":433,
     "projects":[22,33]
               }
@@ -3468,6 +4767,9 @@
     "name":"Scharabi Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":434,
     "projects":[184]
               }
@@ -3476,6 +4778,9 @@
     "name":"Scheitlin-Syfrig",
     "type":"arch",
     "country":"CH",
+    "city":"Luzern",
+    "lon":8.3054682,
+    "lat":47.0505452,
     "order":435,
     "projects":[7]
               }
@@ -3484,6 +4789,9 @@
     "name":"Schluder Architektur",
     "type":"arch",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":436,
     "projects":[76]
               }
@@ -3492,6 +4800,9 @@
     "name":"architekt christoph schneider",
     "type":"arch",
     "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079,
     "order":437,
     "projects":[113]
               }
@@ -3500,14 +4811,20 @@
     "name":"Scope Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Stuttgart",
+    "lon":9.1800132,
+    "lat":48.7784485,
     "order":438,
     "projects":[248]
               }
 ,
 {"id": "439",
-    "name":"Scott Rasmusson Källander",
+    "name":"Scott Rasmusson K�llander",
     "type":"arch",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":439,
     "projects":[167]
               }
@@ -3516,6 +4833,9 @@
     "name":"Scott Williams",
     "type":"arch",
     "country":"US",
+    "city":"Madison",
+    "lon":-89.3837613,
+    "lat":43.074761,
     "order":440,
     "projects":[15]
               }
@@ -3524,6 +4844,9 @@
     "name":"SCYNA 4",
     "type":"eng",
     "country":"FR",
+    "city":"Ivry-sur-Seine",
+    "lon":2.3872525,
+    "lat":48.8122302,
     "order":441,
     "projects":[222,257]
               }
@@ -3532,6 +4855,9 @@
     "name":"SeARCH",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":442,
     "projects":[185]
               }
@@ -3540,6 +4866,9 @@
     "name":"Seiler Linhart Architekten",
     "type":"arch",
     "country":"CH",
+    "city":"Luzern",
+    "lon":8.3054682,
+    "lat":47.0505452,
     "order":443,
     "projects":[260]
               }
@@ -3548,6 +4877,9 @@
     "name":"Sertelet",
     "type":"fab",
     "country":"FR",
+    "city":"Provench�res-sur-Fave",
+    "lon":7.073765463138623,
+    "lat":48.3155291,
     "order":444,
     "projects":[96]
               }
@@ -3556,6 +4888,9 @@
     "name":"Service Legno",
     "type":"fab",
     "country":"IT",
+    "city":"Picerno ",
+    "lon":15.6358739,
+    "lat":40.6384561,
     "order":445,
     "projects":[50]
               }
@@ -3564,6 +4899,9 @@
     "name":"Setra",
     "type":"fab",
     "country":"SE",
+    "city":"Solna",
+    "lon":18.0013693,
+    "lat":59.361367,
     "order":446,
     "projects":[213]
               }
@@ -3572,6 +4910,9 @@
     "name":"Sheppard Robson",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":447,
     "projects":[26]
               }
@@ -3580,6 +4921,9 @@
     "name":"Shigeru Ban",
     "type":"arch",
     "country":"JP",
+    "city":"Tokyo",
+    "lon":139.757653,
+    "lat":35.6812665,
     "order":448,
     "projects":[73,233]
               }
@@ -3588,6 +4932,9 @@
     "name":"shl ingenieure",
     "type":"eng",
     "country":"DE",
+    "city":"Hannover",
+    "lon":9.7385532,
+    "lat":52.3744779,
     "order":449,
     "projects":[284]
               }
@@ -3596,6 +4943,9 @@
     "name":"Sieveke Zimmerei",
     "type":"fab",
     "country":"DE",
+    "city":"Lohne",
+    "lon":8.2363523,
+    "lat":52.665257,
     "order":450,
     "projects":[214]
               }
@@ -3604,6 +4954,9 @@
     "name":"sitka.kaserer.architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Saalfelden",
+    "lon":12.8481048,
+    "lat":47.4266166,
     "order":451,
     "projects":[35]
               }
@@ -3612,6 +4965,9 @@
     "name":"SJB Kempter Fitze AG",
     "type":"eng",
     "country":"CH",
+    "city":"Herisau",
+    "lon":9.2787571,
+    "lat":47.38555,
     "order":452,
     "projects":[27,79,86,233]
               }
@@ -3620,6 +4976,9 @@
     "name":"Skylab",
     "type":"arch",
     "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471,
     "order":453,
     "projects":[239]
               }
@@ -3628,6 +4987,9 @@
     "name":"SmartLam NA",
     "type":"fab",
     "country":"US",
+    "city":"Columbia Falls",
+    "lon":-114.191582,
+    "lat":48.3697168,
     "order":454,
     "projects":[15]
               }
@@ -3636,6 +4998,9 @@
     "name":"SNC Lavalin",
     "type":"eng",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":455,
     "projects":[165]
               }
@@ -3644,6 +5009,9 @@
     "name":"Sohm HolzBautechnik GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Alberschwende",
+    "lon":9.843567738999367,
+    "lat":47.46147515,
     "order":456,
     "projects":[111]
               }
@@ -3652,6 +5020,9 @@
     "name":"SOPPELSA ARCHITEKTEN",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":457,
     "projects":[195]
               }
@@ -3660,6 +5031,9 @@
     "name":"Space M2",
     "type":"fab",
     "country":"SE",
+    "city":"Kv�num",
+    "lon":13.1865957,
+    "lat":58.3014307,
     "order":458,
     "projects":[181]
               }
@@ -3668,6 +5042,9 @@
     "name":"Specimen Architects",
     "type":"arch",
     "country":"BE",
+    "city":"Namur",
+    "lon":4.8661892,
+    "lat":50.4665284,
     "order":459,
     "projects":[189]
               }
@@ -3676,6 +5053,9 @@
     "name":"Spillmann Echsle Architekten",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":460,
     "projects":[153]
               }
@@ -3684,6 +5064,9 @@
     "name":"Spreen Architekten",
     "type":"arch",
     "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079,
     "order":461,
     "projects":[223]
               }
@@ -3692,6 +5075,9 @@
     "name":"Spridd",
     "type":"arch",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":462,
     "projects":[170]
               }
@@ -3700,6 +5086,9 @@
     "name":"sps architekten",
     "type":"arch",
     "country":"AT",
+    "city":"Thalgau",
+    "lon":13.2535481,
+    "lat":47.8414905,
     "order":463,
     "projects":[10,69,109]
               }
@@ -3708,6 +5097,9 @@
     "name":"Stantec",
     "type":"eng",
     "country":"CA",
+    "city":"Edmonton",
+    "lon":-113.491241,
+    "lat":53.5462055,
     "order":464,
     "projects":[30,272]
               }
@@ -3716,6 +5108,9 @@
     "name":"Stifter + Bachmann",
     "type":"arch",
     "country":"IT",
+    "city":"Bachla",
+    "lon":11.894550,
+    "lat":46.813210,
     "order":465,
     "projects":[169]
               }
@@ -3724,6 +5119,9 @@
     "name":"Stora Enso",
     "type":"fab",
     "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881,
     "order":466,
     "projects":[64,106,123,125,139,178,182,191,193,198,212,269,280,290,297]
               }
@@ -3732,6 +5130,9 @@
     "name":"STRABAG",
     "type":"fab",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":467,
     "projects":[57]
               }
@@ -3740,6 +5141,9 @@
     "name":"Strobl Bau - Holzbau GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Weiz",
+    "lon":15.6221694,
+    "lat":47.2174206,
     "order":468,
     "projects":[192,219]
               }
@@ -3748,6 +5152,9 @@
     "name":"Structure Workshop",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":469,
     "projects":[91]
               }
@@ -3756,6 +5163,9 @@
     "name":"StructureCraft",
     "type":"fab",
     "country":"CA",
+    "city":"Abbotsford",
+    "lon":-122.329479,
+    "lat":49.0521162,
     "order":470,
     "projects":[145,204,241,242]
               }
@@ -3764,6 +5174,9 @@
     "name":"Structurlam Mass Timber Corporation",
     "type":"fab",
     "country":"CA",
+    "city":"Penticton",
+    "lon":-119.5932499,
+    "lat":49.5003268,
     "order":471,
     "projects":[52,100,110,168,176,201]
               }
@@ -3772,6 +5185,9 @@
     "name":"Studio Ekberg",
     "type":"arch",
     "country":"SE",
+    "city":"G�teborg",
+    "lon":11.9670171,
+    "lat":57.7072326,
     "order":472,
     "projects":[217]
               }
@@ -3780,6 +5196,9 @@
     "name":"Studio RHE",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":473,
     "projects":[187]
               }
@@ -3788,6 +5207,9 @@
     "name":"Sursee Tschopp Holzbau AG",
     "type":"fab",
     "country":"CH",
+    "city":"Hochdorf",
+    "lon":8.2899709,
+    "lat":47.1665361,
     "order":474,
     "projects":[126]
               }
@@ -3796,6 +5218,9 @@
     "name":"Sweco",
     "type":"eng",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":475,
     "projects":[93,106,114,128,232,252,301]
               }
@@ -3804,6 +5229,9 @@
     "name":"Sylla Widmann Architectes SA",
     "type":"arch",
     "country":"CH",
+    "city":"Geneva",
+    "lon":6.1466014,
+    "lat":46.2017559,
     "order":476,
     "projects":[278]
               }
@@ -3812,14 +5240,20 @@
     "name":"Sylva Conseil",
     "type":"eng",
     "country":"FR",
+    "city":"Clermont-Ferrand",
+    "lon":3.0819427,
+    "lat":45.7774551,
     "order":477,
     "projects":[257,290]
               }
 ,
 {"id": "478",
-    "name":"T ingénierie sa",
+    "name":"T ing�nierie sa",
     "type":"eng",
     "country":"CH",
+    "city":"Geneva",
+    "lon":6.1466014,
+    "lat":46.2017559,
     "order":478,
     "projects":[207]
               }
@@ -3828,6 +5262,9 @@
     "name":"Takenaka Corporation",
     "type":"arch",
     "country":"JP",
+    "city":"Osaka ",
+    "lon":135.5014539,
+    "lat":34.6937569,
     "order":479,
     "projects":[65]
               }
@@ -3836,6 +5273,9 @@
     "name":"Team V Architecture",
     "type":"arch",
     "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8936041,
+    "lat":52.3727598,
     "order":480,
     "projects":[294]
               }
@@ -3844,6 +5284,9 @@
     "name":"Techniker Limited",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":481,
     "projects":[21]
               }
@@ -3852,6 +5295,9 @@
     "name":"Tectoniques Architectes",
     "type":"arch",
     "country":"FR",
+    "city":"Bordeaux",
+    "lon":-0.5800364,
+    "lat":44.841225,
     "order":482,
     "projects":[149]
               }
@@ -3860,6 +5306,9 @@
     "name":"TEd'A arquitectes",
     "type":"arch",
     "country":"ES",
+    "city":"Palma de Mallorca",
+    "lon":2.6500745,
+    "lat":39.5695818,
     "order":483,
     "projects":[94]
               }
@@ -3868,6 +5317,9 @@
     "name":"Teknespa",
     "type":"eng",
     "country":"IT",
+    "city":"Milan",
+    "lon":9.1896346,
+    "lat":45.4641943,
     "order":484,
     "projects":[75]
               }
@@ -3876,6 +5328,9 @@
     "name":"Tengbom",
     "type":"arch",
     "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881,
     "order":485,
     "projects":[244]
               }
@@ -3884,6 +5339,9 @@
     "name":"Terhalle Holzbau",
     "type":"fab",
     "country":"DE",
+    "city":"Ahaus",
+    "lon":7.004876,
+    "lat":52.0761541,
     "order":486,
     "projects":[275]
               }
@@ -3892,6 +5350,9 @@
     "name":"Terrell",
     "type":"eng",
     "country":"FR",
+    "city":"Paris",
+    "lon":2.3200410217200766,
+    "lat":48.8588897,
     "order":487,
     "projects":[212,225,296]
               }
@@ -3900,6 +5361,9 @@
     "name":"Tharpe Engineering Group",
     "type":"eng",
     "country":"US",
+    "city":"Savanna",
+    "lon":-81.0951271,
+    "lat":32.0564572,
     "order":488,
     "projects":[203]
               }
@@ -3908,6 +5372,9 @@
     "name":"Thornton Tomasetti",
     "type":"eng",
     "country":"US",
+    "city":"New York",
+    "lon":-74.0060152,
+    "lat":40.7127281,
     "order":489,
     "projects":[124]
               }
@@ -3916,6 +5383,9 @@
     "name":"Timbatec AG",
     "type":"fab",
     "country":"CH",
+    "city":"Thun",
+    "lon":7.628086,
+    "lat":46.7582827,
     "order":490,
     "projects":[39,153,195]
               }
@@ -3924,6 +5394,9 @@
     "name":"Timberpoint Oy",
     "type":"fab",
     "country":"FI",
+    "city":"Loviisa",
+    "lon":26.2271433,
+    "lat":60.4564226,
     "order":491,
     "projects":[252]
               }
@@ -3932,6 +5405,9 @@
     "name":"TK Botnia",
     "type":"eng",
     "country":"SE",
+    "city":"Burtr�sk",
+    "lon":20.6557865,
+    "lat":64.5190044,
     "order":492,
     "projects":[244,299]
               }
@@ -3940,6 +5416,9 @@
     "name":"TPFI",
     "type":"eng",
     "country":"FR",
+    "city":"Marseille",
+    "lon":5.3699525,
+    "lat":43.2961743,
     "order":493,
     "projects":[156]
               }
@@ -3948,6 +5427,9 @@
     "name":"Tragwerkpartner zt GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Innsbruck",
+    "lon":11.3927685,
+    "lat":47.2654296,
     "order":494,
     "projects":[287]
               }
@@ -3956,6 +5438,9 @@
     "name":"Trass Arquitectura",
     "type":"arch",
     "country":"ES",
+    "city":"Balaguer",
+    "lon":0.8054914,
+    "lat":41.7897204,
     "order":495,
     "projects":[81]
               }
@@ -3964,6 +5449,9 @@
     "name":"Treskower Zimmerer und Dachdecker GmbH",
     "type":"fab",
     "country":"DE",
+    "city":"M�rkisch Linden",
+    "lon":12.718244941196524,
+    "lat":52.93329305,
     "order":496,
     "projects":[273]
               }
@@ -3972,6 +5460,9 @@
     "name":"TRIA STUDIO d.o.o.",
     "type":"arch",
     "country":"SI",
+    "city":"Menge�",
+    "lon":14.5722166,
+    "lat":46.1629579,
     "order":497,
     "projects":[188]
               }
@@ -3980,6 +5471,9 @@
     "name":"TRIAX ZIVILTECHNIK GmbH",
     "type":"eng",
     "country":"AT",
+    "city":"Linz",
+    "lon":14.286198,
+    "lat":48.3059078,
     "order":498,
     "projects":[138]
               }
@@ -3988,14 +5482,20 @@
     "name":"Turun Elementtiasennus Oy",
     "type":"fab",
     "country":"FI",
+    "city":"Kaarina",
+    "lon":22.3678223,
+    "lat":60.407169,
     "order":499,
     "projects":[301]
               }
 ,
 {"id": "500",
-    "name":"Tyréns",
+    "name":"Tyr�ns",
     "type":"eng",
     "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172,
     "order":500,
     "projects":[97]
               }
@@ -4004,6 +5504,9 @@
     "name":"Tzannes",
     "type":"arch",
     "country":"AU",
+    "city":"Sydney",
+    "lon":151.2082848,
+    "lat":-33.8698439,
     "order":501,
     "projects":[139,177]
               }
@@ -4012,22 +5515,31 @@
     "name":"Uffer AG",
     "type":"fab",
     "country":"CH",
+    "city":"Savognin",
+    "lon":9.5981493,
+    "lat":46.596957,
     "order":502,
     "projects":[199]
               }
 ,
 {"id": "503",
-    "name":"uli mayer urs hüssy architekten eth sia ag",
+    "name":"uli mayer urs h�ssy architekten eth sia ag",
     "type":"arch",
     "country":"LI",
+    "city":"Triesen",
+    "lon":9.5274876,
+    "lat":47.106994,
     "order":503,
     "projects":[112]
               }
 ,
 {"id": "504",
-    "name":"Urech Bärtschi Maurer AG",
+    "name":"Urech B�rtschi Maurer AG",
     "type":"eng",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":504,
     "projects":[39]
               }
@@ -4036,6 +5548,9 @@
     "name":"Vandkunsten Architects",
     "type":"arch",
     "country":"DK",
+    "city":"Copenhagen",
+    "lon":12.5700724,
+    "lat":55.6867243,
     "order":505,
     "projects":[1]
               }
@@ -4044,6 +5559,9 @@
     "name":"Verve architekten",
     "type":"arch",
     "country":"CH",
+    "city":"Bienne",
+    "lon":7.2439029,
+    "lat":47.1402077,
     "order":506,
     "projects":[279]
               }
@@ -4052,6 +5570,9 @@
     "name":"Vistek",
     "type":"eng",
     "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176,
     "order":507,
     "projects":[205]
               }
@@ -4060,6 +5581,9 @@
     "name":"Voll Arkitekter",
     "type":"arch",
     "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475,
     "order":508,
     "projects":[232]
               }
@@ -4068,14 +5592,20 @@
     "name":"VON M Architektur",
     "type":"arch",
     "country":"DE",
+    "city":"Stuttgart",
+    "lon":9.1800132,
+    "lat":48.7784485,
     "order":509,
     "projects":[224]
               }
 ,
 {"id": "510",
-    "name":"Vorarlberger Ökohaus GmbH",
+    "name":"Vorarlberger �kohaus GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Ludesch",
+    "lon":9.795469763416893,
+    "lat":47.193859,
     "order":510,
     "projects":[2]
               }
@@ -4084,6 +5614,9 @@
     "name":"W2 architekten AG",
     "type":"arch",
     "country":"CH",
+    "city":"Bern",
+    "lon":7.4514512,
+    "lat":46.9482713,
     "order":511,
     "projects":[18]
               }
@@ -4092,6 +5625,9 @@
     "name":"Walsh Associates",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":512,
     "projects":[103]
               }
@@ -4100,6 +5636,9 @@
     "name":"Walter Bieler AG",
     "type":"eng",
     "country":"CH",
+    "city":"Bonaduz",
+    "lon":9.3984396,
+    "lat":46.81132,
     "order":513,
     "projects":[199]
               }
@@ -4108,6 +5647,9 @@
     "name":"WAUGH THISTLETON ARCHITECTS",
     "type":"arch",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":514,
     "projects":[21,53,104,150,152,157,194,243,255]
               }
@@ -4116,6 +5658,9 @@
     "name":"Webb Yates Engineers",
     "type":"eng",
     "country":"GB",
+    "city":"London",
+    "lon":-0.1276474,
+    "lat":51.5073219,
     "order":515,
     "projects":[134]
               }
@@ -4124,6 +5669,9 @@
     "name":"weberbrunner architekten AG",
     "type":"arch",
     "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":516,
     "projects":[195]
               }
@@ -4132,6 +5680,9 @@
     "name":"Weissenseer Holz-System-Bau GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Greifenburg",
+    "lon":13.1804131,
+    "lat":46.7506053,
     "order":517,
     "projects":[140,221]
               }
@@ -4140,6 +5691,9 @@
     "name":"Wenaweser + Partner Bauingenieure AG ",
     "type":"eng",
     "country":"LI",
+    "city":"Schaan",
+    "lon":9.510312,
+    "lat":47.1663397,
     "order":518,
     "projects":[112]
               }
@@ -4148,6 +5702,9 @@
     "name":"Werner Ettwein GmbH",
     "type":"fab",
     "country":"DE",
+    "city":"Villingen-Schwenningen",
+    "lon":8.4945022,
+    "lat":48.0632359,
     "order":519,
     "projects":[159]
               }
@@ -4156,6 +5713,9 @@
     "name":"Western Archrib",
     "type":"fab",
     "country":"CA",
+    "city":"Edmonton",
+    "lon":-113.491241,
+    "lat":53.5462055,
     "order":520,
     "projects":[31]
               }
@@ -4164,6 +5724,9 @@
     "name":"WETZEL & von SEHT",
     "type":"eng",
     "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341,
     "order":521,
     "projects":[174]
               }
@@ -4172,6 +5735,9 @@
     "name":"White Arkitekter",
     "type":"arch",
     "country":"SE",
+    "city":"Gothenburg",
+    "lon":11.9670171,
+    "lat":57.7072326,
     "order":522,
     "projects":[180,298,299]
               }
@@ -4180,6 +5746,9 @@
     "name":"Wicke Herfst Maver Structural Engineers",
     "type":"eng",
     "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724,
     "order":523,
     "projects":[201]
               }
@@ -4188,6 +5757,9 @@
     "name":"Wiehag",
     "type":"fab",
     "country":"AT",
+    "city":"Austria",
+    "lon":13.238550,
+    "lat":48.248290,
     "order":524,
     "projects":[187]
               }
@@ -4196,14 +5768,20 @@
     "name":"Winell & Jern Arkitekter",
     "type":"arch",
     "country":"SE",
+    "city":"Link�ping",
+    "lon":15.6245252,
+    "lat":58.4098135,
     "order":525,
     "projects":[172]
               }
 ,
 {"id": "526",
-    "name":"Wingårdhs",
+    "name":"Wing�rdhs",
     "type":"arch",
     "country":"SE",
+    "city":"Malm�",
+    "lon":13.0001566,
+    "lat":55.6052931,
     "order":526,
     "projects":[97,268]
               }
@@ -4212,6 +5790,9 @@
     "name":"Woodcon",
     "type":"fab",
     "country":"NO",
+    "city":"Brumunddal",
+    "lon":10.9418392,
+    "lat":60.884916,
     "order":527,
     "projects":[123,125,178,246]
               }
@@ -4220,6 +5801,9 @@
     "name":"Works Progress Architecture",
     "type":"arch",
     "country":"US",
+    "city":"Los Angeles",
+    "lon":-118.242766,
+    "lat":34.0536909,
     "order":528,
     "projects":[108,179]
               }
@@ -4228,6 +5812,9 @@
     "name":"Woschitz Group",
     "type":"eng",
     "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537,
     "order":529,
     "projects":[3,183,219,266]
               }
@@ -4236,6 +5823,9 @@
     "name":"WSP",
     "type":"eng",
     "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824,
     "order":530,
     "projects":[60,67,92,123,177,193,271]
               }
@@ -4244,6 +5834,9 @@
     "name":"X ARCHITEKTEN ZT GmbH",
     "type":"arch",
     "country":"AT",
+    "city":"Linz",
+    "lon":14.286198,
+    "lat":48.3059078,
     "order":531,
     "projects":[138]
               }
@@ -4252,6 +5845,9 @@
     "name":"Xylo",
     "type":"eng",
     "country":"LI",
+    "city":"Schaan",
+    "lon":9.510312,
+    "lat":47.1663397,
     "order":532,
     "projects":[32,112]
               }
@@ -4260,6 +5856,9 @@
     "name":"Yamashita Sekkei Inc.",
     "type":"arch",
     "country":"JP",
+    "city":"Tokyo",
+    "lon":139.757653,
+    "lat":35.6812665,
     "order":533,
     "projects":[34]
               }
@@ -4268,6 +5867,9 @@
     "name":"Yvan Blouin Architecte",
     "type":"arch",
     "country":"CA",
+    "city":"Chemin Sainte-Foy",
+    "lon":-71.289410,
+    "lat":46.783610,
     "order":534,
     "projects":[166]
               }
@@ -4276,14 +5878,20 @@
     "name":"Zimmerei Berchtel GmbH",
     "type":"fab",
     "country":"AT",
+    "city":"Schnifis",
+    "lon":9.732778000244412,
+    "lat":47.221933,
     "order":535,
     "projects":[16]
               }
 ,
 {"id": "536",
-    "name":"Zimmereigenossenschaft Zürich",
+    "name":"Zimmereigenossenschaft Z�rich",
     "type":"fab",
     "country":"CH",
+    "city":"Z�rich",
+    "lon":8.5410422,
+    "lat":47.3744489,
     "order":536,
     "projects":[79]
               }
@@ -4292,6 +5900,9 @@
     "name":"ZRS",
     "type":"arch",
     "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365,
     "order":537,
     "projects":[249]
               }
@@ -4300,14 +5911,20 @@
     "name":"ZTE Leitner",
     "type":"eng",
     "country":"AT",
+    "city":"Schr�cken",
+    "lon":10.092535,
+    "lat":47.2579216,
     "order":538,
     "projects":[77]
               }
 ,
 {"id": "539",
-    "name":"Züblin Timber",
+    "name":"Z�blin Timber",
     "type":"fab",
     "country":"DE",
+    "city":"Stuttgart",
+    "lon":9.1800132,
+    "lat":48.7784485,
     "order":539,
     "projects":[113,215,218,240]
               }

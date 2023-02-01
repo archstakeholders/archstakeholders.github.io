@@ -36,9 +36,10 @@ function GetGraphObj(data){
 
     let countryRepNodes =[];
     let countryRepLinks =[];
-
-
-    data.nodes.forEach(function(n, i) {
+    
+    // filter nodes based on selected roles
+    data.nodes.filter(function(d){ return selectedRoles.includes(d.type)}).forEach(function(n, i) {
+        
         n.label = n.name;     //add label prop.
         plyrs_nodes.push(n);    
 
@@ -71,8 +72,10 @@ function GetGraphObj(data){
         
     });
 
-
-    data.links.forEach(function(lnk) {
+    // filter links based on filtered nodes
+    data.links
+    .filter(function(d){ return plyrs_nodes.flatMap(p => p.id).includes(d.source) && plyrs_nodes.flatMap(p => p.id).includes(d.target)})
+    .forEach(function(lnk) {
         lnk.projects.forEach(function(prjctID){
             let link_obj = {
                 source: lnk.source,
@@ -110,7 +113,7 @@ function GetGraphObj(data){
 
 
     // run force directed simulation
-    simulateForceLayout(project_nodes, project_links, -80);
+    simulateForceLayout(project_nodes, project_links, -60);
     simulateForceLayout(plyrs_nodes, plyrs_links, -50);
     simulateForceLayout(plyrs_nodes_by_country.concat(countryRepNodes), plyrs_links_by_country.concat(countryRepLinks), -50);
 
@@ -156,37 +159,39 @@ function GetGraphObj(data){
 function RedrawNLGraph(svg, gType, selected_enc, graphObj){
     svg.selectAll("*").remove();
 
-    // register fisheye
-    var fisheye = d3.fisheye.circular()
+    // if(gType == GEO_MAP_GRAPH){
+    //     svg.on("mousemove", null);
+    //     //RedrawGeoMap(svg, selected_enc, graphObj);
+    //     RedrawGeoMap2(selected_enc, graphObj);
+    // }else{
+        // register fisheye
+        var fisheye = d3.fisheye.circular()
             .radius(200)
             .distortion(5);
 
-    addDropShadowDef(svg);
-    
-    svg.on("mousemove", function () {
-        fisheye.focus(d3.mouse(this));
-        graphObj.project_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
-        graphObj.plyrs_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
-        graphObj.plyrs_nodes_by_country.forEach(function (d) { d.fisheye = fisheye(d); });
-        
-        setFisheyeCoordinates(graphObj.project_nodes, graphObj.project_players_nodes);
-        setFisheyeCoordinates(graphObj.plyrs_nodes, graphObj.player_projects_nodes);
-        setFisheyeCoordinates(graphObj.plyrs_nodes_by_country, graphObj.player_projects_nodes_by_country);
-        
-        RedrawNLGraph(svg, gType, selected_enc, graphObj);
-    });
+        addDropShadowDef(svg);
 
-    if (gType == PROJECT_NL_GRAPH) {
-        RedrawProjectsNLGraph(svg, selected_enc, graphObj);
-    } else if (gType == PLAYER_NL_GRAPH) {
-        RedrawPlayersNLGraph(svg, selected_enc, graphObj);
-    } else{
-        RedrawPlayersGrpByCountryNLGraph(svg, selected_enc, graphObj);
-    }
+        svg.on("mousemove", function () {
+            fisheye.focus(d3.mouse(this));
+            graphObj.project_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
+            graphObj.plyrs_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
+            graphObj.plyrs_nodes_by_country.forEach(function (d) { d.fisheye = fisheye(d); });
 
-    
-    
+            setFisheyeCoordinates(graphObj.project_nodes, graphObj.project_players_nodes);
+            setFisheyeCoordinates(graphObj.plyrs_nodes, graphObj.player_projects_nodes);
+            setFisheyeCoordinates(graphObj.plyrs_nodes_by_country, graphObj.player_projects_nodes_by_country);
 
+            RedrawNLGraph(svg, gType, selected_enc, graphObj);
+        });
+
+        if (gType == PROJECT_NL_GRAPH) {
+            RedrawProjectsNLGraph(svg, selected_enc, graphObj);
+        } else if (gType == PLAYER_NL_GRAPH) {
+            RedrawPlayersNLGraph(svg, selected_enc, graphObj);
+        } else {
+            RedrawPlayersGrpByCountryNLGraph(svg, selected_enc, graphObj);
+        }
+    // }
     
 }
 
@@ -261,6 +266,56 @@ function RedrawProjectsNLGraph(svg, selected_enc, graphObj){
 
     
 
+}
+
+function DrawMapMarkers(map, palyers){
+    
+    // aggregate points at the same location
+    let aggMarkers = {};
+    palyers.forEach(function (d) { 
+        let key = d.lat+','+d.lon+','+d.type;
+        let plyrsAtSamePos = aggMarkers[key];
+        if(plyrsAtSamePos == undefined){
+            aggMarkers[key] = Array(d);
+        }else{
+            plyrsAtSamePos.push(d);
+        }        
+    });
+
+    // get max number of players at the same loc
+    let maxPlyrsPerLoc = 0;
+    for (const [key, value] of Object.entries(aggMarkers)) {
+        if(value.length > maxPlyrsPerLoc)
+        maxPlyrsPerLoc = value.length;
+    }
+    
+    // clear eveything
+    d3.select("#mapid").select("svg").selectAll("*").remove();
+
+    // Select the svg area and add circles:
+    d3.select("#mapid")
+        .select("svg")
+        .selectAll("myCircles")
+        .data(Object.values(aggMarkers))
+        .enter()
+        .append("circle")
+        .attr("cx", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).x })
+        .attr("cy", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).y })
+        .attr("r", function(d) {return normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxPlyrsPerLoc, d.length)})
+        .style("fill", function (d) { return d3.schemeCategory10[ROLES.indexOf(d[0].type)] })
+        .attr("stroke", function (d) { return d3.schemeCategory10[ROLES.indexOf(d[0].type)] })
+        .attr("stroke-width", 1)
+        .attr("fill-opacity", .5)
+
+    // If the user change the map (zoom or drag), I update circle position:
+    map.on("moveend", updateCircles);
+
+    // Function that update circle position if something change
+    function updateCircles() {
+        d3.select('body').select('#clmn3').selectAll("circle")
+            .attr("cx", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).x })
+            .attr("cy", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).y })
+    }
 }
 
 function DrawRingLabels(g, nodes){
