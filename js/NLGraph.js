@@ -7,10 +7,10 @@ function LookUpProject(pId, project_nodes){
         return (obj.id === prjct_id && obj.type === prjct_type); 
     });
 
-    if(typeof projectnode == 'undefined'){
-        projectnode = {id:prjct_id, type: prjct_type, players: [], label:'prjct'+ prjct_id};
-        project_nodes.push(projectnode);
-    }
+    // if(typeof projectnode == 'undefined'){
+    //     projectnode = {id:prjct_id, type: prjct_type, players: [], label:'prjct'+ prjct_id};
+    //     project_nodes.push(projectnode);
+    // }
 
      
 
@@ -18,7 +18,7 @@ function LookUpProject(pId, project_nodes){
 }
 
 
-function GetGraphObj(data){
+function GetGraphObj(plyr_data, prjct_data){
     
         
     
@@ -36,11 +36,24 @@ function GetGraphObj(data){
 
     let countryRepNodes =[];
     let countryRepLinks =[];
+
+    // populate the project_nodes array
+    prjct_data.nodes.forEach(function(n, i) {
+        n.id = parseInt(n.id);
+        n.type= PROJECT_NODE_TYPE;
+        n.players= [];
+        n.label='prjct:'+ n.name;
+        project_nodes.push(n)
+    });
     
     // filter nodes based on selected roles
-    data.nodes.filter(function(d){ return selectedRoles.includes(d.type)}).forEach(function(n, i) {
+    plyr_data.nodes.filter(function(d){ return selectedRoles.includes(d.type)}).forEach(function(n, i) {
         
         n.label = n.name;     //add label prop.
+        n.projectNames = [];
+        n.projects.forEach(function(pId, i) {
+            n.projectNames.push(LookUpProject(pId, project_nodes).name);
+        });
         plyrs_nodes.push(n);    
 
         // add one representative node for each country
@@ -73,7 +86,7 @@ function GetGraphObj(data){
     });
 
     // filter links based on filtered nodes
-    data.links
+    plyr_data.links
     .filter(function(d){ return plyrs_nodes.flatMap(p => p.id).includes(d.source) && plyrs_nodes.flatMap(p => p.id).includes(d.target)})
     .forEach(function(lnk) {
         lnk.projects.forEach(function(prjctID){
@@ -86,6 +99,9 @@ function GetGraphObj(data){
         });
     });
 
+    // filter projects based on filtered stakeholders
+    project_nodes = project_nodes
+    .filter(function(d){ return d.players.some(r=> plyrs_nodes.flatMap(p => p.id).includes(r))});
 
     // set palyer node size:
     let max_projects_per_player = Math.max.apply(Math, plyrs_nodes.map(function(p) { return p.projects.length; }))
@@ -158,40 +174,41 @@ function GetGraphObj(data){
 }
 function RedrawNLGraph(svg, gType, selected_enc, graphObj){
     svg.selectAll("*").remove();
+    
+    
+    // register fisheye
+    var fisheye = d3.fisheye.circular()
+        .radius(200)
+        .distortion(5);
 
-    // if(gType == GEO_MAP_GRAPH){
-    //     svg.on("mousemove", null);
-    //     //RedrawGeoMap(svg, selected_enc, graphObj);
-    //     RedrawGeoMap2(selected_enc, graphObj);
-    // }else{
-        // register fisheye
-        var fisheye = d3.fisheye.circular()
-            .radius(200)
-            .distortion(5);
+    addDropShadowDef(svg);
 
-        addDropShadowDef(svg);
+    // svg.on("click", function (d) {
+    //     if (d3.event.ctrlKey)
+    //         selectedNode='';
+    // });
+    svg.on("mousemove", function () {
+        fisheye.focus(d3.mouse(this));
+        graphObj.project_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
+        graphObj.plyrs_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
+        graphObj.plyrs_nodes_by_country.forEach(function (d) { d.fisheye = fisheye(d); });
 
-        svg.on("mousemove", function () {
-            fisheye.focus(d3.mouse(this));
-            graphObj.project_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
-            graphObj.plyrs_nodes.forEach(function (d) { d.fisheye = fisheye(d); });
-            graphObj.plyrs_nodes_by_country.forEach(function (d) { d.fisheye = fisheye(d); });
+        setFisheyeCoordinates(graphObj.project_nodes, graphObj.project_players_nodes);
+        setFisheyeCoordinates(graphObj.plyrs_nodes, graphObj.player_projects_nodes);
+        setFisheyeCoordinates(graphObj.plyrs_nodes_by_country, graphObj.player_projects_nodes_by_country);
 
-            setFisheyeCoordinates(graphObj.project_nodes, graphObj.project_players_nodes);
-            setFisheyeCoordinates(graphObj.plyrs_nodes, graphObj.player_projects_nodes);
-            setFisheyeCoordinates(graphObj.plyrs_nodes_by_country, graphObj.player_projects_nodes_by_country);
+        RedrawNLGraph(svg, gType, selected_enc, graphObj);
+        //highlightSelectedNode(svg, gType, selected_enc);
+    });
 
-            RedrawNLGraph(svg, gType, selected_enc, graphObj);
-        });
+    if (gType == PROJECT_NL_GRAPH) {
+        RedrawProjectsNLGraph(svg, selected_enc, graphObj);
+    } else if (gType == PLAYER_NL_GRAPH) {
+        RedrawPlayersNLGraph(svg, selected_enc, graphObj);
+    } else {
+        RedrawPlayersGrpByCountryNLGraph(svg, selected_enc, graphObj);
+    }
 
-        if (gType == PROJECT_NL_GRAPH) {
-            RedrawProjectsNLGraph(svg, selected_enc, graphObj);
-        } else if (gType == PLAYER_NL_GRAPH) {
-            RedrawPlayersNLGraph(svg, selected_enc, graphObj);
-        } else {
-            RedrawPlayersGrpByCountryNLGraph(svg, selected_enc, graphObj);
-        }
-    // }
     
 }
 
@@ -268,54 +285,60 @@ function RedrawProjectsNLGraph(svg, selected_enc, graphObj){
 
 }
 
-function DrawMapMarkers(map, palyers){
+function clearMap(map) {
+    for(i in map._layers) {
+        if(map._layers[i]._path != undefined) {
+            try {
+                map.removeLayer(map._layers[i]);
+            }
+            catch(e) {
+                console.log("problem with " + e + map._layers[i]);
+            }
+        }
+    }
+}
+
+function DrawMapMarkers(map, graphObj, gType){
+    let circleData = [];
+    if (gType == PLAYER_GEO_MAP_GRAPH) {
+        circleData = graphObj['plyrs_nodes'];
+    } else if (gType == PROJECT_GEO_MAP_GRAPH) {
+        circleData = graphObj['project_nodes'];
+    }
     
     // aggregate points at the same location
     let aggMarkers = {};
-    palyers.forEach(function (d) { 
+    circleData.forEach(function (d) { 
         let key = d.lat+','+d.lon+','+d.type;
-        let plyrsAtSamePos = aggMarkers[key];
-        if(plyrsAtSamePos == undefined){
+        let markerAtSamePos = aggMarkers[key];
+        if(markerAtSamePos == undefined){
             aggMarkers[key] = Array(d);
         }else{
-            plyrsAtSamePos.push(d);
+            markerAtSamePos.push(d);
         }        
     });
 
     // get max number of players at the same loc
-    let maxPlyrsPerLoc = 0;
+    let maxCirclePerLoc = 0;
     for (const [key, value] of Object.entries(aggMarkers)) {
-        if(value.length > maxPlyrsPerLoc)
-        maxPlyrsPerLoc = value.length;
+        if(value.length > maxCirclePerLoc)
+        maxCirclePerLoc = value.length;
     }
+
     
     // clear eveything
-    d3.select("#mapid").select("svg").selectAll("*").remove();
+    clearMap(map);
+    Object.values(aggMarkers).forEach(function(d,i){
+        L.circle([d[0].lat, d[0].lon], {
+            color: d3.schemeCategory10[ROLES.indexOf(d[0].type)==-1?5:ROLES.indexOf(d[0].type)],
+            opacity:0.5,
+            fillColor: d3.schemeCategory10[ROLES.indexOf(d[0].type)==-1?5:ROLES.indexOf(d[0].type)],
+            fillOpacity: 0.5,
+            radius: normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxCirclePerLoc, d.length)*5000,
+        }).addTo(map).bindPopup(getPopupInfoFormatted(d));
+    });
 
-    // Select the svg area and add circles:
-    d3.select("#mapid")
-        .select("svg")
-        .selectAll("myCircles")
-        .data(Object.values(aggMarkers))
-        .enter()
-        .append("circle")
-        .attr("cx", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).x })
-        .attr("cy", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).y })
-        .attr("r", function(d) {return normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxPlyrsPerLoc, d.length)})
-        .style("fill", function (d) { return d3.schemeCategory10[ROLES.indexOf(d[0].type)] })
-        .attr("stroke", function (d) { return d3.schemeCategory10[ROLES.indexOf(d[0].type)] })
-        .attr("stroke-width", 1)
-        .attr("fill-opacity", .5)
-
-    // If the user change the map (zoom or drag), I update circle position:
-    map.on("moveend", updateCircles);
-
-    // Function that update circle position if something change
-    function updateCircles() {
-        d3.select('body').select('#clmn3').selectAll("circle")
-            .attr("cx", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).x })
-            .attr("cy", function (d) { return map.latLngToLayerPoint([d[0].lat, d[0].lon]).y })
-    }
+    
 }
 
 function DrawRingLabels(g, nodes){
@@ -355,6 +378,11 @@ function DrawProjectsNodes(svg, project_nodes){
         })
         .on("mouseout", function (d) {
             HideTooltip();
+        })
+        .on("click", function (d) {
+            let info = getNodeInfoFormatted(d);
+            d3.select('#infoPanel').html(info);	
+            selectedNode = d;
         });
 
         
@@ -422,33 +450,14 @@ function DrawPlayersNodes(svg, selected_enc, player_nodes){
 
     plyrSVGNodes.on("mouseover", function (d) {
         ShowTooltip(d.label);
-        // let newIconSize = d.icon_size * 4;
-        
-        // d3.select(this).select('circle')
-        //     .transition()
-        //     .attr("r", function (d) { return 4*(selected_enc == COLOR_BY_ROLE? d.size: d.outline_size); })
-
-        // d3.select(this).select('image')
-        //     .transition()
-        //     .attr("clip-path", function (d) { return cropCircle(svg, d.id + "_" + d.parent_id + "zoomed", d.x, d.y, newIconSize); })
-        //     .attr("x", function (d) { return d.x - (newIconSize / 2.0); })
-        //     .attr("y", function (d) { return d.y - (newIconSize / 2.0); })
-        //     .attr("width", newIconSize)
-        //     .attr("height", newIconSize)
-        //     .attr("height", newIconSize)
     })
     .on("mouseout", function (d) {
         HideTooltip();
-        // d3.select(this).select('circle')
-        //     .transition()
-        //     .attr("r", function (d) { return d.size; })
-        // d3.select(this).select('image')
-        //     .transition()
-        //     .attr("clip-path", function (d) { return cropCircle(svg, d.id + "_" + d.parent_id, d.x, d.y, d.icon_size); })
-        //     .attr("x", function (d) { return d.x - (d.icon_size / 2.0); })
-        //     .attr("y", function (d) { return d.y - (d.icon_size / 2.0); })
-        //     .attr("width", function (d) { return d.icon_size;})
-        //     .attr("height", function (d) { return d.icon_size;})
+    })
+    .on("click", function (d) {
+        let info = getNodeInfoFormatted(d);
+        d3.select('#infoPanel').html(info);	
+        selectedNode = d;
     });
 
 
@@ -876,3 +885,105 @@ function setFisheyeCoordinates(ringNodes, attachedNodes){
     }
 
 }
+
+function getPopupInfoFormatted(lables){
+    
+    let info = '<span class="popuptext"><div class="pin"></div>'+lables[0].city+'<br/>';
+    lables.forEach(function(lable, i) {
+        info+='<div class="dot '+lable.type+'-dot"></div> '+lable.name+'<br/>';
+    });
+    info+='</span>'
+    //info+='<button id = "x" onclick="HidePopup();">X</button>';
+    
+    return info;
+}
+
+function getNodeInfoFormatted(n){
+    
+    let info = '<table>';
+    info+= '<thead><tr><td colspan="2">Node Info</td></tr></thead>';
+    info+='<tbody>';
+    for(let i=0; i < INFO_PANEL_ATTRIBUTES.length; i++){
+        let prop = INFO_PANEL_ATTRIBUTES[i];
+        if (n.hasOwnProperty(prop)) {
+            let valueStr = '';
+            if(Array.isArray(n[prop])){
+                valueStr+='<table>';
+                n[prop].forEach(function(n, i) {
+                    valueStr+='<tr><td>'+n+'</td></tr>';
+                });
+                valueStr+='</table>';
+            }else{
+                valueStr+=n[prop];
+            }
+            info+='<tr><td>'+prop+':</td><td>'+valueStr+'</td></tr>';
+        }
+    }
+    info+='</tbody></table>';
+    
+    return info;
+}
+
+
+
+
+
+// function highlightSelectedNode(svg, gType, selected_enc){
+//     let nodeSVGElements = [];
+//     if(selected_enc == COLOR_BY_COUNTRY){
+//         nodeSVGElements.push('image');
+//     }else if(selected_enc == COLOR_BY_ROLE){
+//         nodeSVGElements.push('circle');
+//     }else if(selected_enc == COLOR_BY_BOTH){
+//         nodeSVGElements.push('image');
+//         nodeSVGElements.push('circle');
+//     }
+
+//     let neighbors = [];
+//     svg.selectAll("line").nodes().forEach(function(d){
+//         let l = d.__data__;
+//         if(l.target.id == selectedNode.id)
+//             neighbors.push(l.source.id);
+//         else if(l.source.id == selectedNode.id)
+//             neighbors.push(l.target.id);
+//     });
+
+//     if(selectedNode!=''){
+    
+//         // fadeout everthing
+//         svg.selectAll("circle").attr("opacity", '0.1' );
+//         svg.selectAll("image").attr("opacity", '0.1' );
+//         svg.selectAll("line").attr("stroke-opacity", '0.1' );
+
+//         // highlight links
+//         let plyrlinks = svg.selectAll("line").filter(function(l){ return l.source.id === selectedNode.id || l.target.id === selectedNode.id});
+//         if(showLinks)
+//             plyrlinks.attr("stroke-opacity", '0.2' );
+
+//         nodeSVGElements.forEach(function(ele,i){
+//             // highlight selected node
+//             svg.selectAll(ele).filter(function(c){ return selectedNode.id === c.id}).attr("opacity", '0.8' );
+
+//             // highlight direct neighbor nodes
+//             svg.selectAll(ele).filter(function(c){ return neighbors.includes(c.id)}).attr("opacity", '0.8' );
+
+//             //highlight selected plyr-projects
+//             if (showRingConnectors && gType == PROJECT_NL_GRAPH) {
+                
+//             } else if (showRingConnectors && gType == PLAYER_NL_GRAPH) {
+//                 svg.selectAll(ele).filter(function(c){ return selectedNode.projects.indexOf(c.id)!=-1 }).attr("opacity", '0.8' );
+//             } 
+//         });
+        
+
+//     }else{
+//         // reset
+//         highlightNothing(svg);
+//     }
+
+// }
+
+// function highlightNothing(svg){
+//     svg.selectAll("circle").attr("opacity", '0.8' );
+//     svg.selectAll("line").attr("stroke-opacity", '0.2' );
+// }

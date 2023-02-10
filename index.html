@@ -1,118 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Architecture Projects Collaborations</title>
+    <meta charset="utf-8">
+    <title>Multi-Storey Timber Design and Construction Stakeholders</title>
     <script src="js/libs/jquery-3.1.1.min.js"></script>
     <script src="js/libs/d3.min.js"></script>
     <script src="js/libs/fisheye.js"></script>
+    
     <script src="js/RadialGraph.js"></script>
     <script src="js/NLGraph.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <link href="css/flag-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
 
     <!-- Load Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-    <style>
-        body {
-            margin: 0;
-            font-family: "Lato", sans-serif;
-        }
-        .box {
-            /* display: inline-block;
-            height: 10px;
-            width: 10px; */
-            display: inline;
-        }
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    
+    <link rel="stylesheet" href="css/Leaflet.BigImage.css">
+    <script src="js/libs/Leaflet.BigImage.js"></script>
 
-        .boxContainer{
-            display: inline-block;
-            margin-top: 5px;
-        } 
-        
-
-        
-
-        div.tooltip {	
-            position: absolute;			
-            text-align: center;			
-            width: 60px;					
-            height: 28px;					
-            padding: 2px;				
-            font: 12px sans-serif;		
-            background: rgb(255, 255, 255);	
-            border: 0px;		
-            border-radius: 8px;			
-            pointer-events: none;			
-            opacity: 0;
-        }
-
-        
-
-        /* Create two unequal columns that floats next to each other */
-        .column {
-            float: left;
-            padding: 5px;
-        
-        }
-
-        .left {
-            width: 12%;
-        }
-
-        .middle {
-            width: 88%;
-        }
-
-        .right {
-            width: 43%;
-        }
-
-        .row{
-            display: flex;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        .div-table {
-            display: table;         
-            width: auto;         
-            background-color: #eee;         
-            /* border: 1px solid #666666;          */
-            border-spacing: 5px; /* cellspacing:poor IE support for  this */
-        }
-        .div-table-row {
-            display: table-row;
-            width: auto;
-            clear: both;
-        }
-        .div-table-col {
-            float: left; /* fix for  buggy browsers */
-            display: table-column;         
-            width: 220px;         
-            background-color: #ccc;  
-        }
-
-        path {
-            fill-opacity: .1;
-            stroke-opacity: 1;
-        }
-
-        .vertical-center {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-        }
-
-        
-    </style>
     <script>
         const PLAYER_NODE_TYPE = 'player';
         const PROJECT_NODE_TYPE = 'project';
@@ -126,12 +34,13 @@
 
         
         const ROLES = ['fab','arch','eng'];
-        
+        const INFO_PANEL_ATTRIBUTES = ['name', 'type', 'country', 'city', 'projectNames'];
 
         const PROJECT_NL_GRAPH = 1;
         const PLAYER_NL_GRAPH = 2;
         const PLAYER_GRP_BY_COUNTRY_NL_GRAPH = 3;
-        const GEO_MAP_GRAPH = 4;
+        const PLAYER_GEO_MAP_GRAPH = 4;
+        const PROJECT_GEO_MAP_GRAPH = 5;
 
         const COLOR_BY_COUNTRY = '1';
         const COLOR_BY_ROLE = '2';
@@ -139,7 +48,8 @@
 
         const FILL_CONTOUR_WITH_COLOR = '1';
         const FILL_CONTOUR_WITH_FLAG_PATTERN = '2';
-        const DATA_FILE_PATH = 'data/20221213_MultiStoreyTimber_Players.json';
+        const PLYR_DATA_FILE_PATH = 'data/20221213_MultiStoreyTimber_Players.json';
+        const PRJCT_DATA_FILE_PATH = 'data/20230123_ProjectData-Network.json';
         
 
         let width =  $(window).width()-100;
@@ -152,6 +62,7 @@
         var cntrFillStyle = FILL_CONTOUR_WITH_COLOR;
         var showRingConnectors = true;
         var selectedRoles = ['fab','arch','eng'];
+        var selectedNode = '';
         
 
         $('document').ready(function(){
@@ -179,7 +90,7 @@
                .attr("id", 'mapid')
                .style("width", clmn3_width+'px')
                .style("height", clmn3_height+'px')
-               .attr("class",'vertical-center');
+               .attr("class",'vertical-center leaflet-container leaflet-fade-anim leaflet-grab leaflet-touch-drag');
 
             
             // mapid is the id of the div where the map will appear
@@ -191,23 +102,32 @@
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
             }).addTo(map);
-            // Add a svg layer to the map
-            L.svg().addTo(map);
-            
 
+            // for img export
+            L.control.bigImage({position: 'topright'}).addTo(map);
+
+            // Add a svg layer to the map
+            //L.svg().addTo(map);
+            
+            
             
             var graphObj;
-            d3.json(DATA_FILE_PATH).then(function(data){ 
-                graphObj = GetGraphObj(data);
+            Promise.all([
+                d3.json(PLYR_DATA_FILE_PATH),
+                d3.json(PRJCT_DATA_FILE_PATH)
+            ]).then(function([data01, data02]){
+                graphObj = GetGraphObj(data01, data02);
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
-                DrawMapMarkers(map, graphObj['plyrs_nodes']);
-            });
+                DrawMapMarkers(map, graphObj, graphSelectElem.value);
+            })
+            
             
             selectElem.addEventListener('change', function () {
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
             });
 
             graphSelectElem.addEventListener('change', function () {
+                selectedNode='';
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
                 if(graphSelectElem.value == PLAYER_GRP_BY_COUNTRY_NL_GRAPH){
                     $('#cntrsrow').show();
@@ -217,7 +137,9 @@
                     $('#cntrfillddlrow').hide();
                 } 
 
-                if(graphSelectElem.value == GEO_MAP_GRAPH){
+                //geo map
+                if(graphSelectElem.value == PLAYER_GEO_MAP_GRAPH || graphSelectElem.value == PROJECT_GEO_MAP_GRAPH){
+                    DrawMapMarkers(map, graphObj, graphSelectElem.value);
                     $('#clmn2').hide();
                     $('#clmn3').show();
                 }else{
@@ -264,11 +186,14 @@
                 checkbox.id = "chk"+ROLES[i];
                 checkbox.addEventListener('change', function() {
                     updateSelectedRoles(this);
-                    d3.json(DATA_FILE_PATH).then(function(data){ 
-                        graphObj = GetGraphObj(data);
+                    Promise.all([
+                        d3.json(PLYR_DATA_FILE_PATH),
+                        d3.json(PRJCT_DATA_FILE_PATH)
+                    ]).then(function([data01, data02]){
+                        graphObj = GetGraphObj(data01, data02);
                         RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
-                        DrawMapMarkers(map, graphObj['plyrs_nodes']);
-                    });
+                        DrawMapMarkers(map, graphObj, graphSelectElem.value);
+                    })
                 });
                 chkBoxArr.push(checkbox);
             }
@@ -465,12 +390,12 @@
                 
                 <div class="div-table-row">
                     <div class="div-table-col" >
-                        <label for="encoding" >Player Encoding:</label>
+                        <label for="encoding" >Stakeholder Encoding:</label>
                     </div>
                     <div  class="div-table-col">
                         <select id="encddl" >
                             <option value="1" selected>By Country</option>
-                            <option value="2">By Role</option>
+                            <option value="2">By Stakeholder Type</option>
                             <option value="3">Both</option>
                         </select>
                     </div>
@@ -482,10 +407,11 @@
                     </div>
                     <div  class="div-table-col">
                         <select id="gtypeddl" >
-                            <option value="1">Project-based</option>
-                            <option value="2">Player-based</option>
-                            <option value="3">Player-based (group by country)</option>
-                            <option value="4" selected>Geo Map</option>
+                            <option value="1">Projects NL</option>
+                            <option value="2">Stakeholders NL</option>
+                            <option value="3">Stakeholders NL (group by country)</option>
+                            <option value="4" selected>Stakeholders GeoMap</option>
+                            <option value="5">Projects GeoMap</option>
                         </select>
                     </div>
                 </div>
@@ -539,13 +465,16 @@
                 </div>
                 <div class="div-table-row">
                     <div class="div-table-col" >
-                        <label for="cntrfill">Filter by role:</label>
+                        <label for="cntrfill">Filter by Stakeholder Type:</label>
                     </div>
                     <div class="div-table-col" id="legend">
 
                     </div>
                 </div>
 
+            </div>
+            <div id="infoPanel" class="info-panel">
+                
             </div>
                 
             
@@ -555,6 +484,7 @@
             <div id="clmn3"></div>
         </div>
         <div id="tooltipDiv" class="tooltip"></div>
+        <div id="popupDiv" class="popup"></div>
         
     </div>
     
