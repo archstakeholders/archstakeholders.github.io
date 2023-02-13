@@ -9,17 +9,19 @@
     
     <script src="js/RadialGraph.js"></script>
     <script src="js/NLGraph.js"></script>
-    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <link href="css/flag-icons.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     
 
     <!-- Load Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
     
-    <link rel="stylesheet" href="css/Leaflet.BigImage.css">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
     <script src="js/libs/Leaflet.BigImage.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+    <link rel="stylesheet" href="css/Leaflet.BigImage.css">
+    
+    
 
     <script>
         const PLAYER_NODE_TYPE = 'player';
@@ -61,6 +63,7 @@
         var showContours = false;
         var cntrFillStyle = FILL_CONTOUR_WITH_COLOR;
         var showRingConnectors = true;
+        var geoCircleGrpByRole = false;
         var selectedRoles = ['fab','arch','eng'];
         var selectedNode = '';
         
@@ -76,6 +79,7 @@
             var cntrsChkbox = document.getElementById('cntrs');
             var cntrfillddl = document.getElementById('cntrfillddl');
             var ringconnectorsChkbox = document.getElementById('ringconnectors');
+            var geocirclecolorChkbox = document.getElementById('geocirclecolorchk');
                        
             const svg = d3.select('body').select('#clmn2').append("svg");
             svg
@@ -128,6 +132,14 @@
 
             graphSelectElem.addEventListener('change', function () {
                 selectedNode='';
+                
+                if(graphSelectElem.value == PLAYER_NL_GRAPH || graphSelectElem.value == PLAYER_GRP_BY_COUNTRY_NL_GRAPH){
+                    $('#ringconnectorsrow').show();
+                }else{
+                    ringconnectorsChkbox.checked = showRingConnectors = true;
+                    $('#ringconnectorsrow').hide();
+                }
+
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
                 if(graphSelectElem.value == PLAYER_GRP_BY_COUNTRY_NL_GRAPH){
                     $('#cntrsrow').show();
@@ -137,15 +149,29 @@
                     $('#cntrfillddlrow').hide();
                 } 
 
+
                 //geo map
                 if(graphSelectElem.value == PLAYER_GEO_MAP_GRAPH || graphSelectElem.value == PROJECT_GEO_MAP_GRAPH){
                     DrawMapMarkers(map, graphObj, graphSelectElem.value);
                     $('#clmn2').hide();
                     $('#clmn3').show();
+                    $('#lblsrow').hide();
+                    $('#lnksrow').hide();
+                    $('#encddlrow').hide();
                 }else{
                     $('#clmn2').show();
                     $('#clmn3').hide();
+                    $('#lblsrow').show();
+                    $('#lnksrow').show();
+                    $('#encddlrow').show();
                 } 
+                if(graphSelectElem.value == PLAYER_GEO_MAP_GRAPH){
+                    $('#geocirclecolorrow').show();
+                }else{
+                    geocirclecolorChkbox.checked = geoCircleGrpByRole = false;
+                    $('#geocirclecolorrow').hide();
+                }
+                
                 
             });
 
@@ -174,6 +200,11 @@
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
             });
 
+            geocirclecolorChkbox.addEventListener('change', function () {
+                geoCircleGrpByRole = geocirclecolorChkbox.checked;
+                DrawMapMarkers(map, graphObj, graphSelectElem.value);
+            });
+
 
             //create filter chkbox foreach role
             let chkBoxArr = [];
@@ -198,7 +229,7 @@
                 chkBoxArr.push(checkbox);
             }
             drawLegend(chkBoxArr);
-            $('#clmn2').hide();
+            $('#clmn3').hide();
         });
 
 
@@ -387,8 +418,22 @@
         <div class="column left" style="background-color:#f1f0f0;">
 
             <div class="div-table">
-                
-                <div class="div-table-row">
+                <div  class="div-table-row">
+                    <div class="div-table-col" >
+                        <label for="graph">Graph Type:</label>
+                    </div>
+                    <div  class="div-table-col">
+                        <select id="gtypeddl" >
+                            <option value="1" selected>Projects NL</option>
+                            <option value="2">Stakeholders NL</option>
+                            <option value="3">Stakeholders NL (group by country)</option>
+                            <option value="4">Stakeholders GeoMap</option>
+                            <option value="5">Projects GeoMap</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="encddlrow" class="div-table-row">
                     <div class="div-table-col" >
                         <label for="encoding" >Stakeholder Encoding:</label>
                     </div>
@@ -401,22 +446,7 @@
                     </div>
                 </div>
 
-                <div  class="div-table-row">
-                    <div class="div-table-col" >
-                        <label for="graph">Graph Type:</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <select id="gtypeddl" >
-                            <option value="1">Projects NL</option>
-                            <option value="2">Stakeholders NL</option>
-                            <option value="3">Stakeholders NL (group by country)</option>
-                            <option value="4" selected>Stakeholders GeoMap</option>
-                            <option value="5">Projects GeoMap</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="div-table-row">
+                <div id="lnksrow" class="div-table-row">
                     <div class="div-table-col" >
                         <label for="links">Show Links</label>
                     </div>
@@ -425,7 +455,7 @@
                     </div>
                 </div>
 
-                <div class="div-table-row">
+                <div id="lblsrow" class="div-table-row">
                     <div class="div-table-col" >
                         <label for="labels">Show Labels</label>
                     </div>
@@ -434,7 +464,7 @@
                     </div>
                 </div>
 
-                <div id="ringconnectorsrow" class="div-table-row" >
+                <div id="ringconnectorsrow" class="div-table-row" style="display: none;">
                     <div class="div-table-col" >
                         <label for="prjctnodes">Show Ring Connectors</label>
                     </div>
@@ -459,8 +489,16 @@
                     <div  class="div-table-col">
                         <select id="cntrfillddl" >
                             <option value="1" selected>Color</option>
-                            <option value="2">Flag Pattern</option>
+                            <!-- <option value="2">Flag Pattern</option> -->
                         </select>
+                    </div>
+                </div>
+                <div id='geocirclecolorrow' class="div-table-row" style="display: none;">
+                    <div class="div-table-col" >
+                        <label for="geocirclecolor">Color by Stakeholder type</label>
+                    </div>
+                    <div  class="div-table-col">
+                        <input type="checkbox" id="geocirclecolorchk" name="geocirclecolorchk">
                     </div>
                 </div>
                 <div class="div-table-row">

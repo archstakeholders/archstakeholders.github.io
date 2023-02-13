@@ -42,7 +42,7 @@ function GetGraphObj(plyr_data, prjct_data){
         n.id = parseInt(n.id);
         n.type= PROJECT_NODE_TYPE;
         n.players= [];
-        n.label='prjct:'+ n.name;
+        n.label=n.name;
         project_nodes.push(n)
     });
     
@@ -232,6 +232,10 @@ function RedrawPlayersGrpByCountryNLGraph(svg, selected_enc, graphObj){
     if(showLinks)
         DrawLinks(svg, plyrs_links, project_nodes, !showRingConnectors);
 
+    // labels
+    if(showLabels)
+        DrawRingLabels(svg, player_nodes);
+
     
 }
 
@@ -253,7 +257,8 @@ function RedrawPlayersNLGraph(svg, selected_enc, graphObj){
 
 
     // labels
-    //DrawRingLabels(plyrSVGNodes, player_nodes);
+    if(showLabels)
+        DrawRingLabels(svg, player_nodes);
 }
 
 function RedrawProjectsNLGraph(svg, selected_enc, graphObj){
@@ -262,14 +267,13 @@ function RedrawProjectsNLGraph(svg, selected_enc, graphObj){
     let project_links = graphObj.project_links;
     let player_nodes = graphObj.project_players_nodes;
 
+    
     // draw ring nodes
     var prjctSVGNodes = DrawProjectsNodes(svg, project_nodes);
-
 
     // draw nodes attached to the ring
     if(showRingConnectors)
         DrawPlayersNodes(svg, selected_enc, player_nodes);
-
 
     // draw links
     if(showLinks)
@@ -278,7 +282,7 @@ function RedrawProjectsNLGraph(svg, selected_enc, graphObj){
 
     // labels
     if(showLabels)
-        DrawRingLabels(prjctSVGNodes, project_nodes);
+        DrawRingLabels(svg, project_nodes);
 
 
     
@@ -309,7 +313,7 @@ function DrawMapMarkers(map, graphObj, gType){
     // aggregate points at the same location
     let aggMarkers = {};
     circleData.forEach(function (d) { 
-        let key = d.lat+','+d.lon+','+d.type;
+        let key = geoCircleGrpByRole ? (d.lat+','+d.lon+','+d.type) : (d.lat+','+d.lon+','+PROJECT_NODE_TYPE);
         let markerAtSamePos = aggMarkers[key];
         if(markerAtSamePos == undefined){
             aggMarkers[key] = Array(d);
@@ -328,34 +332,50 @@ function DrawMapMarkers(map, graphObj, gType){
     
     // clear eveything
     clearMap(map);
-    Object.values(aggMarkers).forEach(function(d,i){
+    for (const [key, d] of Object.entries(aggMarkers)) {
+        let type = key.split(',')[2]; 
         L.circle([d[0].lat, d[0].lon], {
-            color: d3.schemeCategory10[ROLES.indexOf(d[0].type)==-1?5:ROLES.indexOf(d[0].type)],
+            color: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
             opacity:0.5,
-            fillColor: d3.schemeCategory10[ROLES.indexOf(d[0].type)==-1?5:ROLES.indexOf(d[0].type)],
+            fillColor: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
             fillOpacity: 0.5,
-            radius: normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxCirclePerLoc, d.length)*5000,
+            radius: normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxCirclePerLoc, d.length)*2000,
         }).addTo(map).bindPopup(getPopupInfoFormatted(d));
-    });
+    }
 
     
 }
 
-function DrawRingLabels(g, nodes){
-    // draw labels for ring nodes
+function getBB(selection) {
+    selection.each(function(d){d.bbox = this.getBBox();})
+}
+
+function DrawRingLabels(svg, nodes){
+
+    let textNode = svg.append("g")
+    .selectAll("text")
+    .data(nodes).enter();
     
-    g
-        .selectAll("text")
-        .data(nodes)
-        .enter().append("text")
-        .attr("text-anchor", "middle")
-        //.filter(function (d) { return d.size > 10; })
-        .text(function (d) { return d.label; })
-        .style("stroke", function (d) { return 'black'; })
-        .style("stroke-width", "0.2px")
-        .style("font-size", function (d) { return normalize(1, 7, MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, d.size) * d.fisheye.z+'px'; })
-        .attr("dx", function (d) { return d.fisheye.x })
-        .attr("dy", function (d) { return d.fisheye.y })
+
+    textNode
+    .append("text")
+    .attr("text-anchor", "middle")
+    .style("stroke", function (d) { return 'black'; })
+    .style("stroke-width", "0.2px")
+    .style("font-size", function (d) { return 3 * d.fisheye.z+'px'; })
+    //.style("filter", "url(#drop-shadow)")
+    .attr("dx", function (d) { return d.fisheye.x })
+    .attr("dy", function (d) { return d.fisheye.y })
+    .text(function (d) { return truncate(d.label, 17); }).call(getBB);
+
+    textNode.insert("rect","text")
+    .attr("width", function(d){return d.bbox.width})
+    .attr("height", function(d){return d.bbox.height})
+    .attr("x", function(d){return d.bbox.x})
+    .attr("y", function(d){return d.bbox.y})
+    .style("fill", "white")
+    .style("opacity", "0.5");
+
 }
 
 
@@ -461,19 +481,18 @@ function DrawPlayersNodes(svg, selected_enc, player_nodes){
     });
 
 
-    if(showLabels){
-        plyrSVGNodes
-            .append("text")
-            //.filter(function (d) { return d.size > 10; })
-            .attr("text-anchor", "middle")
-            .style("stroke", function (d) { return 'black'; })
-            .style("stroke-width", "0.2px")
-            .style("font-size", function (d) { return normalize(1, 7, MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, d.size) * d.fisheye.z + 'px'; })
-            .attr("dx", function (d) { return d.fisheye.x })
-            .attr("dy", function (d) { return d.fisheye.y })
-            //.style("filter", "url(#drop-shadow)")
-            .text(function (d) { return truncate(d.label, 7); });
-    }
+    // if(showPlyrsLabels){
+    //     plyrSVGNodes
+    //         .append("text")
+    //         .attr("text-anchor", "middle")
+    //         .style("stroke", function (d) { return 'black'; })
+    //         .style("stroke-width", "0.2px")
+    //         .style("font-size", function (d) { return 3 * d.fisheye.z + 'px'; })
+    //         .attr("dx", function (d) { return d.fisheye.x })
+    //         .attr("dy", function (d) { return d.fisheye.y })
+    //         //.style("filter", "url(#drop-shadow)")
+    //         .text(function (d) { return truncate(d.label, 17); });
+    // }
     
    
 
@@ -887,7 +906,9 @@ function setFisheyeCoordinates(ringNodes, attachedNodes){
 }
 
 function getPopupInfoFormatted(lables){
-    
+    lables.sort(function(x, y){
+        return d3.ascending(x.type, y.type);
+    });
     let info = '<span class="popuptext"><div class="pin"></div>'+lables[0].city+'<br/>';
     lables.forEach(function(lable, i) {
         info+='<div class="dot '+lable.type+'-dot"></div> '+lable.name+'<br/>';
