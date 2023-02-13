@@ -338,7 +338,7 @@ function DrawMapMarkers(map, graphObj, gType){
             color: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
             opacity:0.5,
             fillColor: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
-            fillOpacity: 0.5,
+            fillOpacity: 0.8,
             radius: normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxCirclePerLoc, d.length)*2000,
         }).addTo(map).bindPopup(getPopupInfoFormatted(d));
     }
