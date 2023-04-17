@@ -129,8 +129,8 @@ function GetGraphObj(plyr_data, prjct_data){
 
 
     // run force directed simulation
-    simulateForceLayout(project_nodes, project_links, -60);
-    simulateForceLayout(plyrs_nodes, plyrs_links, -50);
+    simulateForceLayout(project_nodes, project_links, -80);
+    simulateForceLayout(plyrs_nodes, plyrs_links, -40);
     simulateForceLayout(plyrs_nodes_by_country.concat(countryRepNodes), plyrs_links_by_country.concat(countryRepLinks), -50);
 
 

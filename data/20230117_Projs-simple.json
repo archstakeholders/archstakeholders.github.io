@@ -1,0 +1,2403 @@
+{ 
+"nodes":[
+{"id": "1",
+    "name":"Trähus 2001",
+    "country":"SE",
+    "city":"Malmö",
+    "lon":13.0001566,
+    "lat":55.6052931
+              }
+,
+{"id": "2",
+    "name":"Housing Block in Merano",
+    "country":"IT",
+    "city":"Merano",
+    "lon":11.1594185,
+    "lat":46.6695547
+              }
+,
+{"id": "3",
+    "name":"Spöttlgasse",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "4",
+    "name":"Altenpflegeheim Höchsterstraße (Pflegeheim Dornbirn, Dornbirn Nursing Home)",
+    "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423762,
+    "lat":47.4136351
+              }
+,
+{"id": "5",
+    "name":"Svartamoen Place",
+    "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475
+              }
+,
+{"id": "6",
+    "name":"Fairmules House",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "7",
+    "name":"Holzhausen",
+    "country":"CH",
+    "city":"Zug",
+    "lon":8.5173652,
+    "lat":47.1679898
+              }
+,
+{"id": "8",
+    "name":"WHA am Mühlweg Bauteil A (Wohnanlage Mühlweg)",
+    "country":"AT",
+    "city":"Mühlweg",
+    "lon":16.390393,
+    "lat":48.28884
+              }
+,
+{"id": "9",
+    "name":"WHA am Mühlweg Bauteil C",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "10",
+    "name":"Wohnanlage Samer Mösl",
+    "country":"AT",
+    "city":"Mösel",
+    "lon":13.4362128,
+    "lat":46.7013478
+              }
+,
+{"id": "11",
+    "name":"Casa Montarina",
+    "country":"CH",
+    "city":"Lugano",
+    "lon":8.9512134,
+    "lat":46.0038279
+              }
+,
+{"id": "12",
+    "name":"E3",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "13",
+    "name":"Limnologen",
+    "country":"SE",
+    "city":"Växjö",
+    "lon":14.8094385,
+    "lat":56.8787183
+              }
+,
+{"id": "14",
+    "name":"Wohnanlage Kiefernweg (housing complex Kiefernweg)",
+    "country":"AT",
+    "city":"Gantschier",
+    "lon":9.88609,
+    "lat":47.08913
+              }
+,
+{"id": "15",
+    "name":"Condos at Lost Rabbit, Phase II",
+    "country":"US",
+    "city":"Mississippi",
+    "lon":-122.6755826,
+    "lat":45.5514941
+              }
+,
+{"id": "16",
+    "name":"Gemeindezentrum St. Gerold",
+    "country":"AT",
+    "city":"Sankt Gerold",
+    "lon":9.805952711133195,
+    "lat":47.237534350000004
+              }
+,
+{"id": "17",
+    "name":"Hotel Ammerwald (BMW - Hotel Alpenhof)",
+    "country":"AT",
+    "city":"Reutte",
+    "lon":10.700811364115278,
+    "lat":47.456572550000004
+              }
+,
+{"id": "18",
+    "name":"office building",
+    "country":"CH",
+    "city":"Wabern",
+    "lon":7.4498328,
+    "lat":46.9291293
+              }
+,
+{"id": "19",
+    "name":"Portvakten",
+    "country":"SE",
+    "city":"Växjö",
+    "lon":14.8094385,
+    "lat":56.8787183
+              }
+,
+{"id": "20",
+    "name":"Russel STreet",
+    "country":"GB",
+    "city":"Cambridge",
+    "lon":0.1186637,
+    "lat":52.2055314
+              }
+,
+{"id": "21",
+    "name":"Stadthaus (Murray Grove)",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "22",
+    "name":"H4",
+    "country":"DE",
+    "city":"Bad Aibling",
+    "lon":12.0097685,
+    "lat":47.8640504
+              }
+,
+{"id": "23",
+    "name":"Lauriston Primary School",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "24",
+    "name":"Prenzlauer Berg",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "25",
+    "name":"Royal Shakespeare Theatre",
+    "country":"GB",
+    "city":"Stratford-upon-Avon",
+    "lon":-1.70634,
+    "lat":52.1927803
+              }
+,
+{"id": "26",
+    "name":"The Open Academy",
+    "country":"GB",
+    "city":"Norwich",
+    "lon":1.2923954,
+    "lat":52.6285576
+              }
+,
+{"id": "27",
+    "name":"Wohn- und Geschäftshaus Badenerstrasse",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "28",
+    "name":"Woodland Trust",
+    "country":"GB",
+    "city":"Grantham",
+    "lon":-0.6438974,
+    "lat":52.913192
+              }
+,
+{"id": "29",
+    "name":"Agrarbildungszentrum Salzkammergut",
+    "country":"AT",
+    "city":"Altmunster",
+    "lon":13.7652213,
+    "lat":47.9016069
+              }
+,
+{"id": "30",
+    "name":"Bridport House",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "31",
+    "name":"Centre for Interactive Research on Sustainability (CIRS)",
+    "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724
+              }
+,
+{"id": "32",
+    "name":"Gewerbehalle Sääga",
+    "country":"LI",
+    "city":"Balzers",
+    "lon":9.5002393,
+    "lat":47.0664595
+              }
+,
+{"id": "33",
+    "name":"Holz8",
+    "country":"DE",
+    "city":"Bad Aibling",
+    "lon":12.0097685,
+    "lat":47.8640504
+              }
+,
+{"id": "34",
+    "name":"Kasukabe Convention Hall",
+    "country":"JP",
+    "city":"Kasukabe",
+    "lon":139.752019,
+    "lat":35.9757957
+              }
+,
+{"id": "35",
+    "name":"Sozialzentrum Pillerseetal",
+    "country":"AT",
+    "city":"Fieberbrunn",
+    "lon":12.544424258717815,
+    "lat":47.45518755
+              }
+,
+{"id": "36",
+    "name":"Terraced Houses",
+    "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079
+              }
+,
+{"id": "37",
+    "name":"Wälderhaus Place",
+    "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341
+              }
+,
+{"id": "38",
+    "name":"Wohnanlage Unterfeldstrasse",
+    "country":"AT",
+    "city":"Ludesch",
+    "lon":9.795469763416893,
+    "lat":47.193859
+              }
+,
+{"id": "39",
+    "name":"Wohnhaus Habsburgstrasse",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "40",
+    "name":"3xgrün- Wohnen im Holzhaus",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "41",
+    "name":"Bürohaus Laur-Park",
+    "country":"CH",
+    "city":"Brugg",
+    "lon":8.2085662,
+    "lat":47.4824633
+              }
+,
+{"id": "42",
+    "name":"De Karel Doorman",
+    "country":"NL",
+    "city":"Rotterdam",
+    "lon":4.47775,
+    "lat":51.9244424
+              }
+,
+{"id": "43",
+    "name":"Forte",
+    "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176
+              }
+,
+{"id": "44",
+    "name":"Hilden Grange Prepatory School",
+    "country":"GB",
+    "city":"Tonbridge",
+    "lon":0.2735876,
+    "lat":51.1889529
+              }
+,
+{"id": "45",
+    "name":"Housing block in WeimarPlatzhaus,",
+    "country":"DE",
+    "city":"Weimar",
+    "lon":11.3296637,
+    "lat":50.9810486
+              }
+,
+{"id": "46",
+    "name":"Life Cycle Tower ONE (LCT One)",
+    "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423762,
+    "lat":47.4136351
+              }
+,
+{"id": "47",
+    "name":"LignoAlp Office Building",
+    "country":"IT",
+    "city":"Bressanone",
+    "lon":11.657792,
+    "lat":46.716413
+              }
+,
+{"id": "48",
+    "name":"Marina Verde",
+    "country":"IT",
+    "city":"Caorle",
+    "lon":12.8876282,
+    "lat":45.5979147
+              }
+,
+{"id": "49",
+    "name":"Mühlebachstrasse / Hufgasse",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "50",
+    "name":"Residenza Sirio",
+    "country":"CH",
+    "city":"Lugano",
+    "lon":8.9512134,
+    "lat":46.0038279
+              }
+,
+{"id": "51",
+    "name":"Te Ara Hihiko",
+    "country":"NZ",
+    "city":"Wellington",
+    "lon":174.7772114,
+    "lat":-41.2887953
+              }
+,
+{"id": "52",
+    "name":"UBC Earth Sciences",
+    "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724
+              }
+,
+{"id": "53",
+    "name":"Whitmore Road",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "54",
+    "name":"Züri Modular Pavillon (modular schools)",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "55",
+    "name":"Bullitt Centre",
+    "country":"US",
+    "city":"Seattle",
+    "lon":-122.330062,
+    "lat":47.6038321
+              }
+,
+{"id": "56",
+    "name":"C13",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "57",
+    "name":"Giesserei",
+    "country":"CH",
+    "city":"Winterthur",
+    "lon":8.7291498,
+    "lat":47.4991723
+              }
+,
+{"id": "58",
+    "name":"Groupe Scolaire Pasteur",
+    "country":"FR",
+    "city":"Limeil-Brevannes",
+    "lon":2.4809129,
+    "lat":48.7489857
+              }
+,
+{"id": "59",
+    "name":"Gymnasium OMG",
+    "country":"DE",
+    "city":"Neufahrn",
+    "lon":11.6639671,
+    "lat":48.3127714
+              }
+,
+{"id": "60",
+    "name":"Ickburg School",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "61",
+    "name":"Illwerke Zentrum Montafon",
+    "country":"AT",
+    "city":"Vandans",
+    "lon":9.807966556694907,
+    "lat":47.0750261
+              }
+,
+{"id": "62",
+    "name":"Leonhard Ragaz Weg",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "63",
+    "name":"Les Cadolles",
+    "country":"CH",
+    "city":"Neuchâtel  / Neuenburg",
+    "lon":6.9292641,
+    "lat":46.9895828
+              }
+,
+{"id": "64",
+    "name":"Lintuviita",
+    "country":"FI",
+    "city":"Seinäjoki",
+    "lon":22.8442015,
+    "lat":62.7954104
+              }
+,
+{"id": "65",
+    "name":"Osaka Timber Association",
+    "country":"JP",
+    "city":"Osaka",
+    "lon":135.5014539,
+    "lat":34.6937569
+              }
+,
+{"id": "66",
+    "name":"Panoramma Giustinelli",
+    "country":"IT",
+    "city":"Trieste",
+    "lon":13.7772781,
+    "lat":45.6496485
+              }
+,
+{"id": "67",
+    "name":"Pentagon II",
+    "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301
+              }
+,
+{"id": "68",
+    "name":"residential complex",
+    "country":"DE",
+    "city":"Ansbach",
+    "lon":10.5722288,
+    "lat":49.3028611
+              }
+,
+{"id": "69",
+    "name":"Senioren Wohnheim Hallein (Senior Citizen´s Home)",
+    "country":"AT",
+    "city":"Hallein",
+    "lon":13.0956313,
+    "lat":47.6821521
+              }
+,
+{"id": "70",
+    "name":"Shimouma Apartment",
+    "country":"JP",
+    "city":"Tokyo",
+    "lon":139.757653,
+    "lat":35.6812665
+              }
+,
+{"id": "71",
+    "name":"Student Hostel",
+    "country":"DE",
+    "city":"Heidelberg",
+    "lon":8.694724,
+    "lat":49.4093582
+              }
+,
+{"id": "72",
+    "name":"SZU-Betriebsgebaude (Pile Up Giessehübel)",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "73",
+    "name":"Tamedia New Office Building",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "74",
+    "name":"The Maison de l’Inde",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "75",
+    "name":"Via Cenni residential complex",
+    "country":"IT",
+    "city":"Milan",
+    "lon":9.1896346,
+    "lat":45.4641943
+              }
+,
+{"id": "76",
+    "name":"Wagramerstrasse",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "77",
+    "name":"Wälder Versicherung",
+    "country":"AT",
+    "city":"Andelsbuch",
+    "lon":9.909668328662285,
+    "lat":47.406438800000004
+              }
+,
+{"id": "78",
+    "name":"Wood Cube",
+    "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341
+              }
+,
+{"id": "79",
+    "name":"698 Wohnüberbauung Sihlbogen Areal B",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "80",
+    "name":"Ark Brunel Primary Academy",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "81",
+    "name":"Contralaminada (Edifici de Fusta Cavallers)",
+    "country":"ES",
+    "city":"Lleida",
+    "lon":0.6267842,
+    "lat":41.6147605
+              }
+,
+{"id": "82",
+    "name":"Diesel Benelux HQ",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "83",
+    "name":"Gemeindezentrum Kuchl",
+    "country":"AT",
+    "city":"Kuchl",
+    "lon":13.1451024,
+    "lat":47.6258369
+              }
+,
+{"id": "84",
+    "name":"Holztechnikum Kuchl",
+    "country":"AT",
+    "city":"Kuchl",
+    "lon":13.1451024,
+    "lat":47.6258369
+              }
+,
+{"id": "85",
+    "name":"Hôtel de Région Auvergne",
+    "country":"FR",
+    "city":"Clermont-Ferrand",
+    "lon":3.0819427,
+    "lat":45.7774551
+              }
+,
+{"id": "86",
+    "name":"Hotel Saentispark",
+    "country":"CH",
+    "city":"Abtwil",
+    "lon":8.3546821,
+    "lat":47.1744431
+              }
+,
+{"id": "87",
+    "name":"IBA apartment Building",
+    "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341
+              }
+,
+{"id": "88",
+    "name":"Kampa administration building",
+    "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079
+              }
+,
+{"id": "89",
+    "name":"Kingsgate House",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "90",
+    "name":"Mayfield School",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "91",
+    "name":"Mazarin House",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "92",
+    "name":"Mossbourne Victoria Park Academy",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "93",
+    "name":"Rundeskogen",
+    "country":"NO",
+    "city":"Sandnes",
+    "lon":6.394641047340787,
+    "lat":58.983132049999995
+              }
+,
+{"id": "94",
+    "name":"School in Orsonnens",
+    "country":"CH",
+    "city":"Orsonnens",
+    "lon":6.9948874,
+    "lat":46.7164717
+              }
+,
+{"id": "95",
+    "name":"Sky UK: Believe in Better Building",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "96",
+    "name":"St.Die-des-Vosges (Residences J.Ferry)",
+    "country":"FR",
+    "city":"Saint-Dié-des-Vosges",
+    "lon":6.9477708,
+    "lat":48.2873153
+              }
+,
+{"id": "97",
+    "name":"Strandparken",
+    "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172
+              }
+,
+{"id": "98",
+    "name":"The Radiator buildings",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "99",
+    "name":"William Perking Church of England School",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "100",
+    "name":"Wood Innovation and Design Centre",
+    "country":"CA",
+    "city":"Prince George",
+    "lon":-122.7453699,
+    "lat":53.9128645
+              }
+,
+{"id": "101",
+    "name":"WoodTek HQ",
+    "country":"TW",
+    "city":"Taichung",
+    "lon":120.6478282,
+    "lat":24.163162
+              }
+,
+{"id": "102",
+    "name":"Candlewood Hotel On Redstone Arsenal Base B",
+    "country":"US",
+    "city":"Huntsville",
+    "lon":-86.5859011,
+    "lat":34.729847
+              }
+,
+{"id": "103",
+    "name":"Cobalt Place",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "104",
+    "name":"Curtain Place",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "105",
+    "name":"Egger headquarters",
+    "country":"AT",
+    "city":"Sankt Johann",
+    "lon":14.3508406,
+    "lat":46.9735247
+              }
+,
+{"id": "106",
+    "name":"Eskolantie",
+    "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881
+              }
+,
+{"id": "107",
+    "name":"European School",
+    "country":"DE",
+    "city":"Frankfurt am Main",
+    "lon":8.6820917,
+    "lat":50.1106444
+              }
+,
+{"id": "108",
+    "name":"Frame Work 6th Ave",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "109",
+    "name":"Hummerlkaserne Graz",
+    "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678
+              }
+,
+{"id": "110",
+    "name":"MEC Head Office (Mountain-Equipment.Cp-Op Head Office)",
+    "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724
+              }
+,
+{"id": "111",
+    "name":"Mehr als Wohnen Haus I+ J",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "112",
+    "name":"Mehrfamilienhaus Gapont",
+    "country":"LI",
+    "city":"Triesen",
+    "lon":9.5274876,
+    "lat":47.106994
+              }
+,
+{"id": "113",
+    "name":"Nachverdichtung Speyer",
+    "country":"DE",
+    "city":"Speyer",
+    "lon":8.433615,
+    "lat":49.3165553
+              }
+,
+{"id": "114",
+    "name":"Puukuokka",
+    "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881
+              }
+,
+{"id": "115",
+    "name":"Reininghaus Sud",
+    "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678
+              }
+,
+{"id": "116",
+    "name":"Residential Complex in Toulouse (résidence sociale Toulouse)",
+    "country":"FR",
+    "city":"Toulouse",
+    "lon":1.4442469,
+    "lat":43.6044622
+              }
+,
+{"id": "117",
+    "name":"Schmuttertal Gymnasium",
+    "country":"DE",
+    "city":"Diedorf",
+    "lon":10.7839603,
+    "lat":48.3542454
+              }
+,
+{"id": "118",
+    "name":"Schorenstadt",
+    "country":"CH",
+    "city":"Basel",
+    "lon":7.5878261,
+    "lat":47.5581077
+              }
+,
+{"id": "119",
+    "name":"Siloah",
+    "country":"CH",
+    "city":"Bern",
+    "lon":7.4514512,
+    "lat":46.9482713
+              }
+,
+{"id": "120",
+    "name":"Sky Health and Fitness Center Sky UK",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "121",
+    "name":"Social housing in Saint-Denis",
+    "country":"FR",
+    "city":"Saint-Denis",
+    "lon":2.3580232,
+    "lat":48.935773
+              }
+,
+{"id": "122",
+    "name":"Solhöjden i Visättra",
+    "country":"SE",
+    "city":"Huddinge",
+    "lon":17.9748815,
+    "lat":59.2293827
+              }
+,
+{"id": "123",
+    "name":"Sørhauggata Student Housing (Sørhauggate)",
+    "country":"NO",
+    "city":"Haugesund",
+    "lon":5.082761213563481,
+    "lat":59.46824785
+              }
+,
+{"id": "124",
+    "name":"St Clare’s College",
+    "country":"GB",
+    "city":"Oxford",
+    "lon":-1.2578499,
+    "lat":51.7520131
+              }
+,
+{"id": "125",
+    "name":"Studentboliger Remmen",
+    "country":"NO",
+    "city":"Halden",
+    "lon":11.537191002239753,
+    "lat":59.0680555
+              }
+,
+{"id": "126",
+    "name":"Suurstoffi Areal, Baufeld 3",
+    "country":"CH",
+    "city":"Rotkreuz",
+    "lon":8.4308936,
+    "lat":47.1408931
+              }
+,
+{"id": "127",
+    "name":"Trafalgar Place",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "128",
+    "name":"Treet Tower",
+    "country":"NO",
+    "city":"Bergen",
+    "lon":5.3259192,
+    "lat":60.3943055
+              }
+,
+{"id": "129",
+    "name":"Vallen Part B",
+    "country":"SE",
+    "city":"Växjö",
+    "lon":14.8094385,
+    "lat":56.8787183
+              }
+,
+{"id": "130",
+    "name":"Wenlock Cross (the Cube / Wenlock Road 21)",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "131",
+    "name":"Ywood Les Docks Libres",
+    "country":"FR",
+    "city":"Marseille",
+    "lon":5.3699525,
+    "lat":43.2961743
+              }
+,
+{"id": "132",
+    "name":"Albina Yard",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "133",
+    "name":"Arbora Complex",
+    "country":"CA",
+    "city":"Montreal",
+    "lon":-73.5698065,
+    "lat":45.5031824
+              }
+,
+{"id": "134",
+    "name":"Barretts Grove (Nordic Lofts)",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "135",
+    "name":"Cowan Court",
+    "country":"GB",
+    "city":"Cambridge",
+    "lon":0.1186637,
+    "lat":52.2055314
+              }
+,
+{"id": "136",
+    "name":"Direction Départementale des Territoires et de la Mer (DDTM)",
+    "country":"FR",
+    "city":"Vannes",
+    "lon":-2.7599079,
+    "lat":47.6586772
+              }
+,
+{"id": "137",
+    "name":"H7",
+    "country":"DE",
+    "city":"Münster",
+    "lon":7.6251879,
+    "lat":51.9625101
+              }
+,
+{"id": "138",
+    "name":"Holzwohnbau Rosenstraße",
+    "country":"AT",
+    "city":"Linz",
+    "lon":14.286198,
+    "lat":48.3059078
+              }
+,
+{"id": "139",
+    "name":"International House",
+    "country":"AU",
+    "city":"Sydney",
+    "lon":151.2082848,
+    "lat":-33.8698439
+              }
+,
+{"id": "140",
+    "name":"Mineroom",
+    "country":"AT",
+    "city":"Leoben",
+    "lon":15.0947756,
+    "lat":47.3805128
+              }
+,
+{"id": "141",
+    "name":"Moholt 50/50",
+    "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475
+              }
+,
+{"id": "142",
+    "name":"Patch 22",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "143",
+    "name":"Rue des Ardennes",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "144",
+    "name":"Synergia",
+    "country":"CA",
+    "city":"Saint-Hyacinthe",
+    "lon":-72.940636,
+    "lat":45.627484
+              }
+,
+{"id": "145",
+    "name":"T3",
+    "country":"US",
+    "city":"Minneapolis",
+    "lon":-93.2654692,
+    "lat":44.9772995
+              }
+,
+{"id": "146",
+    "name":"UEA Blackdale",
+    "country":"GB",
+    "city":"Norwich",
+    "lon":1.2923954,
+    "lat":52.6285576
+              }
+,
+{"id": "147",
+    "name":"Wohnen 500",
+    "country":"AT",
+    "city":"Mader",
+    "lon":9.6182347,
+    "lat":47.3493178
+              }
+,
+{"id": "148",
+    "name":"Wohnhaus am Dantebad",
+    "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079
+              }
+,
+{"id": "149",
+    "name":"Wohnsiedlung in Rive de Gier",
+    "country":"FR",
+    "city":"Rive de Gier",
+    "lon":4.6187386,
+    "lat":45.5288401
+              }
+,
+{"id": "150",
+    "name":"Woodberry Down",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "151",
+    "name":"Zollfreilager housing complex",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "152",
+    "name":"106 Lewes Road",
+    "country":"GB",
+    "city":"Brighton",
+    "lon":-0.1400561,
+    "lat":50.8214626
+              }
+,
+{"id": "153",
+    "name":"Additional Storeys in Wood Construction",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "154",
+    "name":"Arvida Livingwell Park Lane",
+    "country":"NZ",
+    "city":"Christchurch",
+    "lon":172.6366455,
+    "lat":-43.530955
+              }
+,
+{"id": "155",
+    "name":"Bacton Low Rise",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "156",
+    "name":"Cite U Lucien Cornil (Lucien Cornil Student Residence)",
+    "country":"FR",
+    "city":"Marseille",
+    "lon":5.3699525,
+    "lat":43.2961743
+              }
+,
+{"id": "157",
+    "name":"Dalston Works (Dalston Lane)",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "158",
+    "name":"Edge Olympics",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "159",
+    "name":"Geschosswohnungsbau Kamorstraße",
+    "country":"DE",
+    "city":"Konstanz",
+    "lon":9.1750718,
+    "lat":47.659216
+              }
+,
+{"id": "160",
+    "name":"Holzwohnbauten im Dragoner-Quartier",
+    "country":"AT",
+    "city":"Wels",
+    "lon":14.0243752,
+    "lat":48.1565472
+              }
+,
+{"id": "161",
+    "name":"Hotel Katharinenhof",
+    "country":"AT",
+    "city":"Dornbirn",
+    "lon":9.7423762,
+    "lat":47.4136351
+              }
+,
+{"id": "162",
+    "name":"Hotel Nautilus",
+    "country":"IT",
+    "city":"Pesaro",
+    "lon":12.9131228,
+    "lat":43.9098114
+              }
+,
+{"id": "163",
+    "name":"Hotel Revier",
+    "country":"CH",
+    "city":"Lenzerheide",
+    "lon":9.5568344,
+    "lat":46.727896
+              }
+,
+{"id": "164",
+    "name":"I Valla (Integralen 6)",
+    "country":"SE",
+    "city":"Linköping",
+    "lon":15.6245252,
+    "lat":58.4098135
+              }
+,
+{"id": "165",
+    "name":"Immeuble de bureaux R+7 (Opalia)",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "166",
+    "name":"Origine Condos",
+    "country":"CA",
+    "city":"Quebec City",
+    "lon":-71.2084061,
+    "lat":46.8137431
+              }
+,
+{"id": "167",
+    "name":"Östra Sala Backe",
+    "country":"SE",
+    "city":"Uppsala",
+    "lon":17.6387436,
+    "lat":59.8586126
+              }
+,
+{"id": "168",
+    "name":"Penticton Lakeside (Lakeside Resort Expansion)",
+    "country":"CA",
+    "city":"Penticon",
+    "lon":-119.59370,
+    "lat":49.4991381
+              }
+,
+{"id": "169",
+    "name":"Schwarzensteinhütte",
+    "country":"IT",
+    "city":"San Giovanni Valle Aurina",
+    "lon":11.9405973,
+    "lat":46.9793906
+              }
+,
+{"id": "170",
+    "name":"Träloftet",
+    "country":"SE",
+    "city":"Vallastaden",
+    "lon":15.5841877,
+    "lat":58.3923193
+              }
+,
+{"id": "171",
+    "name":"UBC Brock Commons",
+    "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724
+              }
+,
+{"id": "172",
+    "name":"Valla Berså",
+    "country":"SE",
+    "city":"Linköping",
+    "lon":15.6245252,
+    "lat":58.4098135
+              }
+,
+{"id": "173",
+    "name":"Wohnen Offenbach",
+    "country":"DE",
+    "city":"Offenbach",
+    "lon":8.7610698,
+    "lat":50.1055002
+              }
+,
+{"id": "174",
+    "name":"Woodie",
+    "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341
+              }
+,
+{"id": "175",
+    "name":"25 King",
+    "country":"AU",
+    "city":"Brisbane",
+    "lon":153.0234991,
+    "lat":-27.4689682
+              }
+,
+{"id": "176",
+    "name":"Carbon 12",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "177",
+    "name":"Daramu House",
+    "country":"AU",
+    "city":"Sydney",
+    "lon":151.2082848,
+    "lat":-33.8698439
+              }
+,
+{"id": "178",
+    "name":"Fagerlund studenthybler",
+    "country":"NO",
+    "city":"Horten",
+    "lon":10.443739186052063,
+    "lat":59.4101728
+              }
+,
+{"id": "179",
+    "name":"Flatiron PDX",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "180",
+    "name":"Frostaliden apartments",
+    "country":"SE",
+    "city":"Skövde",
+    "lon":13.8443792,
+    "lat":58.3898453
+              }
+,
+{"id": "181",
+    "name":"Gibraltar Guest House",
+    "country":"SE",
+    "city":"Gothenburg",
+    "lon":11.9670171,
+    "lat":57.7072326
+              }
+,
+{"id": "182",
+    "name":"Green Homes (Sanctuary Ellerslie Road,  Ellerslie Crescent)",
+    "country":"GB",
+    "city":"Glasgow",
+    "lon":-4.2497933,
+    "lat":55.8606182
+              }
+,
+{"id": "183",
+    "name":"HoHo Next",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "184",
+    "name":"Holzhaus am Waldpark",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "185",
+    "name":"Hotel Jakarta",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "186",
+    "name":"Illot Bois et Biosource (Sensations)",
+    "country":"FR",
+    "city":"Strassbourg",
+    "lon":7.75211130,
+    "lat":48.5734053
+              }
+,
+{"id": "187",
+    "name":"Import Building, Republic at East India / Studio RHE",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "188",
+    "name":"Karantanika",
+    "country":"SI",
+    "city":"Domžale",
+    "lon":14.5944553,
+    "lat":46.1394296
+              }
+,
+{"id": "189",
+    "name":"Ki-Etude",
+    "country":"BE",
+    "city":"Namur",
+    "lon":4.8661892,
+    "lat":50.4665284
+              }
+,
+{"id": "190",
+    "name":"La Borda",
+    "country":"ES",
+    "city":"Barcelona",
+    "lon":2.1774322,
+    "lat":41.3828939
+              }
+,
+{"id": "191",
+    "name":"Lighthouse Joensuu",
+    "country":"FI",
+    "city":"Joensuu",
+    "lon":29.7622128,
+    "lat":62.6005753
+              }
+,
+{"id": "192",
+    "name":"M12 Max-Mell-Allee",
+    "country":"AT",
+    "city":"Graz",
+    "lon":15.4382786,
+    "lat":47.0708678
+              }
+,
+{"id": "193",
+    "name":"Maskinparken TRE",
+    "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475
+              }
+,
+{"id": "194",
+    "name":"Pitfield Street Cinema",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "195",
+    "name":"sue & til",
+    "country":"CH",
+    "city":"Winterthur",
+    "lon":8.7291498,
+    "lat":47.4991723
+              }
+,
+{"id": "196",
+    "name":"SUURSTOFFI 22",
+    "country":"CH",
+    "city":"Rotkreuz",
+    "lon":8.4308936,
+    "lat":47.1408931
+              }
+,
+{"id": "197",
+    "name":"Temporäre Wohn- und Gewerbesiedlung Fogo Ost",
+    "country":"CH",
+    "city":"Zurich",
+    "lon":8.5410422,
+    "lat":47.3744489
+              }
+,
+{"id": "198",
+    "name":"Tereneo (Euratech Capgemini)",
+    "country":"FR",
+    "city":"Lille",
+    "lon":3.0635282,
+    "lat":50.6365654
+              }
+,
+{"id": "199",
+    "name":"Theaterturm am Julierpass",
+    "country":"CH",
+    "city":"Bivio",
+    "lon":9.6496931,
+    "lat":46.4687474
+              }
+,
+{"id": "200",
+    "name":"Valle Wood",
+    "country":"NO",
+    "city":"Oslo",
+    "lon":10.7389701,
+    "lat":59.9133301
+              }
+,
+{"id": "201",
+    "name":"Virtuoso",
+    "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724
+              }
+,
+{"id": "202",
+    "name":"Vogelkamp Neugraben",
+    "country":"DE",
+    "city":"Hamburg",
+    "lon":10.000654,
+    "lat":53.550341
+              }
+,
+{"id": "203",
+    "name":"Whythe I and II, 320 and 360 Wythe",
+    "country":"US",
+    "city":"New York City",
+    "lon":-74.0060152,
+    "lat":40.7127281
+              }
+,
+{"id": "204",
+    "name":"111 East Grand Office",
+    "country":"US",
+    "city":"Des Moines",
+    "lon":-93.6046655,
+    "lat":41.5910323
+              }
+,
+{"id": "205",
+    "name":"55 Southbank (Adina Hotel)",
+    "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176
+              }
+,
+{"id": "206",
+    "name":"Adohi Hall",
+    "country":"US",
+    "city":"Fayetteville",
+    "lon":-94.1574328,
+    "lat":36.0625843
+              }
+,
+{"id": "207",
+    "name":"Asylunterkunft Rigot (Rigot collective dwelling centre)",
+    "country":"CH",
+    "city":"Geneva",
+    "lon":6.1466014,
+    "lat":46.2017559
+              }
+,
+{"id": "208",
+    "name":"bercahaus",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "209",
+    "name":"Bjerksted financial park",
+    "country":"NO",
+    "city":"Stavanger",
+    "lon":5.7318101,
+    "lat":58.9699675
+              }
+,
+{"id": "210",
+    "name":"Blindenschule Zollikofen",
+    "country":"CH",
+    "city":"Zollikofen",
+    "lon":7.4576417,
+    "lat":46.9959463
+              }
+,
+{"id": "211",
+    "name":"bouwupdate Bouwdeel D(emontabel)",
+    "country":"NL",
+    "city":"Delft",
+    "lon":4.362724538543995,
+    "lat":51.999457199999995
+              }
+,
+{"id": "212",
+    "name":"Bureaux Perspective",
+    "country":"FR",
+    "city":"Bordeaux",
+    "lon":-0.5800364,
+    "lat":44.841225
+              }
+,
+{"id": "213",
+    "name":"Cederhusen",
+    "country":"SE",
+    "city":"Haninge",
+    "lon":18.266667,
+    "lat":59.049722
+              }
+,
+{"id": "214",
+    "name":"Eisberg",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "215",
+    "name":"Famju",
+    "country":"DE",
+    "city":"Heilbronn",
+    "lon":9.218655,
+    "lat":49.142291
+              }
+,
+{"id": "216",
+    "name":"Freebooter",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "217",
+    "name":"Frostaliden 5",
+    "country":"SE",
+    "city":"Skövde",
+    "lon":13.8443792,
+    "lat":58.3898453
+              }
+,
+{"id": "218",
+    "name":"Gare Maritime",
+    "country":"BE",
+    "city":"Brussels",
+    "lon":4.351697,
+    "lat":50.8465573
+              }
+,
+{"id": "219",
+    "name":"Gesundheits.Quartiers",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "220",
+    "name":"Gillies Hall",
+    "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176
+              }
+,
+{"id": "221",
+    "name":"Gleis 21",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "222",
+    "name":"Green Office Enjoy",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "223",
+    "name":"Gymnasium Frankfurt Nord",
+    "country":"DE",
+    "city":"Frankfurt am Main",
+    "lon":8.6820917,
+    "lat":50.1106444
+              }
+,
+{"id": "224",
+    "name":"Hotel Bergamo",
+    "country":"DE",
+    "city":"Ludwigsburg",
+    "lon":9.1895147,
+    "lat":48.8953937
+              }
+,
+{"id": "225",
+    "name":"Jo & Joe",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "226",
+    "name":"Kajstaden",
+    "country":"SE",
+    "city":"Västerås",
+    "lon":16.5463679,
+    "lat":59.6110992
+              }
+,
+{"id": "227",
+    "name":"Kreativquartier Lattich",
+    "country":"CH",
+    "city":"St. Gallen",
+    "lon":9.3765878,
+    "lat":47.4250593
+              }
+,
+{"id": "228",
+    "name":"Lot 1 Suurstoffi (Arbo)",
+    "country":"CH",
+    "city":"Rotkreuz",
+    "lon":8.4308936,
+    "lat":47.1408931
+              }
+,
+{"id": "229",
+    "name":"Lynar 38-39 Gemeinschaftswohnen im Wedding",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "230",
+    "name":"Maierhof housing estate",
+    "country":"AT",
+    "city":"Bludenz",
+    "lon":9.8219314,
+    "lat":47.153037
+              }
+,
+{"id": "231",
+    "name":"MaxAcht",
+    "country":"DE",
+    "city":"Stuttgart",
+    "lon":9.1800132,
+    "lat":48.7784485
+              }
+,
+{"id": "232",
+    "name":"Mjøstårnet",
+    "country":"NO",
+    "city":"Brumunddal",
+    "lon":10.9418392,
+    "lat":60.884916
+              }
+,
+{"id": "233",
+    "name":"Omega Factory HQ",
+    "country":"CH",
+    "city":"Biel",
+    "lon":7.2466214,
+    "lat":47.1369514
+              }
+,
+{"id": "234",
+    "name":"Oregon Conservation Center",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "235",
+    "name":"Palazzo Nice Meridia",
+    "country":"FR",
+    "city":"Nice",
+    "lon":7.2683912,
+    "lat":43.7009358
+              }
+,
+{"id": "236",
+    "name":"Platte 15",
+    "country":"US",
+    "city":"Denver",
+    "lon":-104.984862,
+    "lat":39.7392364
+              }
+,
+{"id": "237",
+    "name":"Pont de Flandres Batiment 007",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "238",
+    "name":"Pulse",
+    "country":"FR",
+    "city":"Saint-Denis",
+    "lon":2.3580232,
+    "lat":48.935773
+              }
+,
+{"id": "239",
+    "name":"Sideyard (Sidewalk)",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "240",
+    "name":"Skaio",
+    "country":"DE",
+    "city":"Heilbronn",
+    "lon":9.218655,
+    "lat":49.142291
+              }
+,
+{"id": "241",
+    "name":"SOTO",
+    "country":"US",
+    "city":"San Antonio",
+    "lon":-98.4951405,
+    "lat":29.4246002
+              }
+,
+{"id": "242",
+    "name":"T3 Midtown West",
+    "country":"US",
+    "city":"Atlanta",
+    "lon":-84.3902644,
+    "lat":33.7489924
+              }
+,
+{"id": "243",
+    "name":"The Green House",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "244",
+    "name":"trikåfabriken Extension (Styrpinnen 15)",
+    "country":"SE",
+    "city":"Stockholm",
+    "lon":18.0710935,
+    "lat":59.3251172
+              }
+,
+{"id": "245",
+    "name":"Triodos Bank",
+    "country":"NL",
+    "city":"Driebergen",
+    "lon":5.2836332,
+    "lat":52.0516547
+              }
+,
+{"id": "246",
+    "name":"Trummens Strand, Kv Geologen",
+    "country":"SE",
+    "city":"Växjö",
+    "lon":14.8094385,
+    "lat":56.8787183
+              }
+,
+{"id": "247",
+    "name":"WA 15 West Holzbausiedlung Prinz-Eugen-Park",
+    "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079
+              }
+,
+{"id": "248",
+    "name":"WDF 53 - office building in Walldorf",
+    "country":"DE",
+    "city":"Walldorf",
+    "lon":8.6433518,
+    "lat":49.3038134
+              }
+,
+{"id": "249",
+    "name":"Wohnen am Kleinen Wannsee",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "250",
+    "name":"Wohnüberbauung Moos L",
+    "country":"CH",
+    "city":"Cham",
+    "lon":8.4611036,
+    "lat":47.1823761
+              }
+,
+{"id": "251",
+    "name":"Wohnüberbauung Moos S",
+    "country":"CH",
+    "city":"Cham",
+    "lon":8.4611036,
+    "lat":47.1823761
+              }
+,
+{"id": "252",
+    "name":"Wood City Residential Building",
+    "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881
+              }
+,
+{"id": "253",
+    "name":"Woody (Santé Publique France Office)",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "254",
+    "name":"WA 14 West Holzbausiedlung Prinz-Eugen-Park",
+    "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079
+              }
+,
+{"id": "255",
+    "name":"6 Orsman Road (Storey 6)",
+    "country":"GB",
+    "city":"London",
+    "lon":-0.12765,
+    "lat":51.5073359
+              }
+,
+{"id": "256",
+    "name":"6x6 block",
+    "country":"ES",
+    "city":"Girona",
+    "lon":2.8199439,
+    "lat":41.9793006
+              }
+,
+{"id": "257",
+    "name":"73 Saint Mande Housing",
+    "country":"FR",
+    "city":"Paris",
+    "lon":2.3483915,
+    "lat":48.8534951
+              }
+,
+{"id": "258",
+    "name":"Adidas North American Headquarters",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "259",
+    "name":"BOKU (Ilse Wallentin Haus der Universität für Bodenkultur)",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "260",
+    "name":"Bürohaus Holzbau Küng",
+    "country":"CH",
+    "city":"Alpnach",
+    "lon":8.2736829,
+    "lat":46.9411661
+              }
+,
+{"id": "261",
+    "name":"Casa di Ringhiera",
+    "country":"CH",
+    "city":"Bellinzona",
+    "lon":9.0205888,
+    "lat":46.1920538
+              }
+,
+{"id": "262",
+    "name":"Catalyst",
+    "country":"US",
+    "city":"Spokane",
+    "lon":-117.42351,
+    "lat":47.6571934
+              }
+,
+{"id": "263",
+    "name":"District Office",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "264",
+    "name":"Entrepatios Las Carolinas",
+    "country":"ES",
+    "city":"Madrid",
+    "lon":-3.7035825,
+    "lat":40.4167047
+              }
+,
+{"id": "265",
+    "name":"FE Home Office",
+    "country":"CA",
+    "city":"Vancouver",
+    "lon":-123.113952,
+    "lat":49.2608724
+              }
+,
+{"id": "266",
+    "name":"HoHo (Hoho Wien)",
+    "country":"AT",
+    "city":"Vienna",
+    "lon":16.3725042,
+    "lat":48.2083537
+              }
+,
+{"id": "267",
+    "name":"HOLZSTUDENT SIEBEN – Ellener Hof",
+    "country":"DE",
+    "city":"Bremen",
+    "lon":8.8071646,
+    "lat":53.0758196
+              }
+,
+{"id": "268",
+    "name":"Kilströmskaj",
+    "country":"SE",
+    "city":"Karlskrona",
+    "lon":15.5866422,
+    "lat":56.1621073
+              }
+,
+{"id": "269",
+    "name":"Klapgat health center",
+    "country":"BE",
+    "city":"Haacht",
+    "lon":4.6383121,
+    "lat":50.9769474
+              }
+,
+{"id": "270",
+    "name":"Klein Veldekens (Astor)",
+    "country":"BE",
+    "city":"Geel",
+    "lon":4.9903187,
+    "lat":51.1610826
+              }
+,
+{"id": "271",
+    "name":"Kunskapshuset",
+    "country":"SE",
+    "city":"Gällivare",
+    "lon":20.25,
+    "lat":67.3
+              }
+,
+{"id": "272",
+    "name":"La Trobe University Student Dormitory",
+    "country":"AU",
+    "city":"Melbourne",
+    "lon":144.9631608,
+    "lat":-37.8142176
+              }
+,
+{"id": "273",
+    "name":"Massivholzhäuser Neuruppin",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "274",
+    "name":"ÖGK Turm II (Erweiterung der Österreichische Gesundheitskasse)",
+    "country":"AT",
+    "city":"Salzburg",
+    "lon":13.0464806,
+    "lat":47.7981346
+              }
+,
+{"id": "275",
+    "name":"Quartier Wir",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "276",
+    "name":"Remise Immanuel­kirch­straße",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "277",
+    "name":"Samling",
+    "country":"NO",
+    "city":"Sand",
+    "lon":6.2508666,
+    "lat":59.4840165
+              }
+,
+{"id": "278",
+    "name":"School near Geneva",
+    "country":"CH",
+    "city":"Geneva",
+    "lon":6.1466014,
+    "lat":46.2017559
+              }
+,
+{"id": "279",
+    "name":"Shulraumprovisorium, temporäre Schulgebäude in Biel",
+    "country":"CH",
+    "city":"Biel",
+    "lon":7.2466214,
+    "lat":47.1369514
+              }
+,
+{"id": "280",
+    "name":"Supercell HQ",
+    "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881
+              }
+,
+{"id": "281",
+    "name":"Peavy Hall, Oregon Forest Science Complex",
+    "country":"US",
+    "city":"Corvalis",
+    "lon":-123.2620435,
+    "lat":44.5645659
+              }
+,
+{"id": "282",
+    "name":"The Canyons",
+    "country":"US",
+    "city":"Portland",
+    "lon":-122.674194,
+    "lat":45.5202471
+              }
+,
+{"id": "283",
+    "name":"Timber Lofts",
+    "country":"US",
+    "city":"Milwaukee",
+    "lon":-87.922497,
+    "lat":43.0349931
+              }
+,
+{"id": "284",
+    "name":"Üstra-Siedlung",
+    "country":"DE",
+    "city":"Hannover",
+    "lon":9.7385532,
+    "lat":52.3744779
+              }
+,
+{"id": "285",
+    "name":"WA 16 West Holzbausiedlung Prinz-Eugen-Park",
+    "country":"DE",
+    "city":"Munich",
+    "lon":11.5753822,
+    "lat":48.1371079
+              }
+,
+{"id": "286",
+    "name":"Walden48",
+    "country":"DE",
+    "city":"Berlin",
+    "lon":13.3888599,
+    "lat":52.5170365
+              }
+,
+{"id": "287",
+    "name":"Wellnesshotel Malis Garten",
+    "country":"AT",
+    "city":"Zell am Ziller",
+    "lon":11.881919732644473,
+    "lat":47.22648565
+              }
+,
+{"id": "288",
+    "name":"ZEB laboratory",
+    "country":"NO",
+    "city":"Trondheim",
+    "lon":10.3952118,
+    "lat":63.4304475
+              }
+,
+{"id": "289",
+    "name":"1 de Haro",
+    "country":"US",
+    "city":"San Francisco",
+    "lon":-122.419906,
+    "lat":37.7790262
+              }
+,
+{"id": "290",
+    "name":"Abelia",
+    "country":"FR",
+    "city":"Bry sur Marne",
+    "lon":2.5193322,
+    "lat":48.8352872
+              }
+,
+{"id": "291",
+    "name":"Aparthotel DAS BLEIBT",
+    "country":"AT",
+    "city":"Schladming",
+    "lon":13.6867878,
+    "lat":47.3940415
+              }
+,
+{"id": "293",
+    "name":"Erweiterungsbau Führungsakademie BW",
+    "country":"DE",
+    "city":"Karlsruhe",
+    "lon":8.4034195,
+    "lat":49.0068705
+              }
+,
+{"id": "294",
+    "name":"Haut",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "295",
+    "name":"HOAS Tuuliniitty",
+    "country":"FI",
+    "city":"Tapiola",
+    "lon":24.8031685,
+    "lat":60.17664
+              }
+,
+{"id": "296",
+    "name":"Hyperion",
+    "country":"FR",
+    "city":"Bordeaux",
+    "lon":-0.5800364,
+    "lat":44.841225
+              }
+,
+{"id": "297",
+    "name":"InnoRenew CoE",
+    "country":"SI",
+    "city":"Livade",
+    "lon":13.828658,
+    "lat":45.355426
+              }
+,
+{"id": "298",
+    "name":"Nodi",
+    "country":"SE",
+    "city":"Gothenburg",
+    "lon":11.9670171,
+    "lat":57.7072326
+              }
+,
+{"id": "299",
+    "name":"Sara Cultural Centre (Sida Vid Sida)",
+    "country":"SE",
+    "city":"Skellefteå",
+    "lon":20.959339,
+    "lat":64.7520185
+              }
+,
+{"id": "300",
+    "name":"Stories",
+    "country":"NL",
+    "city":"Amsterdam",
+    "lon":4.8924534,
+    "lat":52.3730796
+              }
+,
+{"id": "301",
+    "name":"Wood City Supercell",
+    "country":"FI",
+    "city":"Helsinki",
+    "lon":24.9427473,
+    "lat":60.1674881
+              }
+]
+}
