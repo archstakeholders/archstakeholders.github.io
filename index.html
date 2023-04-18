@@ -11,6 +11,7 @@
     <script src="js/NLGraph.js"></script>
     <link href="css/flag-icons.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/toggle-btn.css" rel="stylesheet" type="text/css" />
     
 
     <!-- Load Leaflet -->
@@ -21,7 +22,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
     <link rel="stylesheet" href="css/Leaflet.BigImage.css">
     
-    
+    <!-- Load tour.js-->
+    <script src="js/libs/tour.js"></script>
 
     <script>
         const PLAYER_NODE_TYPE = 'player';
@@ -77,7 +79,7 @@
             var lnksChkbox = document.getElementById('lnks');
             var lblsChkbox = document.getElementById('lbls');
             var cntrsChkbox = document.getElementById('cntrs');
-            var cntrfillddl = document.getElementById('cntrfillddl');
+            //var cntrfillddl = document.getElementById('cntrfillddl');
             var ringconnectorsChkbox = document.getElementById('ringconnectors');
             var geocirclecolorChkbox = document.getElementById('geocirclecolorchk');
                        
@@ -123,6 +125,7 @@
                 graphObj = GetGraphObj(data01, data02);
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
                 DrawMapMarkers(map, graphObj, graphSelectElem.value);
+                $('#start-tour').click();
             })
             
             
@@ -132,7 +135,7 @@
 
             graphSelectElem.addEventListener('change', function () {
                 selectedNode='';
-                
+                d3.select('#infoPanel').html('');	
                 if(graphSelectElem.value == PLAYER_NL_GRAPH || graphSelectElem.value == PLAYER_GRP_BY_COUNTRY_NL_GRAPH){
                     $('#ringconnectorsrow').show();
                 }else{
@@ -143,12 +146,12 @@
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
                 if(graphSelectElem.value == PLAYER_GRP_BY_COUNTRY_NL_GRAPH){
                     $('#cntrsrow').show();
-                    $('#cntrfillddlrow').show();
+                    //$('#cntrfillddlrow').show();
                 }else{
                     $('#cntrsrow').hide();
-                    $('#cntrfillddlrow').hide();
+                    //$('#cntrfillddlrow').hide();
                 } 
-
+                
 
                 //geo map
                 if(graphSelectElem.value == PLAYER_GEO_MAP_GRAPH || graphSelectElem.value == PROJECT_GEO_MAP_GRAPH){
@@ -190,10 +193,10 @@
                 RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
             });
 
-            cntrfillddl.addEventListener('change', function () {
-                cntrFillStyle = cntrfillddl.value;
-                RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
-            });
+            // cntrfillddl.addEventListener('change', function () {
+            //     cntrFillStyle = cntrfillddl.value;
+            //     RedrawNLGraph(svg, graphSelectElem.value, selectElem.value, graphObj);
+            // });
 
             ringconnectorsChkbox.addEventListener('change', function () {
                 showRingConnectors = ringconnectorsChkbox.checked;
@@ -233,25 +236,53 @@
         });
 
 
+        // <div id='geocirclecolorrow' class="div-table-row" style="display: none;">
+        //     <div class="div-table-col" >
+        //         <label for="geocirclecolor">Color by Stakeholder type</label>
+        //     </div>
+        //     <div  class="div-table-col">
+        //         <label class="switch">
+        //             <input type="checkbox" id="geocirclecolorchk" name="geocirclecolorchk">
+        //             <span class="slider round"></span>
+        //         </label>
+        //     </div>
+        // </div>
+
         function drawLegend(chkBoxArr) {
-            var container = document.getElementById('legend');
+            var container = document.getElementById('filteringDIV');
 
             for (var i =0; i < ROLES.length; i++) {
-                var boxContainer = document.createElement("DIV");
-                boxContainer.className = "boxContainer";
-                var box = document.createElement("DIV");
-                box.innerHTML = ROLES[i];
-
-                box.className = "box";
-                box.style.backgroundColor = d3.schemeCategory10[i];
-                box.style.color = getForecolor(d3.schemeCategory10[i]);
-
+                var row = document.createElement("div");
+                row.className = "div-table-row";
                 
                 
-                boxContainer.appendChild(chkBoxArr[i]);
-                boxContainer.appendChild(box);
+                var lbl = document.createElement("label");
+                lbl.innerHTML = ROLES[i];
+                lbl.className = "box";
+                lbl.style.backgroundColor = d3.schemeCategory10[i];
+                lbl.style.color = getForecolor(d3.schemeCategory10[i]);
 
-                container.appendChild(boxContainer);
+
+                // right column
+                var clmn = document.createElement("div");
+                clmn.className = "div-table-col";
+                
+                var clmnlbl = document.createElement("label");
+                clmnlbl.className = "switch";
+
+                var lblspan = document.createElement("span");
+                lblspan.className = "slider round";
+                
+                // assemble
+                clmnlbl.appendChild(chkBoxArr[i]);
+                clmnlbl.appendChild(lblspan);
+                clmn.appendChild(clmnlbl);
+                clmn.appendChild(lbl);
+
+                
+                row.appendChild(clmn);
+
+                container.appendChild(row);
 
             }
         }
@@ -416,104 +447,135 @@
 <body>
     <div class="row">
         <div class="column left" style="background-color:#f1f0f0;">
-
-            <div class="div-table">
-                <div  class="div-table-row">
-                    <div class="div-table-col" >
-                        <label for="graph">Graph Type:</label>
+            <h3 style="text-align: center;">Timber Stakeholders Explorer</h3>
+            <div class="div-table" >
+                <fieldset 
+                data-tour-title="Graph Type"
+                data-tour-description="Visualize the projects/stakeholders using node-link diagrams (NL) or geographical maps (GeoMap)." 
+                data-tour-index="0">
+                    <legend>Graph Type</legend>
+                    <div  class="div-table-row">
+                        <!-- <div class="div-table-col" >
+                            <label for="graph">Graph Type:</label>
+                        </div> -->
+                        <div  class="div-table-col">
+                            <select id="gtypeddl" >
+                                <option value="1" selected>Projects NL</option>
+                                <option value="2">Stakeholders NL</option>
+                                <option value="3">Stakeholders NL (group by country)</option>
+                                <option value="4">Stakeholders GeoMap</option>
+                                <option value="5">Projects GeoMap</option>
+                            </select>
+                        </div>
                     </div>
-                    <div  class="div-table-col">
-                        <select id="gtypeddl" >
-                            <option value="1" selected>Projects NL</option>
-                            <option value="2">Stakeholders NL</option>
-                            <option value="3">Stakeholders NL (group by country)</option>
-                            <option value="4">Stakeholders GeoMap</option>
-                            <option value="5">Projects GeoMap</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div id="encddlrow" class="div-table-row">
-                    <div class="div-table-col" >
-                        <label for="encoding" >Stakeholder Encoding:</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <select id="encddl" >
-                            <option value="1" selected>By Country</option>
-                            <option value="2">By Stakeholder Type</option>
-                            <option value="3">Both</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div id="lnksrow" class="div-table-row">
-                    <div class="div-table-col" >
-                        <label for="links">Show Links</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <input type="checkbox" id="lnks" name="lnks" checked>
-                    </div>
-                </div>
-
-                <div id="lblsrow" class="div-table-row">
-                    <div class="div-table-col" >
-                        <label for="labels">Show Labels</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <input type="checkbox" id="lbls" name="lbls">
-                    </div>
-                </div>
-
-                <div id="ringconnectorsrow" class="div-table-row" style="display: none;">
-                    <div class="div-table-col" >
-                        <label for="prjctnodes">Show Ring Connectors</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <input type="checkbox" id="ringconnectors" name="ringconnectors" checked>
-                    </div>
-                </div>
-
-                <div id='cntrsrow' class="div-table-row" style="display: none;">
-                    <div class="div-table-col" >
-                        <label for="contours">Show Contours</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <input type="checkbox" id="cntrs" name="cntrs">
-                    </div>
-                </div>
-
-                <div id='cntrfillddlrow' class="div-table-row" style="display: none;">
-                    <div class="div-table-col" >
-                        <label for="cntrfill">Contour Fill:</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <select id="cntrfillddl" >
-                            <option value="1" selected>Color</option>
-                            <!-- <option value="2">Flag Pattern</option> -->
-                        </select>
-                    </div>
-                </div>
-                <div id='geocirclecolorrow' class="div-table-row" style="display: none;">
-                    <div class="div-table-col" >
-                        <label for="geocirclecolor">Color by Stakeholder type</label>
-                    </div>
-                    <div  class="div-table-col">
-                        <input type="checkbox" id="geocirclecolorchk" name="geocirclecolorchk">
-                    </div>
-                </div>
-                <div class="div-table-row">
-                    <div class="div-table-col" >
-                        <label for="cntrfill">Filter by Stakeholder Type:</label>
-                    </div>
-                    <div class="div-table-col" id="legend">
-
-                    </div>
-                </div>
-
-            </div>
-            <div id="infoPanel" class="info-panel">
+                </fieldset>
                 
+                <fieldset 
+                    data-tour-title="Graph Settings"
+                    data-tour-description="Change how the graphs look by setting different visibilty options, depending on the chosen graph type." 
+                    data-tour-index="1"> 
+                    <legend>Graph Settings</legend>
+                    <div id="encddlrow" class="div-table-row">
+                        <div class="div-table-col" >
+                            <label for="encoding" >Stakeholder Encoding:</label>
+                        </div>
+                        <div  class="div-table-col">
+                            <select id="encddl" >
+                                <option value="1" selected>By Country</option>
+                                <option value="2">By Stakeholder Type</option>
+                                <option value="3">Both</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div id="lnksrow" class="div-table-row">
+                        
+                        <div  class="div-table-col">
+                            <label class="switch">
+                                <input id="lnks" name="lnks" type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                            <label for="links">Show Links</label>
+                        </div>
+                    </div>
+    
+                    <div id="lblsrow" class="div-table-row">
+                        
+                        <div class="div-table-col">
+                            <label class="switch">
+                                <input type="checkbox" id="lbls" name="lbls">
+                                <span class="slider round"></span>
+                            </label>
+                            <label for="labels">Show Labels</label>
+                        </div>
+                    </div>
+    
+                    <div id="ringconnectorsrow" class="div-table-row" style="display: none;">
+                        
+                        <div  class="div-table-col">
+                            <label class="switch">
+                                <input type="checkbox" id="ringconnectors" name="ringconnectors" checked>
+                                <span class="slider round"></span>
+                            </label>
+                            <label for="prjctnodes">Show Ring Connectors</label>
+                        </div>
+                    </div>
+    
+                    <div id='cntrsrow' class="div-table-row" style="display: none;">
+                        
+                        <div  class="div-table-col">
+                            <label class="switch">
+                                <input type="checkbox" id="cntrs" name="cntrs">
+                                <span class="slider round"></span>
+                            </label>
+                            <label for="contours">Show Contours</label>
+                        </div>
+                    </div>
+    
+                    <!-- <div id='cntrfillddlrow' class="div-table-row" style="display: none;">
+                        <div class="div-table-col" >
+                            <label for="cntrfill">Contour Fill:</label>
+                        </div>
+                        <div  class="div-table-col">
+                            <select id="cntrfillddl" >
+                                <option value="1" selected>Color</option>
+                                <option value="2">Flag Pattern</option>
+                            </select>
+                        </div>
+                    </div> -->
+                    <div id='geocirclecolorrow' class="div-table-row" style="display: none;">
+                        
+                        <div  class="div-table-col">
+                            <label class="switch">
+                                <input type="checkbox" id="geocirclecolorchk" name="geocirclecolorchk">
+                                <span class="slider round"></span>
+                            </label>
+                            <label for="geocirclecolor">Color by Stakeholder type</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset 
+                    data-tour-title="Filtering"
+                    data-tour-description="Filter stakeholders/projects based on the stakeholder role." 
+                    data-tour-index="2"
+                    id="filteringDIV"
+                >
+                    <legend>Filter by Role</legend>
+                    
+                </fieldset>
+                
+                <fieldset 
+                    data-tour-title="Info Panel"
+                    data-tour-description="Additional infromation about nodes is shown here upon clicking the nodes in the node-link diagrams." 
+                    data-tour-index="2"
+                >
+                    <legend>Node Info</legend>
+                    <div id="infoPanel" class="info-panel">
+                    </div>
+                </fieldset>
             </div>
+            
+            
                 
             
         </div>
@@ -526,7 +588,20 @@
         
     </div>
     
+    <div style="clear:both; padding:20px; text-align: center; display: none;">
+        <button id="start-tour" class="btn btn-primary">Start Tour</button>
+    </div>
     
+    <script>
+        var PageTour;
+        try {
+            PageTour = $.fn.PageTour();
+        } catch (e) {
+            console.error('Cannot start page tour: ', e);
+        }
+        $('#start-tour').on('click', PageTour.open);    
+
+    </script>
 </body>
 
 </html>

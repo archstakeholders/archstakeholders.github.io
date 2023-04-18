@@ -380,8 +380,12 @@ function DrawRingLabels(svg, nodes){
 
 
 function DrawProjectsNodes(svg, project_nodes){
- 
-    var prjctSVGNodes = svg.append("g");
+    
+    var prjctSVGNodes = svg.append("g")
+    .attr("data-tour-title", "Projects NL Graph")
+    .attr("data-tour-description", "This is the network of projects visualized using node-link diagram (NL). Change the Graph Type drop down menu on the left, to explore other graphs.")
+    .attr("data-tour-index", "-1");
+
     prjctSVGNodes
         .selectAll("circle")
         .data(project_nodes)
@@ -468,7 +472,8 @@ function DrawPlayersNodes(svg, selected_enc, player_nodes){
             .attr("opacity", function (d) {  return d.opacity; })
     }
 
-    plyrSVGNodes.on("mouseover", function (d) {
+    plyrSVGNodes
+    .on("mouseover", function (d) {
         ShowTooltip(d.label);
     })
     .on("mouseout", function (d) {
@@ -922,7 +927,7 @@ function getPopupInfoFormatted(lables){
 function getNodeInfoFormatted(n){
     
     let info = '<table>';
-    info+= '<thead><tr><td colspan="2">Node Info</td></tr></thead>';
+    //info+= '<thead><tr><td colspan="2">Node Info</td></tr></thead>';
     info+='<tbody>';
     for(let i=0; i < INFO_PANEL_ATTRIBUTES.length; i++){
         let prop = INFO_PANEL_ATTRIBUTES[i];

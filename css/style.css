@@ -5,8 +5,10 @@ body {
 .box {
     /* display: inline-block;
     height: 10px;
-    width: 10px; */
-    display: inline;
+    width: 10px; 
+    display: inline;*/
+    text-align: center;
+    margin: 2px;
 }
 
 .boxContainer{
@@ -78,8 +80,9 @@ div.tooltip {
 .div-table-col {
     float: left; /* fix for  buggy browsers */
     display: table-column;         
+    
     width: 100%; /*220px;         */
-    background-color: #ccc;  
+    /* background-color: #ccc;   */
 }
 
 path {
