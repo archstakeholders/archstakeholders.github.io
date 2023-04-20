@@ -5830,6 +5830,17 @@
     "projects":[143]
               }
 ,
+{"id": "531",
+    "name":"Shaing-Yang Construction",
+    "type":"fab",
+    "country":"TW",
+    "city":"",
+    "lon":"",
+    "lat":"",
+    "order":531,
+    "projects":[101]
+              }
+,
 {"id": "532",
     "name":"Sheppard Robson",
     "type":"arch",
@@ -6400,6 +6411,17 @@
     "lat":46.7582827,
     "order":583,
     "projects":[39,153,195]
+              }
+,
+{"id": "584",
+    "name":"Timberland Framing",
+    "type":"fab",
+    "country":"US",
+    "city":"",
+    "lon":"",
+    "lat":"",
+    "order":584,
+    "projects":[98]
               }
 ,
 {"id": "585",

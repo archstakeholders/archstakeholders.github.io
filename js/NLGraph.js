@@ -334,13 +334,16 @@ function DrawMapMarkers(map, graphObj, gType){
     clearMap(map);
     for (const [key, d] of Object.entries(aggMarkers)) {
         let type = key.split(',')[2]; 
-        L.circle([d[0].lat, d[0].lon], {
-            color: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
-            opacity:0.5,
-            fillColor: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
-            fillOpacity: 0.8,
-            radius: normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxCirclePerLoc, d.length)*2000,
-        }).addTo(map).bindPopup(getPopupInfoFormatted(d));
+        if(d[0].lat && d[0].lon){
+            L.circle([d[0].lat, d[0].lon], {
+                color: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
+                opacity:0.5,
+                fillColor: d3.schemeCategory10[ROLES.indexOf(type) == -1 ? 5 : ROLES.indexOf(type)],
+                fillOpacity: 0.8,
+                radius: normalize(MIN_PROJECT_NODE_SIZE, MAX_PROJECT_NODE_SIZE, 1, maxCirclePerLoc, d.length)*2000,
+            }).addTo(map).bindPopup(getPopupInfoFormatted(d));
+        }
+        
     }
 
     
